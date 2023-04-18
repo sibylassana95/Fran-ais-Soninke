@@ -1,15 +1,176 @@
 [
-    {
-        "IL": "A"
-    },
-    {
-        "Salut": "Anmokho"
-    },
-    {
-        "Jamais": "Abada"
-    },
-    {
-       "Dimanche":"Alahadi"
-    }
-   
+  {
+    "IL": "A"
+  },
+  {
+    "Salut": "Anmokho"
+  },
+  {
+    "Jamais": "Abada"
+  },
+  {
+    "Dimanche": "Alahadi"
+  },
+  {
+    "Jeudi": "Alaxamisa"
+  },
+  {
+    "Vendredi": "Alijuma"
+  },
+  {
+    "Policier": "Alikaati"
+  },
+  {
+    "Etrier": "Alikeebu"
+  },
+  {
+    "Imam": "Alimaami"
+  },
+  {
+    "Alumette": "Alimeeti"
+  },
+  {
+    "Orphelin": "Aliyatiime"
+  },
+  {
+    "Dieu": "Ala"
+  },
+  {
+    "Tu": "An"
+  },
+  {
+    "Amen": "Anmiina"
+  },
+  {
+    "prophète": "Annebi"
+  },
+  {
+    "souhait": "Anniye"
+  },
+  {
+    "Mercredi": "Araba"
+  },
+  {
+    "Paradis": "Arijanna"
+  },
+  {
+    "D’accord": "Ayiwa !"
+  },
+  {
+    "Toi": "An"
+  },
+  {
+    "Elle": "A"
+  },
+  {
+    "Obscurité": "Bite"
+  },
+  {
+    "Brûler": "Biyi"
+  },
+  {
+    "Goitre": "Bole"
+  },
+  {
+    "Malheur": "Bone"
+  },
+  {
+    "Mourir": "Bono"
+  },
+  {
+    "Sauter": "Bonte"
+  },
+  {
+    "déshabiller": "Boore"
+  },
+  {
+    "Sac": "Booto"
+  },
+  {
+    "Attacher": "Bori"
+  },
+  {
+    "Sucer": "Bosi"
+  },
+  {
+    "Percé": "Bote"
+  },
+  {
+    "Jeune": "Bucce"
+  },
+  {
+    "Vanité": "Buga"
+  },
+  {
+    "Livre": "Buki"
+  },
+  {
+    "Bleu": "Bula"
+  },
+  {
+    "Enterrer": "Bulu"
+  },
+  {
+    "Poudre": "Buna"
+  },
+  {
+    "Arc": "Bundanne"
+  },
+  {
+    "Flèche": "Bunne"
+  },
+  {
+    "Piquer": "Bunu"
+  },
+  {
+    "Guêpe": "Bununbuna"
+  },
+  {
+    "Mauvais": "Bure"
+  },
+  {
+    "Trop": "Buru"
+  },
+  {
+    "Mal attacher": "Burunjaaji"
+  },
+  {
+    "Foie": "Butte"
+  },
+  {
+    "Colère": "Butte"
+  },
+  {
+    "Fâcher": "Butu"
+  },
+  {
+    "Criquet": "Buure"
+  },
+  {
+    "Uriner": "Buusi"
+  },
+  {
+    "Reprendre": "Buusu"
+  },
+  {
+    "Effeuiller": "Buusu"
+  },
+  {
+    "Sac": "Caaku"
+  },
+  {
+    "Geai": "Caakuto"
+  },
+  {
+    "Collier": "Cakka"
+  },
+  {
+    "Patauger": "Caxabuccaxabu"
+  },
+  {
+    "Perroquet": "Ceero"
+  },
+  {
+    "Petits oiseaux": "Ciloone"
+  }
 ]
