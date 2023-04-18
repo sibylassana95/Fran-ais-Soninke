@@ -13,7 +13,7 @@ def traduction(request):
     for traduction in data:
         francais = list(traduction.keys())[0]
         soninke = list(traduction.values())[0]
-        if not Traduction.objects.filter(francais=francais).exists():
+        if not Traduction.objects.filter(soninke=soninke).exists():
             Traduction.objects.create(francais=francais, soninke=soninke)
     if request.method == 'POST':
         phrase_francaise = request.POST.get('phrase_francaise')
