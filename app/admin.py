@@ -1,3 +1,12 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Traduction
+
+
+class TraductionAdmin(admin.ModelAdmin):
+    list_display = ('francais', 'soninke')
+    list_filter = ('francais',)
+    search_fields = ('francais', 'soninke')
+
+
+admin.site.register(Traduction, TraductionAdmin)
