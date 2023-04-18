@@ -1,0 +1,22 @@
+<!-- templates/traduction.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Traduction français-soninke</title>
+</head>
+<body>
+    <h1>Traduction français-soninke</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="phrase_francaise">Phrase en français :</label>
+        <input type="text" name="phrase_francaise">
+        <input type="submit" value="Traduire">
+    </form>
+    {% if traduction_soninke %}
+        <p>Traduction en soninke :</p>
+        <p>{{ traduction_soninke }}</p>
+    {% endif %}
+</body>
+</html>
