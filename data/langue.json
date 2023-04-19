@@ -1561,5 +1561,366 @@
   },
   {
     "Elastique": "Poole"
+  },
+  {
+    "Pied": "Ta"
+  },
+
+  {
+    "Eventail": "Taafiya"
+  },
+  {
+    "Molaire": "Taage"
+  },
+  {
+    "Proverbe": "Taali"
+  },
+  {
+    "Etudiant coranique": "Taalibe"
+  },
+  {
+    "Enclume": "Taane"
+  },
+  {
+    "Chronique historique": "Taarixu"
+  },
+  {
+    "Appellation d’un aîné": "Taata"
+  },
+  {
+    "Chaise, …": "Taaxaade"
+  },
+  {
+    "S’asseoir": "Taaxu"
+  },
+  {
+    "Grand tambour": "Taballe"
+  },
+  {
+    "Construire": "Taga"
+  },
+  {
+    "Forgeron": "Tage"
+  },
+  {
+    "Indice": "Taagumanse"
+  },
+  {
+    "Mardi": "Talaata"
+  },
+  {
+    "Datte": "Tamare"
+  },
+  {
+    "Autre": "Tana"
+  },
+  {
+    "Escargot": "Tanbaxodoone"
+  },
+  {
+    "Dette": "Tanbo"
+  },
+  {
+    "Pêcher": "Tangi"
+  },
+  {
+    "10": "Tanmu"
+  },
+  {
+    "Se fatiguer": "Tanpi"
+  },
+  {
+    "Hérisson": "Tanxulle"
+  },
+  {
+    "Compagnon": "Tarallenma"
+  },
+  {
+    "Echauffer": "Tawo"
+  },
+  {
+    "Avoir la fièvre": "Tawoyi"
+  },
+  {
+    "Couvrir": "Taxa"
+  },
+  {
+    "Couvercle": "Taxaade"
+  },
+  {
+    "Diviser": "Taxandi"
+  },
+  {
+    "Droite": "Taye"
+  },
+  {
+    "Champ": "Te"
+  },
+  {
+    "Aller tout droit": "Teleno"
+  },
+  {
+    "Aller": "Telle"
+  },
+  {
+    "Lundi": "Tenenne"
+  },
+  {
+    "Front": "Tene"
+  },
+  {
+    "Chaussure": "Teppu"
+  },
+  {
+    "Marcher": "Tere"
+  },
+  {
+    "Ecouter": "Terinka"
+  },
+  {
+    "Natte": "Texe"
+  },
+  {
+    "Fermer": "Texe"
+  },
+  {
+    "Etre fermé": "Texi"
+  },
+  {
+    "Tousser": "Texu"
+  },
+  {
+    "Co–épouse": "Teyinne"
+  },
+  {
+    "Dire": "Ti"
+  },
+
+  {
+    "Girafe": "Tibille"
+  },
+  {
+    "Planter": "Tifi"
+  },
+
+  {
+    "Fumée": "Tiide"
+  },
+  {
+    "Sentir": "Timi"
+  },
+  {
+    "Jouer un instrument de music": "Timi"
+  },
+  {
+    "Derrière d’un animal": "Tinne"
+  },
+  {
+    "Demander": "Tirindi"
+  },
+  {
+    "Viande": "Tiye"
+  },
+  {
+    "Cuisse": "Toge"
+  },
+  {
+    "Houe": "Tonge"
+  },
+  {
+    "Avaler": "Toni"
+  },
+  {
+    "Vérité": "Tonnu"
+  },
+  {
+    "Amende": "Tone"
+  },
+  {
+    "Peine": "Toora"
+  },
+  {
+    "Trône": "Toore"
+  },
+  {
+    "Tresse": "Toore"
+  },
+  {
+    "Introniser": "Toori"
+  },
+  {
+    "Gêner": "Tooro"
+  },
+  {
+    "Venin": "Tooxe"
+  },
+  {
+    "Oreille": "Toro"
+  },
+  {
+    "Laisser": "Toxo"
+  },
+  {
+    "Prénom": "Toxo"
+  },
+  {
+    "Savoir": "Tu"
+  },
+  {
+    "Blanc": "Tubaabu"
+  },
+  {
+    "Payer": "Tuga"
+  },
+  {
+    "Cadet": "Tugume"
+  },
+  {
+    "Reposer": "Tuhuumar"
+  },
+  {
+    "Abeille": "Tulle"
+  },
+  {
+    "6": "Tumu"
+  },
+  {
+    "Gibier": "Tumuja"
+  },
+  {
+    "Roi": "Tunka"
+  },
+  {
+    "Accompagner": "Tunsi"
+  },
+  {
+    "Soufflet de forge": "Tuntu"
+  },
+  {
+    "Figuier": "Turo"
+  },
+  {
+    "Chacal": "Tuune"
+  },
+  {
+    "Eléphant": "Tuure"
+  },
+  {
+    "Devenir fou": "Tuuri"
+  },
+  {
+    "Fou": "Tuurinte"
+  },
+  {
+    "Connaissance": "Tuwaaxu"
+  },
+
+  {
+    "L’année prochaine": "Waaga"
+  },
+  {
+    "Béer": "Waare"
+  },
+  {
+    "Voyager en parlant d’un marabout": "Waari"
+  },
+  {
+    "Tout de suite": "Wacca"
+  },
+  {
+    "Navette du tisserand": "Walaade"
+  },
+  {
+    "Tablette d’élève": "Walaha"
+  },
+  {
+    "Au nom de Dieu": "Wallahi"
+  },
+  {
+    "Canard": "Wandalle"
+  },
+  {
+    "Laver": "Wanqi"
+  },
+  {
+    "Laisser": "Wara"
+  },
+  {
+    "Voir": "Wari"
+  },
+  {
+    "Chance": "Warijaxe"
+  },
+  {
+    "Maladie": "Watte"
+  },
+  {
+    "Caisse": "Waxande"
+  },
+  {
+    "Fou": "Waxante"
+  },
+  {
+    "Faire la toilette funèbre": "Waxari"
+  },
+  {
+    "Moment, instant": "Waxati"
+  },
+  {
+    "Folie": "Waxe"
+  },
+  {
+    "S’affoler": "Waxe"
+  },
+  {
+    "Echanger": "Wecci"
+  },
+  {
+    "Verre": "Weere"
+  },
+  {
+    "Bicyclette": "Welo"
+  },
+  {
+    "Vanner (avec un van)": "Woyi"
+  },
+  {
+    "Automobile": "Woto"
+  },
+  {
+    "Pleurer": "Wu"
+  },
+  {
+    "Millier": "Wujjuune"
+  },
+  {
+    "Chien": "Wulle"
+  },
+  {
+    "Prière facultative": "Wulluha"
+  },
+  {
+    "Pantalon": "Wuno"
+  },
+  {
+    "Ouvrir": "Wuñi"
+  },
+  {
+    "Nuit": "Wuro"
+  },
+  {
+    "Courir": "Wuru"
+  },
+  {
+    "Faire rayonner": "Wurugi"
+  },
+  {
+    "Prendre": "Wutu"
+  },
+  {
+    "Passer la nuit": "Wuyi"
+  },
+  {
+    "Longue vie": "Wuyi"
   }
 ]
