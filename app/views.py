@@ -14,7 +14,7 @@ def traduction(request):
     for traduction in data:
         francais = list(traduction.keys())[0]
         soninke = list(traduction.values())[0]
-        if not Traduction.objects.filter(Q(francais=francais) & Q(soninke=soninke)).exists():
+        if not Traduction.objects.filter(Q(francais=francais) | Q(soninke=soninke)).exists():
             Traduction.objects.create(francais=francais, soninke=soninke)
     if request.method == 'POST':
         phrase_francaise = request.POST.get('phrase_francaise')
@@ -26,4 +26,3 @@ def traduction(request):
         return render(request, 'traduction.html', {'traduction_soninke': traduction_soninke})
     else:
         return render(request, 'traduction.html')
-
