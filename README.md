@@ -1,8 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="capture/logo.png" alt="logo" width="250"  height="auto" />
-</div>
 # Dictionnaire Français - Soninké
 
 Le but de ce projet est de fournir un dictionnaire français-soninke pour aider les personnes à traduire des Mots français en soninke.
