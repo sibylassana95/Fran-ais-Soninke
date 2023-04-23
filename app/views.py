@@ -23,6 +23,10 @@ def traduction(request):
             traduction_soninke = Traduction.objects.get(francais=phrase_francaise).soninke
         except Traduction.DoesNotExist:
             traduction_soninke = 'Traduction indisponible'
-        return render(request, 'traduction.html', {'traduction_soninke': traduction_soninke})
+        return render(request, 'index.html', {'traduction_soninke': traduction_soninke})
     else:
-        return render(request, 'traduction.html')
+        return render(request, 'index.html')
+
+
+def about(resquest):
+    return render(resquest, 'about.html')
