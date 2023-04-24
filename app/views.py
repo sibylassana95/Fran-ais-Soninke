@@ -18,6 +18,7 @@ def traduction(request):
             Traduction.objects.create(francais=francais, soninke=soninke)
     if request.method == 'POST':
         phrase_francaise = request.POST.get('phrase_francaise')
+        phrase_francaise = phrase_francaise.strip()
         phrase_francaise = phrase_francaise.capitalize()
         try:
             traduction_soninke = Traduction.objects.get(francais=phrase_francaise).soninke
