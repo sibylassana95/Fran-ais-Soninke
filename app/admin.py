@@ -7,7 +7,7 @@ class TraductionAdmin(admin.ModelAdmin):
     list_display = ('francais', 'soninke')
     list_filter = ('francais',)
     search_fields = ('francais', 'soninke')
-    list_per_page = 50
+    list_per_page = 100
 
 
 admin.site.register(Traduction, TraductionAdmin)
