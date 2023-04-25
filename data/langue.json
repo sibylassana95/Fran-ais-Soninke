@@ -1065,7 +1065,7 @@
     "Prier un saint": "Juura"
   },
   {
-    "Maison": "Ka"
+    "maison": "Ka"
   },
   {
     "Injurer": "Ka"
@@ -1557,7 +1557,7 @@
     "Ami": "Menjanne"
   },
   {
-    "vache": "na"
+    "Vache": "na"
   },
   {
     "Regretter": "Nimisi"
@@ -1653,7 +1653,7 @@
     "Dromadaire": "Ñogome"
   },
   {
-    "chameau": "ɲogome"
+    "Chameau": "ɲogome"
   },
   {
     "Chat sauvage": "Ñunqume"
@@ -1695,13 +1695,13 @@
     "Thé": "Orege"
   },
   {
-    "bouteille": "orodoome"
+    "Bouteille": "orodoome"
   },
   {
-    "enfant": "renme"
+    "Enfant": "renme"
   },
   {
-    "personne": "sere"
+    "Personne": "sere"
   },
   {
     "Fer à repasser": "Paasandifo"
@@ -1716,7 +1716,7 @@
     "Pointe": "Ponti"
   },
   {
-    "pioche": "pandi"
+    "Pioche": "pandi"
   },
   {
     "Elastique": "Poole"
@@ -2028,7 +2028,7 @@
     "S’affoler": "Waxe"
   },
   {
-    "l'an prochain": "waaga"
+    "L'an prochain": "waaga"
   },
   {
     "Echanger": "Wecci"
@@ -2082,10 +2082,10 @@
     "Passer la nuit": "Wuyi"
   },
   {
-    "hivernage": "xaaxo"
+    "Hivernage": "xaaxo"
   },
   {
-    "oeil": "yaaxe"
+    "Oeil": "yaaxe"
   },
   {
     "Manger": "Yigue"
