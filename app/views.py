@@ -14,10 +14,8 @@ def traduction(request):
     for traduction in data:
         francais = list(traduction.keys())[0]
         soninke = list(traduction.values())[0]
+        francais = francais.capitalize()
         if not Traduction.objects.filter(francais=francais).exists():
-            # Convertir le nom en majuscules si la première lettre est en minuscule
-            if francais[0].islower():
-                francais = francais.capitalize()
             Traduction.objects.create(francais=francais, soninke=soninke)
     if request.method == 'POST':
         phrase_francaise = request.POST.get('phrase_francaise')
@@ -30,6 +28,7 @@ def traduction(request):
         return render(request, 'index.html', {'traduction_soninke': traduction_soninke})
     else:
         return render(request, 'index.html')
+
 
 def about(resquest):
     return render(resquest, 'about.html')
