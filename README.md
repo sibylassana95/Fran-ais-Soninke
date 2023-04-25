@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
-# Dictionnaire Français - Soninké
+# Traducteur Français - Soninké
 
-Le but de ce projet est de fournir un dictionnaire français-soninke pour aider les personnes à traduire des Mots français en soninke.
+Le but de ce projet est de fournir un traducteur français-soninke pour aider les personnes à traduire des Mots français en soninke.
 
 ## Fonctionnalités
 
