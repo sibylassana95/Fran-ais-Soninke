@@ -6,7 +6,7 @@
     "Salut": "Anmokho"
   },
   {
-   "Bonjour":"An woujom"
+    "Bonjour": "An woujom"
   },
   {
     "Jamais": "Abada"
@@ -327,6 +327,9 @@
     "Durer": "Dalla"
   },
   {
+    "mare": "dala"
+  },
+  {
     "Lhistoire": "Danbe"
   },
   {
@@ -508,6 +511,9 @@
   },
   {
     "Prophète": "Faare"
+  },
+  {
+    "âne": "fare"
   },
   {
     "Mourir": "Faati"
@@ -708,6 +714,9 @@
     "Souffler": "Fuute"
   },
   {
+    "fleuve": "fanŋe"
+  },
+  {
     "Servante": "Gaada"
   },
   {
@@ -772,6 +781,9 @@
   },
   {
     "Se rencontrer": "Gemu"
+  },
+  {
+    "généalogiste": "gesere"
   },
   {
     "Grand frère": "Gida"
@@ -1383,6 +1395,9 @@
     "Petit": "Lamaane"
   },
   {
+    "Poignard": "Lobo"
+  },
+  {
     "Salive": "Laxanji"
   },
   {
@@ -1485,7 +1500,7 @@
     "Acide (adjectif)": "Malacce"
   },
   {
-    "Serpent": "Malla"
+    "Serpent": "Malla (samaqe)"
   },
   {
     "Fonds de commerce": "Manankunme"
@@ -1540,6 +1555,9 @@
   },
   {
     "Ami": "Menjanne"
+  },
+  {
+    "vache": "na"
   },
   {
     "Regretter": "Nimisi"
@@ -1635,6 +1653,9 @@
     "Dromadaire": "Ñogome"
   },
   {
+    "chameau": "ɲogome"
+  },
+  {
     "Chat sauvage": "Ñunqume"
   },
   {
@@ -1674,7 +1695,13 @@
     "Thé": "Orege"
   },
   {
-    "Poignard": "Lobo"
+    "bouteille": "orodoome"
+  },
+  {
+    "enfant": "renme"
+  },
+  {
+    "personne": "sere"
   },
   {
     "Fer à repasser": "Paasandifo"
@@ -1687,6 +1714,9 @@
   },
   {
     "Pointe": "Ponti"
+  },
+  {
+    "pioche": "pandi"
   },
   {
     "Elastique": "Poole"
@@ -1998,6 +2028,9 @@
     "S’affoler": "Waxe"
   },
   {
+    "l'an prochain": "waaga"
+  },
+  {
     "Echanger": "Wecci"
   },
   {
@@ -2033,7 +2066,9 @@
   {
     "Nuit": "Wuro"
   },
-  {"Bonne nuit":"Wouron do xeeri"},
+  {
+    "Bonne nuit": "Wouron do xeeri"
+  },
   {
     "Courir": "Wuru"
   },
@@ -2045,6 +2080,12 @@
   },
   {
     "Passer la nuit": "Wuyi"
+  },
+  {
+    "hivernage": "xaaxo"
+  },
+  {
+    "oeil": "yaaxe"
   },
   {
     "Manger": "Yigue"
