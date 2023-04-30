@@ -4,6 +4,16 @@ from django.db.models import Q
 from django.shortcuts import render
 from .models import Traduction
 
+from django.http import JsonResponse
+
+def suggestions(request):
+    phrase_francaise = request.GET.get('phrase', '')
+    suggestions = []
+    if phrase_francaise:
+        suggestions = Traduction.objects.filter(Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)).values_list('francais', flat=True)[:5]
+    return JsonResponse(list(suggestions), safe=False)
+
+
 def traduction(request):
     url = "https://raw.githubusercontent.com/sibylassana95/Fran-ais-Soninke/main/data/langue.json"
     response = requests.get(url)
