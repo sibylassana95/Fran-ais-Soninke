@@ -3232,5 +3232,551 @@
   },
   {
     "hangar(abri)": "biire"
+  },
+  {
+    "rattraper(renvoyer)": "biita"
+  },
+  {
+    "action de faire le toit": "bilinde"
+  },
+  {
+    "rouler par terre sur place": "bilinqe"
+  },
+  {
+    "au lieu de(avant que)": "billa"
+  },
+  {
+    "surtout": "billati"
+  },
+  {
+    "magicien qui lutte contre les sorciers": "bilooje"
+  },
+  {
+    "se venger": "binbaga"
+  },
+  {
+    "vengeance": "binbagande"
+  },
+  {
+    "flotter(surnager)": "binbi"
+  },
+  {
+    "complot": "bindi"
+  },
+  {
+    "prune noir": "binma"
+  },
+  {
+    "noir(foncé, sombre)": "binne"
+  },
+  {
+    "insecte bleu-noir vivant en essaim": "binoone"
+  },
+  {
+    "vivre": "bira"
+  },
+  {
+    "faire vivre": "biraado"
+  },
+  {
+    "vivant": "birante"
+  },
+  {
+    "la vie": "biraye"
+  },
+  {
+    "instant(moment)": "bire"
+  },
+  {
+    "vivre": "bire"
+  },
+  {
+    "quand": "bire be"
+  },
+  {
+    "parfois": "birennu"
+  },
+  {
+    "pigeon de Guinée": "biri"
+  },
+  {
+    "pagne en coton utilisé par les nouvelles mariées": "biriga"
+  },
+  {
+    "se vautrer(se rouler dans la boue)": "birige"
+  },
+  {
+    "et pour cause(pourquoi)": "birimanda"
+  },
+  {
+    "bienvenue(bonne arrivée)": "bisimilla"
+  },
+  {
+    "foulard": "bisooro"
+  },
+  {
+    "devenir obscur(s'obscurcir)": "bita"
+  },
+  {
+    "flamme": "bita"
+  },
+  {
+    "jour": "bita"
+  },
+  {
+    "brouillard": "bitaaxe"
+  },
+  {
+    "ascension du prophète(voyage nocturne)": "bitamaxawariye"
+  },
+  {
+    "obscure": "bitandi"
+  },
+  {
+    "obscur": "bitante"
+  },
+  {
+    "obscurité": "bite"
+  },
+  {
+    "serrer(coincer)": "bitta"
+  },
+  {
+    "être serré": "bitte"
+  },
+  {
+    "photo(marqueur)": "biyaame"
+  },
+  {
+    "billet": "biye"
+  },
+  {
+    "brûler(griller)": "biyi"
+  },
+  {
+    "brûlure": "biyinde"
+  },
+  {
+    "bon": "bo"
+  },
+  {
+    "échapper": "bocite"
+  },
+  {
+    "sortir": "bogu"
+  },
+  {
+    "renommé": "bogunte"
+  },
+  {
+    "sortie": "bogura"
+  },
+  {
+    "chaume": "bojoone"
+  },
+  {
+    "gourde(calebasse à col)": "boli"
+  },
+  {
+    "pagne multicolore": "bolinba"
+  },
+  {
+    "bobine": "bolla"
+  },
+  {
+    "pommade(dans un tube)": "bollaane"
+  },
+  {
+    "bosse": "bolle"
+  },
+  {
+    "tordre": "bolli"
+  },
+  {
+    "plage au bord du fleuve": "bologaaɲe"
+  },
+  {
+    "petite rue(ruelle)": "bolonŋe"
+  },
+  {
+    "hochet des circoncis": "bolumanga"
+  },
+  {
+    "défunt": "bonaana"
+  },
+  {
+    "malheur(mal)": "bone"
+  },
+  {
+    "Patronyme soninké": "Bonmu"
+  },
+  {
+    "décès": "bonne"
+  },
+  {
+    "s'abîmer(se gâter)": "bono"
+  },
+  {
+    "détruire": "bonondi"
+  },
+  {
+    "destruction(gâchis,dégât)": "bonondinde"
+  },
+  {
+    "gâté": "bononte"
+  },
+  {
+    "dépravation": "bonoye"
+  },
+  {
+    "descendance": "bonsonŋe"
+  },
+  {
+    "sauteur": "bontaana"
+  },
+  {
+    "l'action de ressemer": "bontande"
+  },
+  {
+    "sauter": "bonte"
+  },
+  {
+    "variole": "bontoone"
+  },
+  {
+    "jaune": "boobo"
+  },
+  {
+    "désherber à la main": "boobo"
+  },
+  {
+    "hurler": "boode"
+  },
+  {
+    "variété d'oiseau": "bookine"
+  },
+  {
+    "idole": "booli"
+  },
+  {
+    "instrument des féticheurs": "boolu"
+  },
+  {
+    "francais": "boolu"
+  },
+  {
+    "variété de poisson avec mamelles": "boona"
+  },
+  {
+    "déshabiller": "boora"
+  },
+  {
+    "tourterelle(pigeon)": "boore"
+  },
+  {
+    "fétiche": "boori"
+  },
+  {
+    "arracher(de quelqu'un)": "boosi"
+  },
+  {
+    "sac(sacoche)": "booto"
+  },
+  {
+    "se déchirer": "booxe"
+  },
+  {
+    "déchirer": "booxo"
+  },
+  {
+    "fente": "booxondiraqe"
+  },
+  {
+    "trou": "bora"
+  },
+  {
+    "stérilité": "borokaaxu"
+  },
+  {
+    "stérile": "boroke"
+  },
+  {
+    "fumier(excrément)": "boroko"
+  },
+  {
+    "bronze": "boronsi"
+  },
+  {
+    "petite déchirure ": "borotoye"
+  },
+  {
+    "fourmi noire qui pique": "boroxonjile"
+  },
+  {
+    "fourmilière": "boroxonjilinka"
+  },
+  {
+    "sucer": "bosi"
+  },
+  {
+    "fixer(regarder avec attention)": "boso"
+  },
+  {
+    "trou à travers(de part en part)": "bote"
+  },
+  {
+    "être percé": "bote"
+  },
+  {
+    "percer(faire un trou)": "boto"
+  },
+  {
+    "percé": "botonte"
+  },
+  {
+    "boue": "botoxa"
+  },
+  {
+    "vague": "boxomansa"
+  },
+  {
+    "pêcher dans l'eau boueuse des mares": "boxome"
+  },
+  {
+    "arracher(déraciner)": "boxoti"
+  },
+  {
+    "quelqu'un qui enlève": "boxotindaana"
+  },
+  {
+    "arrachage(déracinement)": "boxotinde"
+  },
+  {
+    "arrachage(déracinement)": "boxotiye"
+  },
+  {
+    "Un groupe de souris": "boxu"
+  },
+  {
+    "drap(couvre-lit)": "boyaade"
+  },
+  {
+    "étendre(étaler)": "boyi"
+  },
+  {
+    "source souterraine": "boyi"
+  },
+  {
+    "renard": "boyinaare"
+  },
+  {
+    "étalement": "boyinde"
+  },
+  {
+    "étalements": "boyiye"
+  },
+  {
+    "ramasser": "bubba"
+  },
+  {
+    "morceler": "buci"
+  },
+  {
+    "petit(peu)": "bucine"
+  },
+  {
+    "nénuphar": "bude"
+  },
+  {
+    "trouble": "budeye"
+  },
+  {
+    "vantardise": "bugantaaxu"
+  },
+  {
+    "vantard": "bugante"
+  },
+  {
+    "battre bruyamment des ailes": "bugubukku"
+  },
+  {
+    "bleu": "bula"
+  },
+  {
+    "bleu": "bulanma"
+  },
+  {
+    "enterré (être)": "buli"
+  },
+  {
+    "avant que": "bulla"
+  },
+  {
+    "tas de banco": "bulle"
+  },
+  {
+    "enterrer": "bulu"
+  },
+  {
+    "travailleur saisonnier": "bulubondaana"
+  },
+  {
+    "travail saisonnier": "bulubonde"
+  },
+  {
+    "travail saisonnier(faire)": "bulubondi"
+  },
+  {
+    "poudre à fusil inflammable": "buna"
+  },
+  {
+    "chef de guerre": "bunagume"
+  },
+  {
+    "couvrir une partie": "bunbu"
+  },
+  {
+    "Parenthèses": "Bunbu"
+  },
+  {
+    "arc": "bundanŋe"
+  },
+  {
+    "guerrier(soldat)": "bundanwuttaana"
+  },
+  {
+    "flèche empoisonnée": "bunnaane"
+  },
+  {
+    "pointe de flèche(lance)": "bunne"
+  },
+  {
+    "kapokier": "bunquŋe"
+  },
+  {
+    "couvre-chef(masculin musulman)": "bunsankame"
+  },
+  {
+    "piquer": "bunu"
+  },
+  {
+    "guêpe qui fait des nids en banco aux murs": "bununbuna"
+  },
+  {
+    "piqûre par un insecte ou un animal": "bununde"
+  },
+  {
+    "déchets de céréales": "buqe"
+  },
+  {
+    "moisir": "buqi"
+  },
+  {
+    "cheveu(poil arraché)": "bura"
+  },
+  {
+    "mauvais(méchant)": "bure"
+  },
+  {
+    "tordre": "buri"
+  },
+  {
+    "entorse": "buriye"
+  },
+  {
+    "être mauvais(être méchant)": "buro"
+  },
+  {
+    "méchanceté": "buroye"
+  },
+  {
+    "génération": "buru"
+  },
+  {
+    "très(beaucoup)": "buru"
+  },
+  {
+    "passer à la flamme": "burubutu"
+  },
+  {
+    "excréter": "burudu"
+  },
+  {
+    "variété d'arbre": "burugu"
+  },
+  {
+    "origine": "buruju"
+  },
+  {
+    "partie d'un plat mis de côté": "burutande"
+  },
+  {
+    "rembourser dans le commerce (action)": "burutaye"
+  },
+  {
+    "sans fin(sans arrête)": "burututu"
+  },
+  {
+    "effacement(destruction)": "buruxa"
+  },
+  {
+    "semis": "buruxunde"
+  },
+  {
+    "danse de la circoncision": "busese"
+  },
+  {
+    "vessie": "businka"
+  },
+  {
+    "sauce à l'arachide et au gombo": "buta"
+  },
+  {
+    "foie": "butte"
+  },
+  {
+    "vengeance(satisfaction)": "buttumureye"
+  },
+  {
+    "colère": "buttunbuyi"
+  },
+  {
+    "se facher": "butu"
+  },
+  {
+    "percer(un abcès)": "butu"
+  },
+  {
+    "l'action de percer": "butunde"
+  },
+  {
+    "fondu": "buude"
+  },
+  {
+    "être rond": "buudi"
+  },
+  {
+    "pièce d'argent": "buudinlenme"
+  },
+  {
+    "pain": "buuru"
+  },
+  {
+    "uriner": "buusi"
+  },
+  {
+    "brûler légèrement": "buusu"
+  },
+  {
+    "retirer": "buusu"
+  },
+  {
+    "boîte": "buwati"
+  },
+  {
+    "goyave": "buyagi"
+  },
+  {
+    "brûlure(brûlis)": "buyinbuye"
   }
 ]
