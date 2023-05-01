@@ -95,32 +95,33 @@
 <script src="{% static 'script.js' %}"></script> <!-- Custom scripts -->
 <script>
     //suggestions
-$(document).ready(function() {
-  $('#phrase_francaise').on('input', function() {
-    var phrase = $(this).val();
-    if (phrase.length >= 2) {
-      $.ajax({
-        url: '{% url "suggestions" %}',
-        data: {
-          'phrase': phrase
-        },
-        success: function(data) {
-          var options = '';
-          $.each(data, function(index, value) {
-            options += '<option value="' + value + '">' + value + '</option>';
+    $(document).ready(function() {
+      $('#phrase_francaise').on('input', function() {
+        var phrase = $(this).val();
+        if (phrase.length >= 2) {
+          $.ajax({
+            url: '{% url "suggestions" %}',
+            data: {
+              'phrase': phrase
+            },
+            success: function(data) {
+              var options = '<option value="">Tu peux choisir parmi les mots suggérés</option>'; // Remplacement de l'option vide par le texte souhaité
+              $.each(data, function(index, value) {
+                options += '<option value="' + value + '"> ' + value + '</option>';
+              });
+              $('#suggestions_francais').html(options);
+            }
           });
-          $('#suggestions_francais').html(options);
+        } else {
+          $('#suggestions_francais').html('');
         }
       });
-    } else {
-      $('#suggestions_francais').html('');
-    }
-  });
-  $('#suggestions_francais').on('change', function() {
-    var selectedValue = $(this).val();
-    $('#phrase_francaise').val(selectedValue);
-  });
-});
+      $('#suggestions_francais').on('change', function() {
+        var selectedValue = $(this).val();
+        $('#phrase_francaise').val(selectedValue);
+      });
+    });
+    
 
 
 
