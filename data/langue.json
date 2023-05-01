@@ -3778,5 +3778,548 @@
   },
   {
     "brûlure(brûlis)": "buyinbuye"
+  },
+  {
+    "cheval roux à pattes blanches": "caaju"
+  },
+  {
+    "sac": "caaku"
+  },
+  {
+    "gaillard": "cacare"
+  },
+  {
+    "prostituée": "caka"
+  },
+  {
+    "collier": "cakka"
+  },
+  {
+    "haricot à l'état vert préparé": "cakkite"
+  },
+  {
+    "bien habiller": "canse"
+  },
+  {
+    "brusquement": "cawu"
+  },
+  {
+    "écervelé": "cawucawunte"
+  },
+  {
+    "pas facile": "caxaane"
+  },
+  {
+    "marcher rapidement": "caxabucaxabu"
+  },
+  {
+    "emballage en fil": "ceelu"
+  },
+  {
+    "déchirer(fendre)": "ceexu"
+  },
+  {
+    "variété d'oiseau aquatique": "ciilili"
+  },
+  {
+    "enlever le dessus du cuir": "ciixi"
+  },
+  {
+    "bergeronnette": "ciloone"
+  },
+  {
+    "sondeur(espion)": "consonlindaana"
+  },
+  {
+    "errer(vagabonder)": "coolo"
+  },
+  {
+    "téter": "cucu"
+  },
+  {
+    "arroser(asperger)": "cucufu"
+  },
+  {
+    "pour": "da"
+  },
+  {
+    "animal domestique(vache, cheval, etc)": "daaba"
+  },
+  {
+    "charrue": "daabaduntonge"
+  },
+  {
+    "Cinquième garçon": "Daabe"
+  },
+  {
+    "enduire(masser)": "daabi"
+  },
+  {
+    "massage": "daabinde"
+  },
+  {
+    "masseur": "daabindindaana"
+  },
+  {
+    "variété d'antilope": "daagare"
+  },
+  {
+    "cors(callosités)": "daagarixooxe"
+  },
+  {
+    "bouche(par respect)": "daage"
+  },
+  {
+    "bubale(grande antilope)": "daagine"
+  },
+  {
+    "natte faite de tige": "daago"
+  },
+  {
+    "tisseur de natte": "daagomeraana"
+  },
+  {
+    "parole de Dieu": "daale"
+  },
+  {
+    "déclarer(parler pour Dieu": "daali"
+  },
+  {
+    "boa(python)": "daaminanŋe"
+  },
+  {
+    "maladie du ventre des enfants": "daamolle"
+  },
+  {
+    "Dan": "Daani"
+  },
+  {
+    "endommager(faire du mal à"): "daara"
+  },
+  {
+    "ravager": "daarama"
+  },
+  {
+    "aire(surface sans herbe)": "daare"
+  },
+  {
+    "hier": "daaru"
+  },
+  {
+    "avant hier": "daarume"
+  },
+  {
+    "variété de gros silure": "daawa"
+  },
+  {
+    "campement(lieu habituel de séjour)": "daaxa"
+  },
+  {
+    "dictature(terreur)": "daaxa"
+  },
+  {
+    "dictateur": "daaxante"
+  },
+  {
+    "exagérer": "daaxaraxari"
+  },
+  {
+    "installer(faire demeurer)": "daaxe"
+  },
+  {
+    "natte": "daba"
+  },
+  {
+    "encre noire": "daba"
+  },
+  {
+    "ouvrier agricole": "dabadanka"
+  },
+  {
+    "sort(envoûtement)": "dabare"
+  },
+  {
+    "faire(fabriquer, préparer)": "dabari"
+  },
+  {
+    "couper les hautes herbes": "daca"
+  },
+  {
+    "coupe": "dacande"
+  },
+  {
+    "cheval à robe blanche": "dafe"
+  },
+  {
+    "aller(partir)": "daga"
+  },
+  {
+    "partant": "dagaana"
+  },
+  {
+    "petit": "dagame"
+  },
+  {
+    "légaliser": "dagandi"
+  },
+  {
+    "destination": "dagara"
+  },
+  {
+    "Petite herbe épineuse en forme de boule": "Dagare, daagaare"
+  },
+  {
+    "provoquer à la lutte(défier)": "dakka"
+  },
+  {
+    "merveille(miracle)": "dakkabana"
+  },
+  {
+    "Dakar": "Dakkaru"
+  },
+  {
+    "mare( marigot)": "dala"
+  },
+  {
+    "preuve": "daliile"
+  },
+  {
+    "précision": "daliilu"
+  },
+  {
+    "durer(demeurer longtemps)": "dalla"
+  },
+  {
+    "durée": "dallaye"
+  },
+  {
+    "même temps(même heure)": "dan kundu"
+  },
+  {
+    "fourche": "danbe"
+  },
+  {
+    "race(clan,lignée des ancêtres)": "danbe"
+  },
+  {
+    "osier": "danbere"
+  },
+  {
+    "gros tamis": "danda"
+  },
+  {
+    "concentrer physiquement(pousser fortement)": "danda"
+  },
+  {
+    "portefeuille(bourse en cuir)": "danga"
+  },
+  {
+    "passant": "dangaana"
+  },
+  {
+    "natte": "dange"
+  },
+  {
+    "passer(traverser)": "dangi"
+  },
+  {
+    "choses de passage(personne de passage)": "danginte"
+  },
+  {
+    "passage(couloir)": "dangira"
+  },
+  {
+    "passeport": "dangiwaaxa"
+  },
+  {
+    "frontière": "dango"
+  },
+  {
+    "donner le droit de respect": "danka"
+  },
+  {
+    "ensemble(tout)": "danma"
+  },
+  {
+    "être extrèmement étonné": "danmaɲeme"
+  },
+  {
+    "puce": "danme"
+  },
+  {
+    "pour": "danŋa"
+  },
+  {
+    "grand tambour": "danŋe"
+  },
+  {
+    "seuil(devant la porte)": "danpaade"
+  },
+  {
+    "les vêtements de la nouvelle mariée": "danpe"
+  },
+  {
+    "multiplier(doubler)": "danpi"
+  },
+  {
+    "marcher sur": "danpi"
+  },
+  {
+    "doubler(multiplier)": "danpilla"
+  },
+  {
+    "variété de chien": "danpinŋe"
+  },
+  {
+    "piétiner(marcher sur)": "danpu"
+  },
+  {
+    "coup de pied": "danpunde"
+  },
+  {
+    "coup de pied(donner un)": "danpundi"
+  },
+  {
+    "croire raison(certitude, précision, foi)": "danqanaaxu"
+  },
+  {
+    "malpropreté": "danqantaaxu"
+  },
+  {
+    "impur(malpropre)": "danqante"
+  },
+  {
+    "personne de confiance": "danqenesere"
+  },
+  {
+    "secourir(aider financièrement)": "dansa"
+  },
+  {
+    "bailleur(soutien)": "dansandaana"
+  },
+  {
+    "quelques(certains)": "dantante"
+  },
+  {
+    "commenter(s'expliquer)": "dantaxi"
+  },
+  {
+    "porte-parole": "dantaxindaana"
+  },
+  {
+    "commentaire(explication)": "dantaxinde"
+  },
+  {
+    "endroit(environnement)": "dape"
+  },
+  {
+    "mettre à l'excès": "daqi"
+  },
+  {
+    "avoir soif": "daqu"
+  },
+  {
+    "assoiffé": "daqunte"
+  },
+  {
+    "respecté ": "dara"
+  },
+  {
+    "rendre populaire": "daraja"
+  },
+  {
+    "charmant(apprécié)": "darajante"
+  },
+  {
+    "rayé(tigré)": "darama"
+  },
+  {
+    "blé(il de l'Adrar)": "daramanyille"
+  },
+  {
+    "arbre à charbon": "darase"
+  },
+  {
+    "feuille(papier)": "dare"
+  },
+  {
+    "être content(être satisfait)": "dare"
+  },
+  {
+    "être gros": "daro"
+  },
+  {
+    "honneur(respect)": "daronde"
+  },
+  {
+    "honneur(respect)": "darontaaxu"
+  },
+  {
+    "encre": "dawa"
+  },
+  {
+    "encrier": "dawangubo"
+  },
+  {
+    "importance": "dawula"
+  },
+  {
+    "doux(agréable)": "daxamunte"
+  },
+  {
+    "goût bon(agréable)": "daxanme"
+  },
+  {
+    "s'asseoir brusquement(reste ici dit aux enfants)": "daxi"
+  },
+  {
+    "arbre à gomme": "daye"
+  },
+  {
+    "natte qu'on peut enrouler": "debe"
+  },
+  {
+    "vill(village)": "debe"
+  },
+  {
+    "villageois": "debidunke"
+  },
+  {
+    "chef de village": "debigume"
+  },
+  {
+    "résident du village": "debillenma"
+  },
+  {
+    "plante rampante": "deefe"
+  },
+  {
+    "calmer": "deejandi"
+  },
+  {
+    "calme(pausé)": "deejante"
+  },
+  {
+    "se calmer": "deeje"
+  },
+  {
+    "verser": "deela"
+  },
+  {
+    "déverser": "deele"
+  },
+  {
+    "aider(secourir)": "deema"
+  },
+  {
+    "défenseur(secouriste)": "deemandaana"
+  },
+  {
+    "aide(secours)": "deemande"
+  },
+  {
+    "gamin(galopin)": "deena"
+  },
+  {
+    "nouveau-né(bébé)": "deenandunbe"
+  },
+  {
+    "glisser": "deeni"
+  },
+  {
+    "glissade": "deeniye"
+  },
+  {
+    "planer": "deere"
+  },
+  {
+    "être court": "defo"
+  },
+  {
+    "raccourcir": "defondi"
+  },
+  {
+    "raccourci(petite taille)": "defoye"
+  },
+  {
+    "perle décorant les tresses": "degena"
+  },
+  {
+    "carpe": "degera"
+  },
+  {
+    "paume de la main(plante du pied)": "degere"
+  },
+  {
+    "son de mil": "dehe"
+  },
+  {
+    "groupement d'amis": "deje"
+  },
+  {
+    "raison": "deliile"
+  },
+  {
+    "confirmer": "deliiluganxaaxu"
+  },
+  {
+    "tête": "delle"
+  },
+  {
+    "s'habituer(être habitué)": "demu"
+  },
+  {
+    "habitude": "demuye"
+  },
+  {
+    "bâton(gros)": "denbele"
+  },
+  {
+    "dune de terre": "denbele"
+  },
+  {
+    "remplir à ras-bord": "dende"
+  },
+  {
+    "emmener(emporter)": "deni"
+  },
+  {
+    "habitude": "denme"
+  },
+  {
+    "victoire(gloire)": "denne"
+  },
+  {
+    "fretin": "denŋeɲaane"
+  },
+  {
+    "fourmi rouge": "denŋeɲe"
+  },
+  {
+    "court": "depe"
+  },
+  {
+    "milieu de l'hivernage": "derinjuxa"
+  },
+  {
+    "récupérer ce qui surnage": "dewu"
+  },
+  {
+    "grande louche en calebasse": "diba"
+  },
+  {
+    "descendant": "dibakke"
+  },
+  {
+    "forêt": "diga"
+  },
+  {
+    "aller": "dega"
+  },
+  {
+    "parole(propos)": "digaame"
+  },
+  {
+    "parler(s'exprimer)": "digaamu"
   }
 ]
