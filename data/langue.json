@@ -1988,7 +1988,9 @@
   {
     "Devenir": "Ña"
   },
-  {"Merci":"Nawaari"},
+  {
+    "Merci": "Nawaari"
+  },
   {
     "Solliciter": "Ñaaga"
   },
@@ -2495,5 +2497,740 @@
   },
   {
     "Manger": "Yigue"
+  },
+  {
+    "c’est fait": "a hante"
+  },
+  {
+    "frère": "aaxi, aaxini"
+  },
+  {
+    "Bonne nuit": "An wui jam"
+  },
+  {
+    "Stylo": "bikku"
+  },
+  {
+    "Vivant": "bire"
+  },
+  {
+    "Vivre": "bire"
+  },
+  {
+    "Petit": "bucce"
+  },
+  {
+    "Grand": "buro"
+  },
+  {
+    "Magasin": "butiki"
+  },
+  {
+    "Uriner": "buusi"
+  },
+  {
+    "Chameau": "nyogome"
+  },
+  {
+    "Hier": "daaru"
+  },
+  {
+    "Gros": "dinka"
+  },
+  {
+    "Bière (boisson alcolisée)": "dolo"
+  },
+  {
+    "Dispute": "doxo"
+  },
+  {
+    "Faim": "dullu"
+  },
+  {
+    "Père": "faaba"
+  },
+  {
+    "Visiteur, Chercher quelque chose": "faayinde"
+  },
+  {
+    "Première": "fana"
+  },
+  {
+    "France": "Faransi"
+  },
+  {
+    "Ce n’est rien": "fofofe"
+  },
+  {
+    "Plein": "fogu"
+  },
+  {
+    "Un peu": "fonne"
+  },
+  {
+    "Peut-être / Doucement": "fonne fonne"
+  },
+  {
+    "Peul": "fulle"
+  },
+  {
+    "Paresseux": "fuyante"
+  },
+  {
+    "Puiser de l’eau d’un puits": "gayinde"
+  },
+  {
+    "Grand frère / Grande soeur": "gida"
+  },
+  {
+    "Puits": "gede"
+  },
+  {
+    "Visage": "giya"
+  },
+  {
+    "Travailler": "golle"
+  },
+  {
+    "Contourner": "goori"
+  },
+  {
+    "Creuser": "jaga"
+  },
+  {
+    "Bonne nuit": "Jam na wui"
+  },
+  {
+    "Nom de famille": "jammu"
+  },
+  {
+    "Personne du même âge": "joota"
+  },
+  {
+    "Commerce": "julaa xu"
+  },
+  {
+    "Oncle": "kaau"
+  },
+  {
+    "Classe": "kalasi"
+  },
+  {
+    "La Ville/ Les maisons": "kani"
+  },
+  {
+    "Avoir": "kita/kitta"
+  },
+  {
+    "Nuque": "kofe"
+  },
+  {
+    "Propre": "laabante"
+  },
+  {
+    "(Je) Peux": "lawa"
+  },
+  {
+    "Enfant": "lemine"
+  },
+  {
+    "Aujourd’hui": "lenki"
+  },
+  {
+    "Amener": "liiti"
+  },
+  {
+    "Maman": "ma"
+  },
+  {
+    "Quoi": "manne"
+  },
+  {
+    "Combien ?": "manne-me"
+  },
+  {
+    "Avoir": "maxa"
+  },
+  {
+    "Ami": "menjanŋe"
+  },
+  {
+    "Sale": "mexente"
+  },
+  {
+    "Boire": "mine"
+  },
+  {
+    "Où?": "minne"
+  },
+  {
+    "Entendre": "mugu"
+  },
+  {
+    "Froid": "mulle"
+  },
+  {
+    "Oublier": "mungu"
+  },
+  {
+    "Je, Moi": "N"
+  },
+  {
+    "Simple": "newe"
+  },
+  {
+    "Être": "ni"
+  },
+  {
+    "Merci": "nowari"
+  },
+  {
+    "Nous, Nôtre": "o"
+  },
+  {
+    "Attraper": "raga"
+  },
+  {
+    "Parents": "saarano"
+  },
+  {
+    "Être né": "saare"
+  },
+  {
+    "Épine": "saase"
+  },
+  {
+    "Écrire": "safa"
+  },
+  {
+    "Hygiène": "sahan kille"
+  },
+  {
+    "Monter": "segene"
+  },
+  {
+    "Poulet": "selinge"
+  },
+  {
+    "En bonne santé": "sellante"
+  },
+  {
+    "Samedi": "sibiti"
+  },
+  {
+    "Couteau": "silife"
+  },
+  {
+    "Penser": "simma"
+  },
+  {
+    "Bouillie": "sombi"
+  },
+  {
+    "Cuisiner/Faire cuire": "sore/soro"
+  },
+  {
+    "Agriculture": "soxe n kille"
+  },
+  {
+    "Tous": "su"
+  },
+  {
+    "Maure / Arabe": "suraxe"
+  },
+  {
+    "Chanter": "suugu"
+  },
+  {
+    "Ramasser du bois mort": "suwa"
+  },
+  {
+    "Siège": "taaxa"
+  },
+  {
+    "Mardi": "talaata"
+  },
+  {
+    "Pleuvoir": "teqe"
+  },
+  {
+    "Chaussure": "teppu"
+  },
+  {
+    "Des Chaussures": "teppuni"
+  },
+  {
+    "Lundi": "tineni"
+  },
+  {
+    "Vérité": "toŋu"
+  },
+  {
+    "Chaleur": "towaye"
+  },
+  {
+    "Payer": "tuga"
+  },
+  {
+    "Accompagner": "tunsi"
+  },
+  {
+    "T-Shirt": "turki"
+  },
+  {
+    "Fou": "waxante"
+  },
+  {
+    "Wolof": "Wolofo"
+  },
+  {
+    "Voir": "wori"
+  },
+  {
+    "Pleurer": "wu"
+  },
+  {
+    "Pantalons": "wuno"
+  },
+  {
+    "Hier soir": "wuri"
+  },
+  {
+    "Courir": "wuru"
+  },
+  {
+    "Onduler": "wuttu"
+  },
+  {
+    "Vous, Votre": "xa"
+  },
+  {
+    "Mousser": "xanxa"
+  },
+  {
+    "Etudier": "xaranŋe"
+  },
+  {
+    "Enseignant": "xarawunde"
+  },
+  {
+    "Vieux": "xase"
+  },
+  {
+    "Envoyer": "xayi"
+  },
+  {
+    "Tomber": "xenne/xenu"
+  },
+  {
+    "Dormir": "xenqe"
+  },
+  {
+    "Solitude": "xiide"
+  },
+  {
+    "Détester/Haïr": "xoni"
+  },
+  {
+    "Grand": "xoore"
+  },
+  {
+    "Difficile / Lourd": "xote"
+  },
+  {
+    "Demain": "xumbane"
+  },
+  {
+    "Femme": "yaxare"
+  },
+  {
+    "Marié(e)": "yaxi"
+  },
+  {
+    "Manger": "yige"
+  },
+  {
+    "Retourner": "yille"
+  },
+  {
+    "Home": "yugo"
+  },
+  {
+    "poisson capitaine": "bapore"
+  },
+  {
+    "écraser": "bapu"
+  },
+  {
+    "provocateur": "baqaana"
+  },
+  {
+    "crème de mil": "baqaare"
+  },
+  {
+    "surface": "bara"
+  },
+  {
+    "fil": "bara"
+  },
+  {
+    "théière": "baraada"
+  },
+  {
+    "faire bouillir": "barabara"
+  },
+  {
+    "bouilli": "barabarante"
+  },
+  {
+    "tailler": "barajagu"
+  },
+  {
+    "récompenser": "baraji"
+  },
+  {
+    "ingrat": "baraji"
+  },
+  {
+    "bénédiction(prospérité)": "barake"
+  },
+  {
+    "blesser gravement": "barama"
+  },
+  {
+    "marmite": "barama"
+  },
+  {
+    "faire les louanges": "barama"
+  },
+  {
+    "ce que l'on met de travers": "barataade"
+  },
+  {
+    "croiser(poser de travers)": "barati"
+  },
+  {
+    "novembre": "baratibare"
+  },
+  {
+    "croisé": "baratinte"
+  },
+  {
+    "croisé": "baratu"
+  },
+  {
+    "gros(corpulent)": "baraxate"
+  },
+  {
+    "grossir": "baraxato"
+  },
+  {
+    "grossissement": "baraxatonde"
+  },
+  {
+    "grosseur": "baraxatoye"
+  },
+  {
+    "lit(couchette)": "bare"
+  },
+  {
+    "parce que": "bari"
+  },
+  {
+    "barrique": "barigon"
+  },
+  {
+    "benir": "bariki"
+  },
+  {
+    "basin": "basa"
+  },
+  {
+    "oignon": "basalle"
+  },
+  {
+    "lettre(message)": "bataaxe"
+  },
+  {
+    "suivre": "bati"
+  },
+  {
+    "temple à Jérusalem": "batikanxoore"
+  },
+  {
+    "obligation religieuse": "batiye"
+  },
+  {
+    "adepte(quelqu'un qui obéit)": "battaana"
+  },
+  {
+    "successeur(adjoint)": "battamaxe"
+  },
+  {
+    "inutile(bon à rien)": "battara"
+  },
+  {
+    "vaurien": "battaranlenme"
+  },
+  {
+    "trace": "batte"
+  },
+  {
+    "réunion(assemblée)": "batu"
+  },
+  {
+    "suivre(béir à)": "batu"
+  },
+  {
+    "courtisan": "batula"
+  },
+  {
+    "magicien": "batuta"
+  },
+  {
+    "fillette pré pubère": "bawolaane"
+  },
+  {
+    "parce que": "bawoni"
+  },
+  {
+    "devoir": "bawudo"
+  },
+  {
+    "manger le repas de la veille": "bawuya"
+  },
+  {
+    "bleu(bleu indigo)": "baxa"
+  },
+  {
+    "plante": "baxa"
+  },
+  {
+    "faire peur(intimider)": "baxabaxa"
+  },
+  {
+    "intimidation": "baxabaxande"
+  },
+  {
+    "jaune d'oeuf": "baxadaare"
+  },
+  {
+    "grand boubou bleu indigo": "baxadimi"
+  },
+  {
+    "petit crapaud clair": "baxafuru"
+  },
+  {
+    "mulet": "baxalle"
+  },
+  {
+    "métisse": "baxalli"
+  },
+  {
+    "robe indigo": "baxandoroke"
+  },
+  {
+    "agresser(provoquer,taquiner)": "baxu"
+  },
+  {
+    "pigeon": "baxubaxu"
+  },
+  {
+    "rue(rue principale)": "bedde"
+  },
+  {
+    "arbuste à cosse acidulée": "bede"
+  },
+  {
+    "pintade": "bedere"
+  },
+  {
+    "canari aux usages divers": "beelo"
+  },
+  {
+    "donner(passer quelque chose à quelqu'un)": "beeri"
+  },
+  {
+    "tout le monde": "beesu"
+  },
+  {
+    "crachat": "beexe"
+  },
+  {
+    "fermer(colmater)": "beexi"
+  },
+  {
+    "cracher": "beexi"
+  },
+  {
+    "balle de mil ": "behe"
+  },
+  {
+    "bois de charpente": "bejexere"
+  },
+  {
+    "rappeler un bienfait": "beji"
+  },
+  {
+    "l'action de rappeler un bienfait": "bejinde"
+  },
+  {
+    "atteindre l'âge de la puberté": "belefi"
+  },
+  {
+    "immature": "belexa"
+  },
+  {
+    "éjaculer": "beleyi"
+  },
+  {
+    "remplir à ras": "benba"
+  },
+  {
+    "variété de plante": "benbe"
+  },
+  {
+    "poêle": "bendi"
+  },
+  {
+    "dartre(dermatose)": "bendubeexe"
+  },
+  {
+    "bandit": "beni"
+  },
+  {
+    "courant d'eau": "beniire"
+  },
+  {
+    "corne": "benne"
+  },
+  {
+    "couscoussière": "benŋe"
+  },
+  {
+    "récolte(coupe)": "bentaade"
+  },
+  {
+    "être récolté": "benti"
+  },
+  {
+    "casser(rompre)": "bentu"
+  },
+  {
+    "beignet": "beɲe"
+  },
+  {
+    "baignoire": "beɲiwaari"
+  },
+  {
+    "place, cour, espace": "bera"
+  },
+  {
+    "essaim de criquets": "bere"
+  },
+  {
+    "émonder(tailler)": "berebetu"
+  },
+  {
+    "bénir": "bereke"
+  },
+  {
+    "cotiser": "bereta"
+  },
+  {
+    "caisse(malle)": "berete"
+  },
+  {
+    "fringale": "berexe"
+  },
+  {
+    "égoïsme": "besenxonnaaxu"
+  },
+  {
+    "égoïste": "besenxonne"
+  },
+  {
+    "rapiécer": "betela"
+  },
+  {
+    "rapiécé ": "betelanta"
+  },
+  {
+    "détacher(arracher)": "betenqu"
+  },
+  {
+    "badigeonner": "betexe"
+  },
+  {
+    "badigeonnage": "betexende"
+  },
+  {
+    "reste de branche coupée": "bette"
+  },
+  {
+    "pluvier": "bette"
+  },
+  {
+    "complètement rempli": "betu"
+  },
+  {
+    "tailler(couper)": "betu"
+  },
+  {
+    "être riche(être prospère)": "bewu"
+  },
+  {
+    "opposant(personne menaçante)": "bexebexundaana"
+  },
+  {
+    "dégoûtant(amer)": "bexece"
+  },
+  {
+    "sans goût": "bexela"
+  },
+  {
+    "suinter": "beyi"
+  },
+  {
+    "chant religieux": "beyita"
+  },
+  {
+    "variété d'oiseau(mange-mil)": "bibine"
+  },
+  {
+    "jeu avec des clous": "bica"
+  },
+  {
+    "avant que(avant)": "bica"
+  },
+  {
+    "gland": "bicaqe"
+  },
+  {
+    "couvercle": "bifaade"
+  },
+  {
+    "se coucher à plat ventre": "bifi"
+  },
+  {
+    "rattraper(renvoyer)": "biibi"
+  },
+  {
+    "fuite": "biibinde"
+  },
+  {
+    "serpent noir(python)": "biida"
+  },
+  {
+    "jouet(jeu d'enfant)": "biifi"
+  },
+  {
+    "aube": "biijibaajo"
+  },
+  {
+    "aube(après fajiri)": "biijibajo"
+  },
+  {
+    "hangar(abri)": "biire"
   }
 ]
