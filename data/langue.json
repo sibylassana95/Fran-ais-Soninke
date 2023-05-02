@@ -4678,5 +4678,488 @@
   },
   {
     "dix": "tanmu"
+  },
+  {
+    "l'année prochaine": "waaga"
+  },
+  {
+    "frère": "waagi"
+  },
+  {
+    "être obligatoire": "waajibi"
+  },
+  {
+    "prêcher": "waaju"
+  },
+  {
+    "prêche": "waajunde"
+  },
+  {
+    "prêcher(prêcher)": "waajundi"
+  },
+  {
+    "victoire(succès)": "waale"
+  },
+  {
+    "opposer": "waali"
+  },
+  {
+    "opposition": "waalinde"
+  },
+  {
+    "opposer(faire)": "waalindi"
+  },
+  {
+    "terre de décrue": "waalo"
+  },
+  {
+    "ouvrir en grand": "waara"
+  },
+  {
+    "vase": "waare"
+  },
+  {
+    "partir au loin (pour un personnage important)": "waari"
+  },
+  {
+    "ne plus": "waase"
+  },
+  {
+    "vase(canari)": "waate"
+  },
+  {
+    "le port de la mer": "waaxa"
+  },
+  {
+    "frère(parent proche)": "waaxi"
+  },
+  {
+    "boucher": "waaye"
+  },
+  {
+    "nager à la surface": "waayi"
+  },
+  {
+    "boucher": "waayindaana"
+  },
+  {
+    "maintenant": "waca"
+  },
+  {
+    "petit pois sucré(cyperus)": "wace"
+  },
+  {
+    "écailler (les poissons)": "waci"
+  },
+  {
+    "représentant": "wakiilu"
+  },
+  {
+    "se décider": "wakkile"
+  },
+  {
+    "ou bien": "walaxa"
+  },
+  {
+    "voir": "walla"
+  },
+  {
+    "visionnaire(voyant)": "wallaana"
+  },
+  {
+    "terre sablonneuse": "wallare"
+  },
+  {
+    "tablette(ardoise)": "wallaxa"
+  },
+  {
+    "chasse collective": "walle"
+  },
+  {
+    "réunion": "walle"
+  },
+  {
+    "un européen(un blanc)": "wanasaara"
+  },
+  {
+    "poisson noir": "wandaana"
+  },
+  {
+    "canard": "wandalle"
+  },
+  {
+    "autrui": "wande"
+  },
+  {
+    "petit poisson(10cm)": "wandoone"
+  },
+  {
+    "éviter(un obstacle)": "wanga"
+  },
+  {
+    "serval(chat de Libye)": "wanjalanŋe"
+  },
+  {
+    "variété d'arbre": "wanqare"
+  },
+  {
+    "laver": "wanqi"
+  },
+  {
+    "sauteur": "waqaana"
+  },
+  {
+    "un saut": "waqe"
+  },
+  {
+    "laisser": "wara"
+  },
+  {
+    "les feuilles du thé vert": "warage"
+  },
+  {
+    "confluent(cours d'eau)": "waranlaqe"
+  },
+  {
+    "personne sans conscience": "warante"
+  },
+  {
+    "tamis moyen": "warasa"
+  },
+  {
+    "demi-muude": "waratalle"
+  },
+  {
+    "rappeler un bien fait": "warati"
+  },
+  {
+    "marcher": "ware"
+  },
+  {
+    "épave": "warefo"
+  },
+  {
+    "bouillir": "wari"
+  },
+  {
+    "favori(premier vu)": "warifana"
+  },
+  {
+    "faveur(accorder)": "warijaxa"
+  },
+  {
+    "mettre enceinte": "warijaxandi"
+  },
+  {
+    "enceinte (devenir)": "warijaxe"
+  },
+  {
+    "femme enceinte": "warijaxinte"
+  },
+  {
+    "le fait de voir": "warinde"
+  },
+  {
+    "détacher": "wasa"
+  },
+  {
+    "satisfaire": "wasa"
+  },
+  {
+    "modestie": "wasaadu"
+  },
+  {
+    "humilité": "wasaaduntaaxu"
+  },
+  {
+    "libérer": "wasandi"
+  },
+  {
+    "sympathie(caractère ouvert)": "wasante"
+  },
+  {
+    "la suffisance": "wasaye"
+  },
+  {
+    "suffire": "wase"
+  },
+  {
+    "conseiller": "wasi"
+  },
+  {
+    "appât de pêche": "waso"
+  },
+  {
+    "se vanter(se moquer de)": "wasu"
+  },
+  {
+    "malade(tomber)": "wati"
+  },
+  {
+    "maladie": "watte"
+  },
+  {
+    "faire mal à": "watu"
+  },
+  {
+    "malade(rendre)": "watundi"
+  },
+  {
+    "malade": "watunte"
+  },
+  {
+    "escalader(sauter)": "waxa"
+  },
+  {
+    "panier de cola": "waxa"
+  },
+  {
+    "coffre(caisse)": "waxande"
+  },
+  {
+    "laver un mort": "waxari"
+  },
+  {
+    "moment(temps, époque)": "waxati"
+  },
+  {
+    "la folie": "waxaye"
+  },
+  {
+    "autre rive": "waxe"
+  },
+  {
+    "être fou": "waxe"
+  },
+  {
+    "sauter(franchir, escalader)": "waxi"
+  },
+  {
+    "traverser": "waxu"
+  },
+  {
+    "sauter(action de)": "waxunde"
+  },
+  {
+    "métamorphoser(se)": "waxundi"
+  },
+  {
+    "vanner(séparer le son des graines)": "wayi"
+  },
+  {
+    "humilier(dénoncer quelqu'un)": "wayiba"
+  },
+  {
+    "indiscret": "wayibante"
+  },
+  {
+    "divulguer un secret": "wayibe"
+  },
+  {
+    "puisque": "wayini"
+  },
+  {
+    "vernis à ongles": "weereni"
+  },
+  {
+    "briller": "welenqi"
+  },
+  {
+    "voile de bateau": "wiiri"
+  },
+  {
+    "la monnaie": "woce"
+  },
+  {
+    "faire de la monnaie(changer la monnaie)": "woci"
+  },
+  {
+    "savant": "woli"
+  },
+  {
+    "ou bien": "wolla"
+  },
+  {
+    "fouiller": "woloma"
+  },
+  {
+    "cris de mépris": "wonjoŋe"
+  },
+  {
+    "paître(mener au pâturage)à": "woore"
+  },
+  {
+    "bouillir(bouillonner)": "wori"
+  },
+  {
+    "voir": "wori"
+  },
+  {
+    "faire bouillir": "worindi"
+  },
+  {
+    "troupeau mélangé(vaches, chèvres, moutons, chevaux)": "woringa"
+  },
+  {
+    "thé": "woroke"
+  },
+  {
+    "esclave domestique": "woroso"
+  },
+  {
+    "voter": "wote"
+  },
+  {
+    "haleter": "wotte"
+  },
+  {
+    "charrette": "wottoro"
+  },
+  {
+    "courant": "woye"
+  },
+  {
+    "pleurer": "wu"
+  },
+  {
+    "un certain temps": "wuce"
+  },
+  {
+    "petit moment": "wucinne"
+  },
+  {
+    "durer": "wucu"
+  },
+  {
+    "mille": "wujune"
+  },
+  {
+    "chanceux": "wulaliŋinte"
+  },
+  {
+    "verser": "wulla"
+  },
+  {
+    "chien": "wulle"
+  },
+  {
+    "déborder": "wulle1"
+  },
+  {
+    "réveiller": "wulli"
+  },
+  {
+    "prière du matin(de 8h à 10h)": "wuluha"
+  },
+  {
+    "veuve": "wundunbaare"
+  },
+  {
+    "capacité(victoire)": "wune"
+  },
+  {
+    "hippopotame": "wungaame"
+  },
+  {
+    "un chanceux": "wunlaliŋe"
+  },
+  {
+    "ouvrir": "wuɲi"
+  },
+  {
+    "parcourir": "wura"
+  },
+  {
+    "rêve": "wuraaxu"
+  },
+  {
+    "hépatite": "wuraxe"
+  },
+  {
+    "la signification": "wure"
+  },
+  {
+    "dessous(bas)": "wure"
+  },
+  {
+    "mettre à l'épreuve(tester)": "wurebagandi"
+  },
+  {
+    "soulever(remuer)": "wurewutu"
+  },
+  {
+    "hier soir(la nuit dernière)": "wuri"
+  },
+  {
+    "avant-hier nuit": "wurime"
+  },
+  {
+    "nuit": "wuro"
+  },
+  {
+    "courir(fuir)": "wuru"
+  },
+  {
+    "égrener un chapelet": "wurudi"
+  },
+  {
+    "crier(vociférer)": "wuruge"
+  },
+  {
+    "un cri fort": "wurugeye"
+  },
+  {
+    "prospérer": "wurugi"
+  },
+  {
+    "conducteur(chauffeur fileuse)": "wurundaana"
+  },
+  {
+    "conduire(piloter filer)": "wurundi"
+  },
+  {
+    "cécité de la nuit(héméralopie)": "wurunfinku"
+  },
+  {
+    "courant(courrier)": "wurunte"
+  },
+  {
+    "tourbillon(tornade)": "wurunwuro"
+  },
+  {
+    "le mois précédent le Ramadan": "wuruwuraane"
+  },
+  {
+    "dîme(taxe)": "wusuru"
+  },
+  {
+    "anse, manche": "wutaade"
+  },
+  {
+    "prendre(saisir)": "wuti"
+  },
+  {
+    "prise(butin, saisie)": "wutte"
+  },
+  {
+    "prendre": "wuttu"
+  },
+  {
+    "saisir(prendre)": "wutu"
+  },
+  {
+    "dissoudre": "wuusa"
+  },
+  {
+    " se dissoudre": "wuuse"
+  },
+  {
+    "passer la nuit": "wuyi"
+  },
+  {
+    "âge": "wuyi"
+  },
+  {
+    "inviter": "wuyindi"
   }
 ]
