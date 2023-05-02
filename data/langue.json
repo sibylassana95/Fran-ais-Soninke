@@ -5161,5 +5161,773 @@
   },
   {
     "inviter": "wuyindi"
+  },
+  {
+    "captive de case": "gaada"
+  },
+  {
+    "vendre": "gaaga"
+  },
+  {
+    "vendeur(vendeuse)": "gaagandaana"
+  },
+  {
+    "vente": "gaagande"
+  },
+  {
+    "vendre": "gaagandi"
+  },
+  {
+    "marchandise": "gaagandifo"
+  },
+  {
+    "mentir": "gaara"
+  },
+  {
+    "gare": "gaara"
+  },
+  {
+    "faire mentir quelqu'un": "gaarandi"
+  },
+  {
+    "menteur": "gaarante"
+  },
+  {
+    "mensonge": "gaare"
+  },
+  {
+    "fil": "gaare"
+  },
+  {
+    "bobine de fil": "gaarinbolla"
+  },
+  {
+    "tenter(vanter)": "gaata"
+  },
+  {
+    "tentation(épreuve)": "gaatande"
+  },
+  {
+    "tenter(éprouver)": "gaatandi"
+  },
+  {
+    "vantardise(tentation)": "gaataye"
+  },
+  {
+    "variété d'arbre": "gaawa"
+  },
+  {
+    "corde pour puiser": "gaaye"
+  },
+  {
+    "celui qui puise": "gaayindaana"
+  },
+  {
+    "puisement(puisage)": "gaayinde"
+  },
+  {
+    "puiser": "gaayindi"
+  },
+  {
+    "puisette calebasse": "gaayinxolle"
+  },
+  {
+    "beaucoup(nombreux)": "gaba"
+  },
+  {
+    "beaucoup": "gabe"
+  },
+  {
+    "nombreux": "gabo"
+  },
+  {
+    "augmenter(multiplier)": "gabondi"
+  },
+  {
+    "honte(déshonneur)": "gace"
+  },
+  {
+    "Entrave pour les animaux": "gada"
+  },
+  {
+    "musette(petit sac pour nourrir un cheval)": "gafaqa"
+  },
+  {
+    "souris(rat)": "gaja"
+  },
+  {
+    "combattre(se battre)": "gaja"
+  },
+  {
+    "pois de terre": "gajaane"
+  },
+  {
+    "variété de gros mil blanc": "gajaba"
+  },
+  {
+    "chien du fusil": "gajalankutaade"
+  },
+  {
+    "provocateur": "gajalla"
+  },
+  {
+    "champ de bataille": "gajallara"
+  },
+  {
+    "adversaire": "gajanlenma"
+  },
+  {
+    "se battre": "gajanŋa"
+  },
+  {
+    "combattant(guerrier)": "gajanŋaana"
+  },
+  {
+    "guerre(dispute, bataille)": "gajanŋe"
+  },
+  {
+    "souris à ventre gris": "gajanxulle"
+  },
+  {
+    "parfum de femme": "galalle"
+  },
+  {
+    "verrou": "galamaade"
+  },
+  {
+    "variété d'arbre très grand": "galanbe"
+  },
+  {
+    "pièce d'argent": "galanŋe"
+  },
+  {
+    "Galilée": "Galile"
+  },
+  {
+    "enclos": "galle"
+  },
+  {
+    "membre": "-gan-"
+  },
+  {
+    "transporter": "gana"
+  },
+  {
+    "guitare(luth à trois ou quatre cordes)": "ganbare"
+  },
+  {
+    "crochet": "gange"
+  },
+  {
+    "crier(appeler)": "gangi"
+  },
+  {
+    "appel": "gango"
+  },
+  {
+    "appeler(crier de loin à haute voix)": "gangu"
+  },
+  {
+    "crieur public": "gangundaana"
+  },
+  {
+    "appel(voix)": "gangunde"
+  },
+  {
+    "appeler en criant": "gangundi"
+  },
+  {
+    "coq, oiseau mâle": "ganma"
+  },
+  {
+    "trou dans un arbre": "ganme"
+  },
+  {
+    "autrefois(anciens temps)": "ganni"
+  },
+  {
+    "ancêtre": "ganninke"
+  },
+  {
+    "ancêtres": "gannisere"
+  },
+  {
+    "HYPO": "ganpinsa"
+  },
+  {
+    "entrée": "ganraqe"
+  },
+  {
+    "annoncer(informer)": "gansi"
+  },
+  {
+    "annonceur(héraut)": "gansindaana"
+  },
+  {
+    "convocation": "gansinde"
+  },
+  {
+    "annoncer une rencontre": "gansindi"
+  },
+  {
+    "mais(par contre,néanmoins)": "ganta"
+  },
+  {
+    "fouet(fort, méchant)": "gaɲe"
+  },
+  {
+    "indigo": "gara"
+  },
+  {
+    "de manière brusque": "garabasu"
+  },
+  {
+    "sursaut": "garabasuye"
+  },
+  {
+    "teindre": "garandi"
+  },
+  {
+    "teinturier": "garandindaana"
+  },
+  {
+    "teinture": "garandinde"
+  },
+  {
+    "teindres": "garandindi"
+  },
+  {
+    "teinté": "garandinte"
+  },
+  {
+    "cordonnier(une caste artisanale)": "garanke"
+  },
+  {
+    "accrocher(enlacer pour protection)": "garasi"
+  },
+  {
+    "battant en paille": "gatando"
+  },
+  {
+    "sabre à deux tranchants": "gawalle"
+  },
+  {
+    "puisatier": "gedijaabaana"
+  },
+  {
+    "creuser un puits": "gedijaabe"
+  },
+  {
+    "creusage de puits": "gedijaabeye"
+  },
+  {
+    "crier": "geeje"
+  },
+  {
+    "océan": "geeji"
+  },
+  {
+    "fil de chaîne": "geese"
+  },
+  {
+    "tisserand": "geesimiraana"
+  },
+  {
+    "tisser": "geesimiri"
+  },
+  {
+    "tissage": "geesimiriye"
+  },
+  {
+    "guider": "geesu"
+  },
+  {
+    "plante comestible": "geesune"
+  },
+  {
+    "doum(palmier)": "gelle"
+  },
+  {
+    "depuis": "gelli"
+  },
+  {
+    "se rencontrer": "gemu"
+  },
+  {
+    "améliorer(réconcilier)": "gemundi"
+  },
+  {
+    "réconciliateur": "gemundindaana"
+  },
+  {
+    "médiation": "gemundinde"
+  },
+  {
+    "réconciliation beauté": "gemuye"
+  },
+  {
+    "ancienne pièce d'argent": "genewalla"
+  },
+  {
+    "conduire devant soi": "genge"
+  },
+  {
+    "celui qui va à la rencontre de quelqu'un": "genmaana"
+  },
+  {
+    "cortège nuptial": "genmaano"
+  },
+  {
+    "rencontre(entente)": "genme"
+  },
+  {
+    "mésentente": "genmenbalaaxu"
+  },
+  {
+    "gésier(oiseau)": "gensenŋe"
+  },
+  {
+    "ancre": "geresaade"
+  },
+  {
+    "variété d'acacia": "gesenxulle"
+  },
+  {
+    "griot traditionnel": "gesere"
+  },
+  {
+    "poisson du fleuve(20cm)": "gice"
+  },
+  {
+    "montagne(colline)": "gide"
+  },
+  {
+    "gronder": "gidi-gidi"
+  },
+  {
+    "grondement": "gidigidiye"
+  },
+  {
+    "tas de pierre": "gidinjurugalle"
+  },
+  {
+    "sommet de montagne": "gidintonbe"
+  },
+  {
+    "respect": "gidu"
+  },
+  {
+    "orphelin": "gigire"
+  },
+  {
+    "Guihôn": "Gihooni"
+  },
+  {
+    "être haut": "giilo"
+  },
+  {
+    "cauris": "gija"
+  },
+  {
+    "divination(art divinatoire)": "gijankati"
+  },
+  {
+    "balle de mil": "gije"
+  },
+  {
+    "chair de la poitrine des animaux": "gije"
+  },
+  {
+    "secouer(brandir, agiter en l'air)": "gijigiji"
+  },
+  {
+    "hennir": "gijinbe"
+  },
+  {
+    "sanglier(phacochère)": "gijinfare"
+  },
+  {
+    "thorax(poitrine, poitrail)": "gijinme"
+  },
+  {
+    "départ": "gille"
+  },
+  {
+    "nomade": "gilligillaana"
+  },
+  {
+    "marmite en banco": "gine"
+  },
+  {
+    "branche d'un arbre": "ginge"
+  },
+  {
+    "frontière(limite)": "ginge"
+  },
+  {
+    "clouer": "ginge"
+  },
+  {
+    "aggraver": "giribe"
+  },
+  {
+    "grand louche": "giribe"
+  },
+  {
+    "outre d'eau": "girife"
+  },
+  {
+    "servante": "girinanxennaana"
+  },
+  {
+    "déménager": "girindi"
+  },
+  {
+    "prendre une poignée": "gobba"
+  },
+  {
+    "poignée": "gobbe"
+  },
+  {
+    "bracelet": "godonlenme"
+  },
+  {
+    "plomb": "godonxaye"
+  },
+  {
+    "goudron": "godoro"
+  },
+  {
+    "mortier, canon": "golle"
+  },
+  {
+    "travail": "golle"
+  },
+  {
+    "travailler": "golli"
+  },
+  {
+    "métier": "gollinraxa"
+  },
+  {
+    "collègues de travail": "golliɲallenma"
+  },
+  {
+    "travailleur": "golliɲaŋaana"
+  },
+  {
+    "affaire mauvaise(action mauvaise)": "golliɲaŋunte"
+  },
+  {
+    "cercle": "gomaar"
+  },
+  {
+    "s'asseoir tout seul avec tristesse": "gonbo"
+  },
+  {
+    "petit enfant": "gondangoora"
+  },
+  {
+    "pilon": "gondanme"
+  },
+  {
+    "conseiller": "gongondaana"
+  },
+  {
+    "conseil": "gongonde"
+  },
+  {
+    "estomac": "gonme"
+  },
+  {
+    "poing": "gonmore"
+  },
+  {
+    "donner un coup de poing": "gonmori"
+  },
+  {
+    "reptile": "gonxiila"
+  },
+  {
+    "gratté(être)": "googe"
+  },
+  {
+    "frotter(gratter, polir)": "googo"
+  },
+  {
+    "tanner(forger)": "gooli"
+  },
+  {
+    "cordonnerie": "gooliye"
+  },
+  {
+    "parc à bestiaux(troupeau)": "goore"
+  },
+  {
+    "contourner(dévier)": "goori"
+  },
+  {
+    "contours": "goorinda"
+  },
+  {
+    "déviation": "goorinde"
+  },
+  {
+    "contour": "goorindi"
+  },
+  {
+    "encercler": "goorinkatu"
+  },
+  {
+    "contourner": "gooriye"
+  },
+  {
+    "aigle": "gope"
+  },
+  {
+    "faire rabougrir": "goqe"
+  },
+  {
+    "vomissements": "goqe"
+  },
+  {
+    "rabougrir(faire)": "goqendi"
+  },
+  {
+    "rouillé(être)": "goqi"
+  },
+  {
+    "être rouillé": "goqo"
+  },
+  {
+    "quinquéliba": "gore"
+  },
+  {
+    "ligne de pêche": "gore"
+  },
+  {
+    "pêcher à la ligne": "gori"
+  },
+  {
+    "hameçon": "gorifunse"
+  },
+  {
+    "pêcheur": "gorindaana"
+  },
+  {
+    "pêche à la ligne": "gorinde"
+  },
+  {
+    "piler": "goro"
+  },
+  {
+    "noix de kola": "goro"
+  },
+  {
+    "crochet": "gorobe"
+  },
+  {
+    "se courber": "gorobi"
+  },
+  {
+    "faire courbé": "gorobindi"
+  },
+  {
+    "courbure": "gorobiye"
+  },
+  {
+    "intérêts": "goroxo"
+  },
+  {
+    "couvrir": "gosaasi"
+  },
+  {
+    "tromper": "goto"
+  },
+  {
+    "malin(rusé)": "gotonte"
+  },
+  {
+    "malice(habilité, ruse)": "gotoye"
+  },
+  {
+    "malin(malveillant)": "gotte"
+  },
+  {
+    "se rouiller(être rouillé)": "goxi"
+  },
+  {
+    "vomir": "goxu"
+  },
+  {
+    "protégé(garder)": "goyime"
+  },
+  {
+    "mariner": "gubaari"
+  },
+  {
+    "saigner du nez": "gubi"
+  },
+  {
+    "saignement de nez": "gubiye"
+  },
+  {
+    "épouse du frère du mari": "gubudo"
+  },
+  {
+    "testicules": "gubunu"
+  },
+  {
+    "couper en gros morceaux": "guda"
+  },
+  {
+    "natte en tige de mil": "gudaade"
+  },
+  {
+    "plier": "gudufu"
+  },
+  {
+    "tapis de peau d'un animal égorgé": "guja"
+  },
+  {
+    "caillou": "gulla"
+  },
+  {
+    "bastonner": "guma"
+  },
+  {
+    "mouton sans corne": "gumali"
+  },
+  {
+    "conte": "gunanŋe"
+  },
+  {
+    "grand trou(ravin, vallée)": "gunba"
+  },
+  {
+    "cruche": "gunbe"
+  },
+  {
+    "taureau(boeuf)": "gunbo"
+  },
+  {
+    "boxer": "gunburi"
+  },
+  {
+    "dire secrètement": "gunda"
+  },
+  {
+    "être en épiaison": "gunda"
+  },
+  {
+    "état de grossesse(pour l'animal)": "gunde"
+  },
+  {
+    "secret(confidence)": "gundo"
+  },
+  {
+    "animal sauvage": "gundufo"
+  },
+  {
+    "veuve": "gundunbaare"
+  },
+  {
+    "phacochère": "gundunfare"
+  },
+  {
+    "chacal": "gundunwulle"
+  },
+  {
+    "plante parfumée": "gungunme"
+  },
+  {
+    "désert": "gunjura"
+  },
+  {
+    "rouleau": "gunna"
+  },
+  {
+    "brousse": "gunne"
+  },
+  {
+    "île": "guŋe"
+  },
+  {
+    "cabane des cultivateurs, hutte des peuls": "gupe"
+  },
+  {
+    "trébucher": "guquri"
+  },
+  {
+    "tronc d'arbre": "guruda"
+  },
+  {
+    "hibou": "gurugute"
+  },
+  {
+    "défaire": "guruja"
+  },
+  {
+    "destructeur": "gurujandaana"
+  },
+  {
+    "destruction(démolition)": "gurujande"
+  },
+  {
+    "détruire(démolir, désunir)": "gurujandi"
+  },
+  {
+    "détruit(démoli)": "gurujante"
+  },
+  {
+    "courber": "gurumi"
+  },
+  {
+    "courber(faire)": "gurumindi"
+  },
+  {
+    "manteau": "gurumuse"
+  },
+  {
+    "blesser superficiellement ": "gurungaasi"
+  },
+  {
+    "bassin": "guruɲa"
+  },
+  {
+    "égrener du coton": "gurusi"
+  },
+  {
+    "l'égrainage du coton": "gurusinde"
+  },
+  {
+    "égrener": "gurusindi"
+  },
+  {
+    "plier": "gusu"
+  },
+  {
+    "mare temporaire": "guufa"
+  },
+  {
+    "regarder secrètement": "guuga"
+  },
+  {
+    "rugir": "guurunbe"
+  },
+  {
+    "rugissement": "guurunbeye"
+  },
+  {
+    "gémir(grogner)": "guutume"
+  },
+  {
+    "gémissement, grognement": "guutumeye"
+  },
+  {
+    "rat palmiste(écureuil)": "guwaane"
+  },
+  {
+    "pluie intermittente": "guwaaxe"
   }
 ]
