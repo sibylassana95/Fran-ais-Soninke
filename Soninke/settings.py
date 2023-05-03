@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -104,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fr-FR'
 
 TIME_ZONE = 'UTC'
 
@@ -128,3 +129,40 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+    # Welcome text on the login screen
+    "welcome_sign": "Bienvenue Siby",
+      # title of the window (Will default to current_admin_site.site_title if absent or None)
+    "site_title": "Français-Soninké",
+
+    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_header": "Français-Soninké",
+
+    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_brand": "Français-Soninké",
+     # Copyright on the footer
+    "copyright": "Français-Soninké",
+    "show_sidebar": True,
+
+    # Whether to aut expand the menu
+    "navigation_expanded": True,
+    "topmenu_links": [
+
+        # Url that gets reversed (Permissions can be added)
+        {"name": "Voir le site",  "url": "/", "permissions": ["auth.view_user"]},
+
+        # external url that opens in a new window (Permissions can be added)
+
+        # model admin to link to (Permissions checked against model)
+        {"model": "auth.User"},
+
+        # App with dropdown menu to all its models pages (Permissions checked against models)
+        {"app": "app"},
+    ],
+    
+    
+
+    
+}
+JAZZMIN_SETTINGS["show_ui_builder"] = True
