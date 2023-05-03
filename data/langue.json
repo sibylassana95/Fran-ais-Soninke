@@ -7483,5 +7483,704 @@
   },
   {
     "maintenant": "keeta"
+  },
+  {
+    "être solide(énergique, vigoureux)": "kende"
+  },
+  {
+    "rendre énergique": "kendendi"
+  },
+  {
+    "solide(énergique)": "kendente"
+  },
+  {
+    "vigueur(force)": "kendeye"
+  },
+  {
+    "parfum(odeur)": "kene"
+  },
+  {
+    "pintade": "kengele"
+  },
+  {
+    "pintade": "kenne"
+  },
+  {
+    "hâter": "keɲe"
+  },
+  {
+    "chauve-souris": "kerefuune"
+  },
+  {
+    "petit cheval maure": "kerekiba"
+  },
+  {
+    "poisson à 3 épines, 50cm": "kerelenŋe"
+  },
+  {
+    "tuer": "keri"
+  },
+  {
+    "être énergique(être actif)": "kese"
+  },
+  {
+    "être excessif": "kesefo"
+  },
+  {
+    "courageux(travailleur)": "kesente"
+  },
+  {
+    "remuer": "ketenbe"
+  },
+  {
+    "morceau": "kette"
+  },
+  {
+    "morceau d'épi": "kigise"
+  },
+  {
+    "baobab": "kiide"
+  },
+  {
+    "baobab planté": "kiidelasili"
+  },
+  {
+    "baobab des chacals(lissougar)": "kiidesaraane"
+  },
+  {
+    "esprit(intelligence)": "kiile"
+  },
+  {
+    "intelligence": "kiiluliŋoye"
+  },
+  {
+    "mari(mon propre mari)": "kiina"
+  },
+  {
+    "passer la saison sèche": "kiina"
+  },
+  {
+    "saison sèche et chaude": "kiinaye"
+  },
+  {
+    "mari(le mari de quelqu'un d'autre)": "kiine"
+  },
+  {
+    "mûrir(fruit)": "kiiso"
+  },
+  {
+    "juge": "kiitaana"
+  },
+  {
+    "procès(jugement)": "kiite"
+  },
+  {
+    "jour de jugement final": "kiitenkoota"
+  },
+  {
+    "juger": "kiiti"
+  },
+  {
+    "juge": "kiitikutaana(kiitindi)"
+  },
+  {
+    "chemin(route, piste, cours)": "kille"
+  },
+  {
+    "forcer?": "killifi"
+  },
+  {
+    "brigand(bandit)": "killimaxasaqaana"
+  },
+  {
+    "est(levant)": "kinbakka"
+  },
+  {
+    "crocodile(caïman)": "kine"
+  },
+  {
+    "branche d'arbre": "kinge"
+  },
+  {
+    "donner": "kini"
+  },
+  {
+    "cuisine": "kinŋu"
+  },
+  {
+    "midi(zénith)": "kinsiga"
+  },
+  {
+    "ouest(couchant)": "kinxenna"
+  },
+  {
+    "suffire à(être suffisant)": "kiɲa"
+  },
+  {
+    "transmettre un message": "kiɲandi"
+  },
+  {
+    "achèvement(transmission)": "kiɲandinde"
+  },
+  {
+    "arriver": "kiɲe(kiɲeye)"
+  },
+  {
+    "frapper avec le revers de la main": "kipa"
+  },
+  {
+    "passer la journée": "kira"
+  },
+  {
+    "l'endroit où on passe la journée": "kirala"
+  },
+  {
+    "passer la journée (faire)": "kirandi"
+  },
+  {
+    "cuivre": "kire"
+  },
+  {
+    "sauveur": "kisaana"
+  },
+  {
+    "être sauvé(s'échapper)": "kisi"
+  },
+  {
+    "Grand-père": "kisima"
+  },
+  {
+    "petit enfant(fils, fille)": "kisimare"
+  },
+  {
+    "sauveur": "kisindaana"
+  },
+  {
+    "salut": "kisinde"
+  },
+  {
+    "obtenir(gagner, recevoir, trouver, attraper)": "kita"
+  },
+  {
+    "livre": "kitaabe"
+  },
+  {
+    "bibliothèque": "kitaabinkonpe"
+  },
+  {
+    "obtenir": "kite"
+  },
+  {
+    "avoir enrichir(trouvé)": "kite"
+  },
+  {
+    "celui-là,(et autre là)": "kiteren"
+  },
+  {
+    "pouvoir(moyen)": "kiteye"
+  },
+  {
+    "bras(main)": "kitte"
+  },
+  {
+    "possessions": "kittidufo"
+  },
+  {
+    "aider": "kittikinne"
+  },
+  {
+    "implorer": "kittirakoyi"
+  },
+  {
+    "habile(adroit)": "kittiraliŋe"
+  },
+  {
+    "manuel": "kittirangolle"
+  },
+  {
+    "avarice": "kittiranxotaaxu"
+  },
+  {
+    "avare(pingre, ladre)": "kittiranxote"
+  },
+  {
+    "soleil(jour)": "kiye"
+  },
+  {
+    "pastèque": "kiye"
+  },
+  {
+    "qui(que)": "ko"
+  },
+  {
+    "dire": "ko"
+  },
+  {
+    "belle-soeur(beau-frère)": "kobi"
+  },
+  {
+    "creuser(piocher la première fois)": "kobi"
+  },
+  {
+    "mur": "kobi"
+  },
+  {
+    "caillou(gravier)": "koce"
+  },
+  {
+    "nuque": "kofe"
+  },
+  {
+    "être léger(ère)": "kofiye"
+  },
+  {
+    "dégringoler(s'écrouler)": "kokite"
+  },
+  {
+    "canard casqué": "kokoone"
+  },
+  {
+    "aigle à tête blanche": "kolice"
+  },
+  {
+    "terre de décrue": "kollanga"
+  },
+  {
+    "grand houe à manche courbé": "kolo"
+  },
+  {
+    "tambour à lèvres": "kolonkolaane"
+  },
+  {
+    "rouler": "kolonkolo"
+  },
+  {
+    "se mélanger": "kolonse"
+  },
+  {
+    "mélanger": "kolonso(kolonsondaana)"
+  },
+  {
+    "le fait de mélanger": "kolonsonde"
+  },
+  {
+    "mélangé": "kolonsonte"
+  },
+  {
+    "le mélange": "kolonsoye"
+  },
+  {
+    "sabot(trou pour mettre le pied)": "kolope"
+  },
+  {
+    "écosser(éplucher, écailler, enlever le fer d'un outil)": "kolosi"
+  },
+  {
+    "esclavage": "komaaxu"
+  },
+  {
+    "esclave(captif)": "kome"
+  },
+  {
+    "sein(mamelle, tétine, grappe)": "konbo"
+  },
+  {
+    "sein(mamelle, tétine, grappe; bout du sein, bout du mamelon)": "konbontorobe"
+  },
+  {
+    "pagne blanc": "konboxulle"
+  },
+  {
+    "être dit": "koni"
+  },
+  {
+    "secouer(frapper)": "konko"
+  },
+  {
+    "brousse(arrière pays)": "konkoso"
+  },
+  {
+    "parole": "konŋe"
+  },
+  {
+    "percuter en marchant": "konti"
+  },
+  {
+    "ne pas pouvoir(ne pas réussir)": "konto"
+  },
+  {
+    "faire manquer": "kontondi"
+  },
+  {
+    "régner(gouverner)": "kooma"
+  },
+  {
+    "coin": "kooɲi"
+  },
+  {
+    "être sec": "koore"
+  },
+  {
+    "cercle": "koore"
+  },
+  {
+    "contourner(entourer, cercle)": "koori"
+  },
+  {
+    "entouré(encerclé)": "koorinte"
+  },
+  {
+    "tarir": "kooro"
+  },
+  {
+    "faire sécher": "koorondi"
+  },
+  {
+    "celui qui gratte ": "koosaana"
+  },
+  {
+    "gratter": "koosi(koosindi)"
+  },
+  {
+    "grattage": "koosinde"
+  },
+  {
+    "le fait de gratter": "koosiye"
+  },
+  {
+    "vipère": "kooso"
+  },
+  {
+    "jour(journée)": "koota"
+  },
+  {
+    "exclamation(emphatique)": "kooyi"
+  },
+  {
+    "faire retourner les animaux": "kopa(kopandi)"
+  },
+  {
+    "se promener en brousse tout seul": "kopaliŋa"
+  },
+  {
+    "retourner": "kope"
+  },
+  {
+    "tasse": "kopu"
+  },
+  {
+    "famille": "kore"
+  },
+  {
+    "charbon": "kore"
+  },
+  {
+    "tamiser": "kori"
+  },
+  {
+    "ne pas pouvoir(ne pas arriver à, échouer)": "kori"
+  },
+  {
+    "pauvreté": "korintaaxu"
+  },
+  {
+    "le pauvre": "korinte"
+  },
+  {
+    "semoir": "koro"
+  },
+  {
+    "sabot": "korobinse"
+  },
+  {
+    "écorce": "korome"
+  },
+  {
+    "escabeau(petit tabouret de femme)": "korondonme"
+  },
+  {
+    "écaille": "koronme"
+  },
+  {
+    "observer(surveiller, faire attention)": "koroosi"
+  },
+  {
+    "le surveillant": "koroosindaana"
+  },
+  {
+    "la surveillance": "koroosinde"
+  },
+  {
+    "chapelet": "korosu"
+  },
+  {
+    "fétiche(sortilège, mauvais sort)": "korote"
+  },
+  {
+    "féticheur": "korotindaana"
+  },
+  {
+    "gale(teigne)": "kote"
+  },
+  {
+    "déplumer(cueillir)": "koti"
+  },
+  {
+    "coton": "kotolle"
+  },
+  {
+    "semaine": "koye"
+  },
+  {
+    "montrer(indiquer)": "koyi"
+  },
+  {
+    "donner quelque chose(offrir)": "ku"
+  },
+  {
+    "riz ou couscous sans sauce": "kuca"
+  },
+  {
+    "personne tranquillisante": "kudandaana"
+  },
+  {
+    "faire taire": "kudandi"
+  },
+  {
+    "calme(tranquillité, tranquille)": "kudante"
+  },
+  {
+    "se taire(se tranquilliser)": "kude"
+  },
+  {
+    "calme(tranquillité)": "kudeye"
+  },
+  {
+    "bonnet(chapeau)": "kufune"
+  },
+  {
+    "être trop(être beaucoup, enfler, abonder, s'altérer)": "kugu"
+  },
+  {
+    "se décrépir": "kuguli"
+  },
+  {
+    "coussinet(chiffon roulé servant à porter sur la tête)": "kulaade"
+  },
+  {
+    "réduire en coussinet": "kulaadi"
+  },
+  {
+    "se décrépir(s'effriter)": "kulubite"
+  },
+  {
+    "priver(déposséder)": "kuma"
+  },
+  {
+    "flamme(flammes)": "kuma"
+  },
+  {
+    "être privé de": "kume"
+  },
+  {
+    "Grand Calao d'Abyssinie": "kume"
+  },
+  {
+    "enflammer(allumer)": "kumu"
+  },
+  {
+    "jurer": "kuna"
+  },
+  {
+    "privé de choses": "kunamaxe"
+  },
+  {
+    "serment": "kunande"
+  },
+  {
+    "quartier": "kunda"
+  },
+  {
+    "tortue de terre": "kundiine"
+  },
+  {
+    "ainsi(comme ça)": "kundu"
+  },
+  {
+    "de race pure": "kunji"
+  },
+  {
+    "épaule": "kunke"
+  },
+  {
+    "galette de mil et d'arachide": "kunkutu"
+  },
+  {
+    "trou(dans la terre,fossé, mine)": "kunme"
+  },
+  {
+    "s'inquiéter d'une situation": "kunpa"
+  },
+  {
+    "clitoris": "kunto"
+  },
+  {
+    "sphère": "kuntuura"
+  },
+  {
+    "ensuite( alors, donc)": "kuŋa"
+  },
+  {
+    "renvoyer": "kupa"
+  },
+  {
+    "se retourner(se renverser)": "kupe"
+  },
+  {
+    "accuser(réprimander)": "kuralli"
+  },
+  {
+    "soldat": "kuranlenma"
+  },
+  {
+    "armée": "kure"
+  },
+  {
+    "armée(bataillon)": "kurenkitte"
+  },
+  {
+    "brouillard": "kuroro"
+  },
+  {
+    "paille à seccos": "kurudume"
+  },
+  {
+    "chapeau de paille": "kurufe"
+  },
+  {
+    "grenier en banco": "kurukuru"
+  },
+  {
+    "vite(aussitôt, bientôt)": "kuruma"
+  },
+  {
+    "serpent(variété)": "kuruminte"
+  },
+  {
+    "marcher à quatre pattes": "kurumu"
+  },
+  {
+    "nouveau(neuf)": "kurunba"
+  },
+  {
+    "renouveller": "kurunbaaxu"
+  },
+  {
+    "tomber(mûr, bâtiment)": "kurupe"
+  },
+  {
+    "griot de Kusa": "kusantage"
+  },
+  {
+    "pays Kusa": "kusata"
+  },
+  {
+    "contredire(désobéir à)": "kuta"
+  },
+  {
+    "rive(côté)": "kuta"
+  },
+  {
+    "action de contredire": "kutande"
+  },
+  {
+    "nier": "kute"
+  },
+  {
+    "couper": "kuti"
+  },
+  {
+    "reste": "kutte"
+  },
+  {
+    "couper(trancher)": "kutu"
+  },
+  {
+    "parcourir": "kutundi"
+  },
+  {
+    "teigne(des cheveux)": "kutunkuto"
+  },
+  {
+    "circoncis": "kutunte"
+  },
+  {
+    "pour que": "kuudo"
+  },
+  {
+    "glorifier(louer Dieu)": "kuufa"
+  },
+  {
+    "remercier(Dieu)": "kuufandi"
+  },
+  {
+    "calao d'Abyssinie": "kuume"
+  },
+  {
+    "tortue": "kuuɲa"
+  },
+  {
+    "saluer": "kuuɲi"
+  },
+  {
+    "salutation": "kuuɲinde"
+  },
+  {
+    "faire la salutation": "kuuɲindi"
+  },
+  {
+    "prospérer(combler de biens)": "kuura"
+  },
+  {
+    "prospérer": "kuure"
+  },
+  {
+    "se taire": "kuuru"
+  },
+  {
+    "faire taire": "kuurundi"
+  },
+  {
+    "panse(estomac des ruminants)": "kuuse"
+  },
+  {
+    "ébruiter": "kuusu"
+  },
+  {
+    "marcher lentement": "kuusukaasa"
+  },
+  {
+    "grand bruit": "kuusuye"
+  },
+  {
+    "varan sauvage(gueule tapée)": "kuuto"
+  },
+  {
+    "cadeau(don)": "kuye"
+  },
+  {
+    "rêve": "kuye"
+  },
+  {
+    "offrir(gratifier, donner)": "kuyi"
+  },
+  {
+    "rêver": "kuyi"
+  },
+  {
+    "celui qui donne un cadeau": "kuyindaana"
+  },
+  {
+    "faire un cadeau": "kuyindi"
   }
 ]
