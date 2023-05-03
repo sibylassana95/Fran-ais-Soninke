@@ -43,7 +43,7 @@ Created by **[Lassana SIBY](https://github.com/sibylassana95)**
 
 Les contributions sont les bienvenues! Si vous souhaitez contribuer, veuillez ouvrir une pull request.
 
-## 📝 LLicense
+## 📝 License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
