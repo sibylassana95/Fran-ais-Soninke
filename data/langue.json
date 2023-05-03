@@ -6997,5 +6997,491 @@
   },
   {
     "mouton qui a beaucoup de laine": "juxuba"
+  },
+  {
+    "insulter": "ka"
+  },
+  {
+    "maison(concession)": "kaa"
+  },
+  {
+    "bavarder(causer)": "kaaca"
+  },
+  {
+    "habitant d'une concession": "kaadunke"
+  },
+  {
+    "sabre(épée)": "kaafa"
+  },
+  {
+    "chef de la famille": "kaagume"
+  },
+  {
+    "ruines": "kaajo"
+  },
+  {
+    "voile des femmes(ou des hommes)": "kaala"
+  },
+  {
+    "minuit": "kaanana"
+  },
+  {
+    "dirigeant(leader)": "kaananke"
+  },
+  {
+    "avant": "kaane"
+  },
+  {
+    "dépasser(résister, rebuter)": "kaaɲa"
+  },
+  {
+    "chez soi(vers, à côté de, pays)": "kaara"
+  },
+  {
+    "revers(verso)": "kaarabure"
+  },
+  {
+    "inhospitalier": "kaaranbure"
+  },
+  {
+    "hospitalier": "kaaransire"
+  },
+  {
+    "recto": "kaarasire"
+  },
+  {
+    "être gentil(être généreux)": "kaari"
+  },
+  {
+    "autour": "kaaro"
+  },
+  {
+    "verre(à thé)": "kaasi"
+  },
+  {
+    "tel,(telle)": "kaati"
+  },
+  {
+    "être sec(s'assécher)": "kaawa"
+  },
+  {
+    "s'étonner": "kaawa"
+  },
+  {
+    "respecter": "kaawa"
+  },
+  {
+    "miracle surprise": "kaawafi"
+  },
+  {
+    "miracle(mystère)": "kaawande"
+  },
+  {
+    "sécher": "kaawandi"
+  },
+  {
+    "miracle(faire)": "kaawandi"
+  },
+  {
+    "Point d’exclamation": "Kaawatonbe"
+  },
+  {
+    "sécheresse": "kaawaye"
+  },
+  {
+    "oncle maternel": "kaawu"
+  },
+  {
+    "papier": "kaayiti"
+  },
+  {
+    "empêcher(interdire)": "kaba"
+  },
+  {
+    "pierre à affûter(à aiguiser)": "kaba"
+  },
+  {
+    "couvercle": "kaba"
+  },
+  {
+    "nuages": "kaba"
+  },
+  {
+    "interdit": "kabante(kabe)"
+  },
+  {
+    "corde(lien)": "kace"
+  },
+  {
+    "hamac": "kacingolle"
+  },
+  {
+    "beau frère": "kacinlenma"
+  },
+  {
+    "serpent": "kacinte"
+  },
+  {
+    "habitants d'une maison": "kadunko"
+  },
+  {
+    "sacrifice qui couvre des péchés": "kafaara"
+  },
+  {
+    "bande de coton": "kafe"
+  },
+  {
+    "être ensemble": "kafi"
+  },
+  {
+    "plus(et)": "kafini"
+  },
+  {
+    "non-musulman(non-croyant)": "kafiri"
+  },
+  {
+    "association(communauté, parti)": "kafo"
+  },
+  {
+    "réunir(ajouter, se réunir)": "kafu"
+  },
+  {
+    "action de réunir": "kafumande"
+  },
+  {
+    "addition": "kafumante(kafunde)"
+  },
+  {
+    "réunion": "kafundo"
+  },
+  {
+    "gratter": "kaga"
+  },
+  {
+    "l'endroit où le mil a été vanné": "kagandaare"
+  },
+  {
+    "balle du mil(fane du mil)": "kage"
+  },
+  {
+    "propriétaire de la maison": "kagume"
+  },
+  {
+    "débauché": "kakala"
+  },
+  {
+    "piège pour attraper des animaux": "kalanŋe"
+  },
+  {
+    "fard pour noircir les sourcils": "kali"
+  },
+  {
+    "mourir": "kalla"
+  },
+  {
+    "un mort(un défunt, un décédé)": "kallaana"
+  },
+  {
+    "relation entre le mari et les parents de son épouse": "kallaaxu"
+  },
+  {
+    "bien côté": "kallanke"
+  },
+  {
+    "extraordinaire(puissant)": "kallaŋunte"
+  },
+  {
+    "la mort": "kalle"
+  },
+  {
+    "tuer": "kalli"
+  },
+  {
+    "travail effectué pour ses beaux parents": "kallungolle"
+  },
+  {
+    "parent ou allié à plaisanterie, cousin(e)": "kallungoora"
+  },
+  {
+    "belle-fille": "kalluyaxare"
+  },
+  {
+    "maître(propriétaire, seigneur, détenteur)": "kamaane"
+  },
+  {
+    "seigneur": "kamane"
+  },
+  {
+    "cent": "kame"
+  },
+  {
+    "camisole": "kamisole"
+  },
+  {
+    "quel(déterminant interrogatif)": "kan"
+  },
+  {
+    "celui qui croque": "kanbaana"
+  },
+  {
+    "mâchoire": "kanbangolle"
+  },
+  {
+    "qui a des dents": "kanbante"
+  },
+  {
+    "gomme arabique": "kanbare"
+  },
+  {
+    "dent": "kanbe"
+  },
+  {
+    "cure-dent": "kanbedoosaade"
+  },
+  {
+    "cour de la maison": "kanbera"
+  },
+  {
+    "croqué(mâché)": "kanbi"
+  },
+  {
+    "croquer(mâcher, mastiquer)": "kanbu"
+  },
+  {
+    "celui qui croque": "kanbundaana"
+  },
+  {
+    "action de croquer(de mastiquer)": "kanbunde"
+  },
+  {
+    "croquer(mastiquer)": "kanbundi"
+  },
+  {
+    "orienter(diriger, s'opposer à)": "kanda"
+  },
+  {
+    "merveilleux(impressionnant)": "kandara"
+  },
+  {
+    "panier": "kande"
+  },
+  {
+    "décider": "kande"
+  },
+  {
+    "décision": "kandeye"
+  },
+  {
+    "zone entourant le village": "kanfalle"
+  },
+  {
+    "lapin(lièvre)": "kanjaane"
+  },
+  {
+    "Calao(à bec rouge)": "kanjanbare"
+  },
+  {
+    "pluie": "kanji(kanme)"
+  },
+  {
+    "aube": "kanka"
+  },
+  {
+    "tempe": "kankanbara"
+  },
+  {
+    "dessus(sur)": "kanma"
+  },
+  {
+    "foudre": "kanmenyide"
+  },
+  {
+    "ciel(en haut)": "kanmu"
+  },
+  {
+    "Dieu des cieux et de la terre": "Kanmunin do ɲiiɲen kama"
+  },
+  {
+    "cadenas(serrure)": "kannaara"
+  },
+  {
+    "peur": "kanne"
+  },
+  {
+    "or": "kanŋe"
+  },
+  {
+    "aile(pan, bord)": "kanpe"
+  },
+  {
+    "voler": "kanpi"
+  },
+  {
+    "nuage(orage)": "kanpina"
+  },
+  {
+    "voler(faire)": "kanpindi"
+  },
+  {
+    "craindre(avoir peur)": "kanu"
+  },
+  {
+    "faire peur": "kanundi"
+  },
+  {
+    "choses qui fait peur": "kanuntanho"
+  },
+  {
+    "peur(crainte)": "kanuye"
+  },
+  {
+    "ciel": "kanxotte"
+  },
+  {
+    "camarade(compagnon dans un groupe)": "kapanlenma"
+  },
+  {
+    "camaraderie": "kapanlenmaaxu"
+  },
+  {
+    "réunion(rassemblement)": "kape"
+  },
+  {
+    "traverser": "kara"
+  },
+  {
+    "mourir": "kara"
+  },
+  {
+    "obliger(précipiter, forcer)": "karaba"
+  },
+  {
+    "le fait de forcer(d'obliger)": "karabande"
+  },
+  {
+    "précipitation": "karabantaaxu"
+  },
+  {
+    "forcé(inopiné, inattendu)": "karabante"
+  },
+  {
+    "accélération(précipitions)": "karabaye"
+  },
+  {
+    "forcer(précipiter)": "karabe"
+  },
+  {
+    "vautour(épervier,  martin pêcheur)": "karadige"
+  },
+  {
+    "épice(condiment)": "karado"
+  },
+  {
+    "rapidement": "karama"
+  },
+  {
+    "démolition": "karande"
+  },
+  {
+    "faire casser": "karandi"
+  },
+  {
+    "tibia": "karankare"
+  },
+  {
+    "tuer": "kari(karindi)"
+  },
+  {
+    "assassin": "karindaana"
+  },
+  {
+    "caqueter(pondre, avoir des oeufs dans le ventre)": "kasa"
+  },
+  {
+    "malheur(accident)": "kasaara"
+  },
+  {
+    "être excessif(s'épaissir)": "kasafo"
+  },
+  {
+    "exagérer": "kasafondi"
+  },
+  {
+    "ensevelir(envelopper dans un linceul)": "kasanka"
+  },
+  {
+    "l'action d'envelopper dans un linceul": "kasankande"
+  },
+  {
+    "linceul": "kasanke"
+  },
+  {
+    "excessif(énorme)": "kasape"
+  },
+  {
+    "herbe comestible": "kase"
+  },
+  {
+    "prison": "kaso"
+  },
+  {
+    "prisonnier": "kasolanke"
+  },
+  {
+    "emprisonner": "kasorankaaxu"
+  },
+  {
+    "contrepartie(complément)": "katanlenma"
+  },
+  {
+    "être gras": "kate"
+  },
+  {
+    "être frappé(être battu)": "kati"
+  },
+  {
+    "poinçon des forgerons": "katile"
+  },
+  {
+    "être gras(être gros)": "kato"
+  },
+  {
+    "graisse": "katoye"
+  },
+  {
+    "fusillade(charge de poudre)": "katta"
+  },
+  {
+    "vers(en direction de)": "katta"
+  },
+  {
+    "frapper(battre, parier)": "katu"
+  },
+  {
+    "accorder(régler, conclure, nouer)": "katu"
+  },
+  {
+    "pouvoir(connaissance)": "katurangolle"
+  },
+  {
+    "faire accoupler une jument": "kawandi"
+  },
+  {
+    "prêcher": "kawandi"
+  },
+  {
+    "palmier rônier": "kaye"
+  },
+  {
+    "être insulté": "kayi"
+  },
+  {
+    "insulte(impoli)": "kayinde"
+  },
+  {
+    "insulter": "kayindi"
+  },
+  {
+    "maintenant": "keeta"
   }
 ]
