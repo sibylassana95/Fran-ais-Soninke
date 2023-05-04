@@ -16900,5 +16900,275 @@
   },
   {
     "se cacher": "fuxu"
+  },
+  {
+    "onze": "tanmu do baane"
+  },
+  {
+    "douze": "tanmu do fillo"
+  },
+  {
+    "treize": "tanmu do sikko"
+  },
+  {
+    "quatorze": "tanmu do naxato"
+  },
+  {
+    "quinze": "tanmu do karago"
+  },
+  {
+    "seize": "tanmu do tumu"
+  },
+  {
+    "dix-sept": "tanmu do nyeru"
+  },
+  {
+    "dix-huit": "tanmu do segu"
+  },
+  {
+    "dix-neuf": "tanmu do kabu"
+  },
+  {
+    "vingt": "tanpille"
+  },
+  {
+    "vingt-et-un": "tanpille do baane"
+  },
+  {
+    "vingt-deux": "tanpille do fillo"
+  },
+  {
+    "vingt-trois": "tanpille do sikko"
+  },
+  {
+    "vingt-quatre": "tanpille do naxato"
+  },
+  {
+    "vingt-cinq": "tanpille do karago"
+  },
+  {
+    "vingt-six": "tanpille do tumu"
+  },
+  {
+    "vingt-sept": "tanpille do nyeru"
+  },
+  {
+    "vingt-huit": "tanpille do segu"
+  },
+  {
+    "vingt-neuf": "tanpille do kabu"
+  },
+  {
+    "trente": "tanjikke"
+  },
+  {
+    "trente-et-un": "tanjikke do baane"
+  },
+  {
+    "trente-deux": "tanjikke do fillo"
+  },
+  {
+    "trente-trois": "tanjikke do sikko"
+  },
+  {
+    "trente-quatre": "tanjikke do naxato"
+  },
+  {
+    "trente-cinq": "tanjikke do karago"
+  },
+  {
+    "trente-six": "tanjikke do tumu"
+  },
+  {
+    "trente-sept": "tanjikke do nyeru"
+  },
+  {
+    "trente-huit": "tanjikke  do segu"
+  },
+  {
+    "trente-neuf": "tanjikke do kabu"
+  },
+  {
+    "quarante": "tanaxate"
+  },
+  {
+    "quarante-et-un": "tanaxate do baane"
+  },
+  {
+    "quarante-deux": "tanaxate do fillo"
+  },
+  {
+    "quarante-trois": "tanaxate  do sikko"
+  },
+  {
+    "quarante-quatre": "tanaxate do naxato"
+  },
+  {
+    "quarante-cinq": "tanaxate do karago"
+  },
+  {
+    "quarante-six": "tanaxate do tumu"
+  },
+  {
+    "quarante-sept": "tanaxate do nyeru"
+  },
+  {
+    "quarante-huit": "tanaxate  do segu"
+  },
+  {
+    "quarante-neuf": "tanaxate do kabu"
+  },
+  {
+    "cinquante": "tankarage"
+  },
+  {
+    "cinquante-et-un": "tankarage  do baane"
+  },
+  {
+    "cinquante-deux": "tankarage do fillo"
+  },
+  {
+    "cinquante-trois": "tankarage do sikko"
+  },
+  {
+    "cinquante-quatre": "tankarage do naxato"
+  },
+  {
+    "cinquante-cinq": "tankarage do karago"
+  },
+  {
+    "cinquante-six": "tankarage do tumu"
+  },
+  {
+    "cinquante-sept": "tankarage do nyeru"
+  },
+  {
+    "cinquante-huit": "tankarage do segu"
+  },
+  {
+    "cinquante-neuf": "tankarage do kabu"
+  },
+  {
+    "soixante": "tandunme"
+  },
+  {
+    "soixante-et-un": "tandunme do baane"
+  },
+  {
+    "soixante-deux": "tandunme do fillo"
+  },
+  {
+    "soixante-trois": "tandunme do sikko"
+  },
+  {
+    "soixante-quatre": "tandunme do naxato"
+  },
+  {
+    "soixante-cinq": "tandunme do karago"
+  },
+  {
+    "soixante-six": "tandunme do tumu"
+  },
+  {
+    "soixante-sept": "tandunme do nyeru"
+  },
+  {
+    "soixante-huit": "tandunme do segu"
+  },
+  {
+    "soixante-neuf": "tandunme do kabu"
+  },
+  {
+    "soixante-dix": "tannyere"
+  },
+  {
+    "soixante-et-onze": "tannyere do baane"
+  },
+  {
+    "soixante-douze": "tannyere do fillo"
+  },
+  {
+    "soixante-treize": "tannyere do sikko"
+  },
+  {
+    "soixante-quatorze": "tannyere do naxato"
+  },
+  {
+    "soixante-quinze": "tannyere do karago"
+  },
+  {
+    "soixante-seize": "tannyere do tumu"
+  },
+  {
+    "soixante-dix-sept": "tannyere do nyeru"
+  },
+  {
+    "soixante-dix-huit": "tannyere do segu"
+  },
+  {
+    "soixante-dix-neuf": "tannyere do kabu"
+  },
+  {
+    "quatre-vingts": "tansege"
+  },
+  {
+    "quatre-vingt-un": "tansege do baane"
+  },
+  {
+    "quatre-vingt-deux": "tansege do fillo"
+  },
+  {
+    "quatre-vingt-trois": "tansege do sikko"
+  },
+  {
+    "quatre-vingt-quatre": "tansege do naxato"
+  },
+  {
+    "quatre-vingt-cinq": "tansege do karago"
+  },
+  {
+    "quatre-vingt-six": "tansege do tumu"
+  },
+  {
+    "quatre-vingt-sept": "tansege do nyeru"
+  },
+  {
+    "quatre-vingt-huit": "tansege do segu"
+  },
+  {
+    "quatre-vingt-neuf": "tansege do kabu"
+  },
+  {
+    "quatre-vingt-dix": "tankabe"
+  },
+  {
+    "quatre-vingt-onze": "tankabe  do baane"
+  },
+  {
+    "quatre-vingt-douze": "tankabe do fillo"
+  },
+  {
+    "quatre-vingt-treize": "tankabe do sikko"
+  },
+  {
+    "quatre-vingt-quatorze": "tankabe do naxato"
+  },
+  {
+    "quatre-vingt-quinze": "tankabe do karago"
+  },
+  {
+    "quatre-vingt-seize": "tankabe  do tumu"
+  },
+  {
+    "quatre-vingt-dix-sept": "tankabe do nyeru"
+  },
+  {
+    "quatre-vingt-dix-huit": "tankabe   do segu"
+  },
+  {
+    "quatre-vingt-dix-neuf": "tankabe   do kabu"
+  },
+  {
+    "cent": "kame"
   }
 ]
