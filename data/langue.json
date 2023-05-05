@@ -17172,10 +17172,330 @@
     "cent": "kame"
   },
   {
-    "1":"banne"
+    "1": "banne"
   },
   {
-    "2":"fillo"
+    "2": "fillo"
+  },
+  {
+    "3": "sikko"
+  },
+  {
+    "4": "naxato"
+  },
+  {
+    "5": "karago"
+  },
+  {
+    "6": "tumu"
+  },
+  {
+    "7": "nyeru"
+  },
+  {
+    "8": "segu"
+  },
+  {
+    "9": "kabu"
+  },
+  {
+    "10": "tanmu"
+  },
+  {
+    "11": "tanmu do baane"
+  },
+  {
+    "12": "tanmu do fillo"
+  },
+  {
+    "13": "tanmu do sikko"
+  },
+  {
+    "14": "tanmu do naxato"
+  },
+  {
+    "15": "tanmu do karago"
+  },
+  {
+    "16": "tanmu do tumu"
+  },
+  {
+    "17": "tanmu do nyeru"
+  },
+  {
+    "18": "tanmu do segu"
+  },
+  {
+    "19": "tanmu do kabu"
+  },
+  {
+    "20": "tanpille"
+  },
+  {
+    "21": "tanpille do baane"
+  },
+  {
+    "22": "tanpille do fillo"
+  },
+  {
+    "23": "tanpille do sikko"
+  },
+  {
+    "24": "tanpille do naxato"
+  },
+  {
+    "25": "tanpille do karago"
+  },
+  {
+    "26": "tanpille do tumu"
+  },
+  {
+    "27": "tanpille do nyeru"
+  },
+  {
+    "28": "tanpille do segu"
+  },
+  {
+    "29": "tanpille do kabu"
+  },
+  {
+    "30": "tanjikke"
+  },
+  {
+    "31": "tanjikke do baane"
+  },
+  {
+    "32": "tanjikke do fillo"
+  },
+  {
+    "33": "tanjikke do sikko"
+  },
+  {
+    "34": "tanjikke do naxato"
+  },
+  {
+    "35": "tanjikke do karago"
+  },
+  {
+    "36": "tanjikke do tumu"
+  },
+  {
+    "37": "tanjikke do nyeru"
+  },
+  {
+    "38": "tanjikke do segu"
+  },
+  {
+    "39": "tanjikke do kabu"
+  },
+  {
+    "40": "tanaxate"
+  },
+  {
+    "41": "tanaxate do baane"
+  },
+  {
+    "42": "tanaxate do fillo"
+  },
+  {
+    "43": "tanaxate do sikko"
+  },
+  {
+    "44": "tanaxate do naxato"
+  },
+  {
+    "45": "tanaxate do karago"
+  },
+  {
+    "46": "tanaxate do tumu"
+  },
+  {
+    "47": "tanaxate do nyeru"
+  },
+  {
+    "48": "tanaxate do segu"
+  },
+  {
+    "49": "tanaxate do kabu"
+  },
+  {
+    "50": "tankarage"
+  },
+  {
+    "51": "tankarage do baane"
+  },
+  {
+    "52": "tankarage do fillo"
+  },
+  {
+    "53": "tankarage do sikko"
+  },
+  {
+    "54": "tankarage do naxato"
+  },
+  {
+    "55": "tankarage do karago"
+  },
+  {
+    "56": "tankarage do tumu"
+  },
+  {
+    "57": "tankarage do nyeru"
+  },
+  {
+    "58": "tankarage do segu"
+  },
+  {
+    "59": "tankarage do kabu"
+  },
+  {
+    "51": "tankarage do baane"
+  },
+  {
+    "52": "tankarage do fillo"
+  },
+  {
+    "53": "tankarage do sikko"
+  },
+  {
+    "54": "tankarage do naxato"
+  },
+  {
+    "55": "tankarage do karago"
+  },
+  {
+    "56": "tankarage do tumu"
+  },
+  {
+    "57": "tankarage do nyeru"
+  },
+  {
+    "58": "tankarage do segu"
+  },
+  {
+    "59": "tankarage do kabu"
+  },
+  {
+    "60": "tandunme"
+  },
+  {
+    "61": "tandunme do baane"
+  },
+  {
+    "62": "tandunme do fillo"
+  },
+  {
+    "63": "tandunme do sikko"
+  },
+  {
+    "64": "tandunme do naxato"
+  },
+  {
+    "65": "tandunme do karago"
+  },
+  {
+    "66": "tandunme do tumu"
+  },
+  {
+    "67": "tandunme do nyeru"
+  },
+  {
+    "68": "tandunme do segu"
+  },
+  {
+    "69": "tandunme do kabu"
+  },
+  {
+    "70": "tannyere"
+  },
+  {
+    "71": "tannyere do baane"
+  },
+  {
+    "72": "tannyere do fillo"
+  },
+  {
+    "73": "tannyere do sikko"
+  },
+  {
+    "74": "tannyere do naxato"
+  },
+  {
+    "75": "tannyere do karago"
+  },
+  {
+    "76": "tannyere do tumu"
+  },
+  {
+    "77": "tannyere do nyeru"
+  },
+  {
+    "78": "tannyere do segu"
+  },
+  {
+    "79": "tannyere do kabu"
+  },
+  {
+    "80": "tansege"
+  },
+  {
+    "81": "tansege do baane"
+  },
+  {
+    "82": "tansege do fillo"
+  },
+  {
+    "83": "tansege do sikko"
+  },
+  {
+    "84": "tansege do naxato"
+  },
+  {
+    "85": "tansege do karago"
+  },
+  {
+    "86": "tansege do tumu"
+  },
+  {
+    "87": "tansege do nyeru"
+  },
+  {
+    "88": "tansege do segu"
+  },
+  {
+    "89": "tansege do kabu"
+  },
+  {
+    "90": "tankabe"
+  },
+  {
+    "91": "tankabe do baane"
+  },
+  {
+    "92": "tankabe do fillo"
+  },
+  {
+    "93": "tankabe do sikko"
+  },
+  {
+    "94": "tankabe do naxato"
+  },
+  {
+    "95": "tankabe do karago"
+  },
+  {
+    "96": "tankabe do tumu"
+  },
+  {
+    "97": "tankabe do nyeru"
+  },
+  {
+    "98": "tankabe do segu"
+  },
+  {
+    "99": "tankabe do kabu"
+  },
+  {
+    "100": "kamme"
   }
-
 ]
