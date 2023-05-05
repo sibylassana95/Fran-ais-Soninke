@@ -10,7 +10,7 @@ def suggestions(request):
     phrase_francaise = request.GET.get('phrase', '')
     suggestions = []
     if phrase_francaise:
-        suggestions = Traduction.objects.filter(Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)).values_list('francais', flat=True)[:5]
+        suggestions = Traduction.objects.filter(Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)).values_list('francais', flat=True)[:10]
     return JsonResponse(list(suggestions), safe=False)
 
 
