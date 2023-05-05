@@ -22,7 +22,7 @@ def suggestions(request):
         # Utiliser la méthode "values" pour ne récupérer que la colonne "francais"
         suggestions_qs = Traduction.objects.filter(
             Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)
-        ).values('francais')[:5]
+        ).values('francais')[:10]
         suggestions = [s['francais'] for s in suggestions_qs]
     return JsonResponse(suggestions, safe=False)
 
@@ -36,7 +36,7 @@ def traduction(request):
         # Utiliser la méthode "values" pour ne récupérer que la colonne "francais"
         suggestions_qs = Traduction.objects.filter(
             Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)
-        ).values('francais')[:5]
+        ).values('francais')[:10]
         suggestions = [s['francais'] for s in suggestions_qs]
 
     traduction_soninke = ''
