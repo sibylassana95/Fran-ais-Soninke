@@ -47,6 +47,19 @@ def traduction(request):
             traduction_soninke = "Traduction indisponible pour l'instant"
     return render(request, 'index.html', {'traduction_soninke': traduction_soninke, 'suggestions': suggestions, 'phrase_francaise': phrase_francaise})
 
+def traductionauto(request):
+    url = "https://raw.githubusercontent.com/sibylassana95/Fran-ais-Soninke/main/data/langue.json"
+    response = requests.get(url)
+    data = json.loads(response.text)
+    for traduction in data:
+        francais = list(traduction.keys())[0]
+        soninke = list(traduction.values())[0]
+        francais = francais.capitalize()
+        if not Traduction.objects.filter(francais=francais).exists():
+            Traduction.objects.create(francais=francais, soninke=soninke)
+
+    return render(request, 'auto.html')
+
 
 
 
