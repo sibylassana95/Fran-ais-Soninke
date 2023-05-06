@@ -2,8 +2,10 @@ import json
 import requests
 from django.db.models import Q
 from django.http import JsonResponse
-from django.shortcuts import render
-from .models import Traduction
+from .models import Traduction,Contribution
+from django.shortcuts import render, redirect
+from django.contrib import messages
+
 
 # Charger les données de traduction en mémoire à l'initialisation de l'application
 url = "https://raw.githubusercontent.com/sibylassana95/Fran-ais-Soninke/main/data/langue.json"
@@ -61,6 +63,19 @@ def traductionauto(request):
     return render(request, 'auto.html')
 
 
+
+def contribution(request):
+    if request.method == 'POST':
+        nom_complet = request.POST.get('nom_complet')
+        francais = request.POST.get('francais')
+        soninke = request.POST.get('soninke')
+        if len(nom_complet) > 30 or len(francais) > 30 or len(soninke) > 30:
+            messages.error(request, 'Les mots ne doivent pas dépasser 30 caractères.')
+        else:
+            contribution = Contribution.objects.create(nom_complet=nom_complet, francais=francais, soninke=soninke)
+            messages.success(request, 'Votre contribution a été ajoutée avec succès.')
+            return redirect('contribution')
+    return render(request, 'contribution.html')
 
 
 def about(request):

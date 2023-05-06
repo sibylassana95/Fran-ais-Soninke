@@ -17497,5 +17497,446 @@
   },
   {
     "100": "kamme"
+  },
+  {
+    "Saison des pluies": "Xaaxo"
+  },
+  {
+    "Après la saison des Pluies": "Kawle (Saamaama)"
+  },
+  {
+    "Saison froide": " Mulle"
+  },
+  {
+    "Saison sèche": "Kiineye"
+  },
+  {
+    "Avant la saison des pluies": "Kandara"
+  },
+  {
+    "Ennemi": "Xoné"
+  },
+  {
+    "Coépouse": "Téyiné"
+  },
+  {
+    "Chef de famille": "Kagoumé"
+  },
+  {
+    "Vieille homme": "Yigou xassé"
+  },
+  {
+    "Vieille femme": "Yaxari nxassé"
+  },
+  {
+    "Aîné de la famille": "Soma"
+  },
+  {
+    "Cadet de la famille": "Léguéré"
+  },
+  {
+    "Cadet": "Yaxido"
+  },
+  {
+    "nord": "saayeli(saaheli)"
+  },
+  {
+    "sud": " banboxu"
+  },
+  {
+    "est": "kinbakka"
+  },
+  {
+    "ouest": "kinxenna"
+  },
+  {
+    "abeille": "tulle"
+  },
+  {
+    "agneau": "jaxallenbexela"
+  },
+  {
+    "aigle": "goppe"
+  },
+  {
+    "âne": "fare"
+  },
+  {
+    "araignée": "sanbamiranjaala"
+  },
+  {
+    "autruche": "firige"
+  },
+  {
+    "canard": "wandalle"
+  },
+  {
+    "cerf": "ginjinganja"
+  },
+  {
+    "chameau": "ñogome"
+  },
+  {
+    "chat": "muusuune, ñunqume"
+  },
+  {
+    "cheval": "si"
+  },
+  {
+    "chèvre": "sugo"
+  },
+  {
+    "chien": "wulle"
+  },
+  {
+    "cochon": "faringije"
+  },
+  {
+    "coq": "ganma"
+  },
+  {
+    "crapaud": "fantanŋe"
+  },
+  {
+    "crocodile": "kine"
+  },
+  {
+    "écureuil": "guwaane"
+  },
+  {
+    "éléphant": "tuure"
+  },
+  {
+    "escargot": "tanboxodoone"
+  },
+  {
+    "fourmi": "xingiñe, boroxonñille"
+  },
+  {
+    "girafe": "tibille, gundunñogome"
+  },
+  {
+    "gorille": "fununbinne"
+  },
+  {
+    "grenouille": "fantanjallaane"
+  },
+  {
+    "guêpe": "jaame"
+  },
+  {
+    "hérisson": "tanqulle"
+  },
+  {
+    "hibou": "gurugutte"
+  },
+  {
+    "hippopotame": "yingaame"
+  },
+  {
+    "insecte": "fuuñe"
+  },
+  {
+    "lapin": "kaadunkanjaane"
+  },
+  {
+    "léopard": "jaagaabe"
+  },
+  {
+    "lézard": "bakkaane"
+  },
+  {
+    "lièvre": "gundunkanjaane"
+  },
+  {
+    "lion": "jerinte"
+  },
+  {
+    "loup": "gundun-wulle"
+  },
+  {
+    "mouche": "suwanne"
+  },
+  {
+    "moustique": "sirime"
+  },
+  {
+    "mouton": "jaxe"
+  },
+  {
+    "oiseau": "yeliŋe"
+  },
+  {
+    "panthère": "jaagaabe"
+  },
+  {
+    "papillon": "moodillenme"
+  },
+  {
+    "perroquet": "ceero"
+  },
+  {
+    "pigeon": "boore"
+  },
+  {
+    "poisson": "ñexe"
+  },
+  {
+    "poule": "sellin-yaxare"
+  },
+  {
+    "puce": "fette"
+  },
+  {
+    "rat": "gaja, ñiiñanbinne"
+  },
+  {
+    "renard": "boyi, boyinaajo, boyinaare"
+  },
+  {
+    "rhinocéros": "karakataane"
+  },
+  {
+    "sangsue": "ñecce"
+  },
+  {
+    "sauterelle": "sanganbuure"
+  },
+  {
+    "serpent": "malla, samaqe"
+  },
+  {
+    "singe": "fune"
+  },
+  {
+    "souris": "ñiiñanxulle"
+  },
+  {
+    "taupe": "digirinme"
+  },
+  {
+    "taureau": "gunbo"
+  },
+  {
+    "tigre": "jaagaabe"
+  },
+  {
+    "tortue": "kundiine, kuuña"
+  },
+  {
+    "vache": "na"
+  },
+  {
+    "veau": "nallenme"
+  },
+  {
+    "zèbre": "gundunfare"
+  },
+  {
+    "artère": "farankillu"
+  },
+  {
+    "barbe": "sinqinxotte, sinqinyinte"
+  },
+  {
+    "bouche": "raqe, laqe"
+  },
+  {
+    "bras": "kittinsolle"
+  },
+  {
+    "cerveau": "lulla"
+  },
+  {
+    "cheveu": "yinte"
+  },
+  {
+    "cheville": "sellinñelle"
+  },
+  {
+    "cil": "yaaxan-yinte"
+  },
+  {
+    "coeur": "sondonme"
+  },
+  {
+    "colonne vertébrale": "segenxotte, naxaadunxotte"
+  },
+  {
+    "corps": "fate"
+  },
+  {
+    "côte": "saxabanŋe"
+  },
+  {
+    "cou": "xanne"
+  },
+  {
+    "coude": "segenantonbe"
+  },
+  {
+    "crâne": "yinxotte"
+  },
+  {
+    "cuisse": "toge"
+  },
+  {
+    "dent": "kanbe"
+  },
+  {
+    "doigt": "doronme"
+  },
+  {
+    "dos": "xoodo, falle"
+  },
+  {
+    "épaule": "kunke"
+  },
+  {
+    "estomac": "kuuse"
+  },
+  {
+    "fesse": "tinkanbe, fallankanbe"
+  },
+  {
+    "foie": "butte"
+  },
+  {
+    "front": "teŋe"
+  },
+  {
+    "genou": "xurungo"
+  },
+  {
+    "gorge": "xore"
+  },
+  {
+    "hanche": "fengeñe"
+  },
+  {
+    "intestin": "nuxullenme"
+  },
+  {
+    "jambe": "karankare, tansolle"
+  },
+  {
+    "joue": "xume"
+  },
+  {
+    "langue": "neene"
+  },
+  {
+    "larme": "yaaxanji"
+  },
+  {
+    "lèvre": "soomon-fate"
+  },
+  {
+    "mâchoire": "gegeeme"
+  },
+  {
+    "main": "kitte"
+  },
+  {
+    "menton": "sinqinxotte"
+  },
+  {
+    "moustache": "nuxun-yintu, minnaano"
+  },
+  {
+    "muscle": "tiye, senbe"
+  },
+  {
+    "narine": "nuxunbote"
+  },
+  {
+    "nerf": "ñiime"
+  },
+  {
+    "nez": "nuxunne"
+  },
+  {
+    "nombril": "sunpo"
+  },
+  {
+    "nuque": "kofe"
+  },
+  {
+    "oeil": "yaaxe"
+  },
+  {
+    "ongle": "segeñe"
+  },
+  {
+    "oreille": "toro"
+  },
+  {
+    "orteil": "tandoronme"
+  },
+  {
+    "os": "xotte"
+  },
+  {
+    "paupière": "yaaxanfate"
+  },
+  {
+    "peau": "fate"
+  },
+  {
+    "pied": "ta"
+  },
+  {
+    "poignet": "kittinxanne"
+  },
+  {
+    "poing": "gonmore"
+  },
+  {
+    "poitrine": "gijinme"
+  },
+  {
+    "pouce": "kittindoron-yugo"
+  },
+  {
+    "poumon": "furutu"
+  },
+  {
+    "rein": "mollo, faradillenme"
+  },
+  {
+    "ride": "ñuriye"
+  },
+  {
+    "salive": "laxanji"
+  },
+  {
+    "sang": "fare"
+  },
+  {
+    "sein": "konbe"
+  },
+  {
+    "sourcil": "yaaxangungunmen yinte"
+  },
+  {
+    "squelette": "xotte"
+  },
+  {
+    "sueur": "futte"
+  },
+  {
+    "talon": "tanjunqo"
+  },
+  {
+    "tête": "yinme"
+  },
+  {
+    "veine": "farankillu, ñiime"
+  },
+  {
+    "ventre": "noxo"
+  },
+  {
+    "visage": "yeeso, giya"
   }
 ]
