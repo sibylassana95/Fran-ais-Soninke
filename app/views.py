@@ -60,7 +60,7 @@ def traductionauto(request):
         if not Traduction.objects.filter(francais=francais).exists():
             Traduction.objects.create(francais=francais, soninke=soninke)
 
-    return render(request, 'auto.html')
+    return render(request, 'index.html')
 
 
 
