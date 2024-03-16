@@ -80,3 +80,7 @@ def contribution(request):
 
 def about(request):
     return render(request, 'about.html')
+
+    
+def error_404(request, exception):
+    return render(request, 'page404.html')
