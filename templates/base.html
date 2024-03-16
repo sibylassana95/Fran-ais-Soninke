@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Français-Soninké</title>
+    <title>SoniTrad</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -93,8 +93,7 @@ h1 {
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">Français-Soninké</a>. All Rights Reserved.
-          </span>
+          <span id="currentYear" class="text-sm text-gray-500 sm:text-center dark:text-gray-400"></span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="https://paypal.me/sibylassana"target="_blank"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt=""></a>
             <a href="https://www.buymeacoffee.com/sibyamara9M"target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt=""></a>
@@ -155,6 +154,11 @@ h1 {
            
 {% endfor %}
 
+
+</script>
+<script>
+  var currentYear = new Date().getFullYear();
+  document.getElementById("currentYear").innerHTML = "© " + currentYear + " <a href='/' class='hover:underline'>SoniTrad</a>. All Rights Reserved.";
 </script>
 </body>
 </html>
