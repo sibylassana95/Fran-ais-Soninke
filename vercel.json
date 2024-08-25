@@ -1,23 +1,23 @@
 {
   "builds": [
     {
-      "src": "Soninke/wsgi.py",  // Chemin vers le fichier source principal de l'application WSGI
-      "use": "@vercel/python",   // Spécifie l'utilisation du build pack Python de Vercel
+      "src": "Soninke/wsgi.py",
+      "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "15mb", // Taille maximale de la fonction Lambda générée par Vercel (ici, 15 MB)
-        "runtime": "python3.12", // Version de Python à utiliser pour exécuter l'application (Python 3.12)
-        "buildCommand": "bash setup.sh" // Commande shell exécutée pour configurer l'environnement (exécute le script setup.sh)
+        "maxLambdaSize": "15mb",
+        "runtime": "python3.12",
+        "buildCommand": "bash setup.sh"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",             // Capture toutes les requêtes vers n'importe quelle URL
-      "dest": "/Soninke/wsgi.py"  // Redirige toutes ces requêtes vers le fichier wsgi.py pour traitement par l'application
+      "src": "/(.*)",
+      "dest": "/Soninke/wsgi.py"
     },
     {
-      "src": "/static/(.*)",      // Capture les requêtes vers les ressources statiques (ex: /static/style.css)
-      "dest": "/static/$1"        // Redirige vers le fichier statique correspondant dans le dossier /static/
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     }
   ]
 }
