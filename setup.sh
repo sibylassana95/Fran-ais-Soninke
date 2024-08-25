@@ -10,7 +10,7 @@ pip install --upgrade setuptools
 pip install -r requirements.txt
 pip install django-cors-headers
 # collect static files using the Python interpreter from venv
-python3.12 manage.py collectstatic 
+python manage.py collectstatic --noinput 
 
 echo "BUILD END"
 
