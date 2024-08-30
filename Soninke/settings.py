@@ -16,7 +16,7 @@ load_dotenv(find_dotenv())
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -120,6 +120,7 @@ MEDIA_URL = '/images/'
 
 if DEBUG:
     STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 else:
 
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
