@@ -20,12 +20,17 @@ for traduction in data:
 def suggestions(request):
     phrase_francaise = request.GET.get('phrase', '')
     suggestions = []
+    print(f"Recherche de suggestions pour: {phrase_francaise}")  # Log serveur
+    
     if phrase_francaise:
         # Utiliser la méthode "values" pour ne récupérer que la colonne "francais"
         suggestions_qs = Traduction.objects.filter(
             Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)
         ).values('francais')[:10]
+        
         suggestions = [s['francais'] for s in suggestions_qs]
+        print(f"Suggestions trouvées: {suggestions}")  # Log serveur
+    
     return JsonResponse(suggestions, safe=False)
 
 
@@ -34,6 +39,7 @@ def suggestions(request):
 def traduction(request):
     phrase_francaise = request.POST.get('phrase_francaise', '').strip().capitalize()
     suggestions = []
+    word_count = Traduction.objects.count()  # Compte le nombre total de mots
     if phrase_francaise:
         # Utiliser la méthode "values" pour ne récupérer que la colonne "francais"
         suggestions_qs = Traduction.objects.filter(
@@ -47,7 +53,7 @@ def traduction(request):
             traduction_soninke = traductions[phrase_francaise]
         else:
             traduction_soninke = "Traduction indisponible pour l'instant"
-    return render(request, 'index.html', {'traduction_soninke': traduction_soninke, 'suggestions': suggestions, 'phrase_francaise': phrase_francaise})
+    return render(request, 'index.html', {'traduction_soninke': traduction_soninke, 'suggestions': suggestions, 'phrase_francaise': phrase_francaise,'word_count': word_count})
 
 def traductionauto(request):
     url = "https://raw.githubusercontent.com/sibylassana95/Fran-ais-Soninke/main/data/langue.json"
