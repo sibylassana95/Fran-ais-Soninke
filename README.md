@@ -23,6 +23,12 @@ Le but de ce projet est de fournir un traducteur français-soninke pour aider le
 - Python
 - Django
 - Tailwind CSS
+
+## Nombre de Mots traduits
+```bash
+>>> print(Traduction.objects.count())
+2334
+```
 # 👤 Author 
 
 [![LASSANA SIBY](https://avatars.githubusercontent.com/u/103085452?u=13ace4d88a52056741734e0f802ca7c0053e1e80&v=4&s=40)](https://github.com/sibylassana95)  
