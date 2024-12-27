@@ -27,7 +27,7 @@ Le but de ce projet est de fournir un traducteur français-soninke pour aider le
 ## Nombre de Mots traduits
 ```bash
 >>> print(Traduction.objects.count())
-2334
+5091
 ```
 # 👤 Author 
 
