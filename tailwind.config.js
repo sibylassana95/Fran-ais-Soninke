@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class', // Active le mode sombre basé sur une classe
+  content: [
+    './templates/**/*.html',  // Tous les fichiers HTML dans les templates de Django
+    './static/js/**/*.js',    // Les fichiers JS dans ton dossier static
+    './node_modules/flowbite/**/*.js', // Les fichiers JS de Flowbite
+  ],
+  darkMode: 'class', // Mode sombre activé par une classe
   theme: {
     extend: {
       colors: {
@@ -15,12 +20,14 @@ module.exports = {
           "700": "#1d4ed8",
           "800": "#1e40af",
           "900": "#1e3a8a"
-        }
+        },
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-      }
-    }
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'), // Plugin pour Flowbite
+  ],
 };
