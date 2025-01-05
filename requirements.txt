@@ -7,7 +7,6 @@ django-appconf==1.0.6
 django-compressor==4.5.1
 django-jazzmin==3.0.0
 idna==3.8
-mysqlclient==2.2.6
 psycopg2-binary==2.9.9
 python-dotenv==1.0.1
 rcssmin==1.1.2
