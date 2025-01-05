@@ -5,6 +5,9 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-  "build:css": "tailwindcss -i ./static/css/styles.css -o ./static/css/output.css --minify"
-}
+    "build:css": "tailwindcss -i ./static/css/styles.css -o ./static/css/output.css --minify"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2"
+  }
 }
