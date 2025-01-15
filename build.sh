@@ -13,7 +13,7 @@ npm install
 # collect static files using the Python interpreter from venv
 # Supprimez les anciens fichiers collectés
 python manage.py collectstatic --noinput 
-
+python manage.py loaddata data.json
 echo "BUILD END"
 
 # [optional] Start the application here 
