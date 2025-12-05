@@ -74,15 +74,20 @@
       }
     </style>
   </head>
-  <body class="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col font-sans transition-colors duration-200">
+  <body class="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-900 dark:to-blue-900/10 flex flex-col font-sans transition-all duration-300">
+    
+    <!-- Progress Bar -->
+    <div id="progress-bar" class="fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 z-50 transition-all duration-300" style="width: 0%"></div>
 
     <!-- Navigation -->
-    <nav class="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-700 fixed w-full z-50 transition-colors duration-200">
+    <nav class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-xl border-b border-gray-100 dark:border-gray-700 fixed w-full z-50 transition-all duration-300 shadow-sm">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
           <div class="flex items-center">
-            <a href="/" class="flex items-center space-x-2 group">
-              <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-blue-700 transition-colors">S</div>
+            <a href="/" class="flex items-center space-x-3 group">
+              <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-xl group-hover:scale-110 transition-all duration-300 shadow-lg">
+                <i class="fas fa-language"></i>
+              </div>
               <span class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">SoniTrad</span>
             </a>
           </div>
@@ -209,35 +214,76 @@
         });
       {% endfor %}
 
-      // AJAX Search Suggestions
+      // Progress Bar Animation
+      function updateProgressBar() {
+        const progressBar = document.getElementById('progress-bar');
+        const scrollTop = window.pageYOffset;
+        const docHeight = document.body.offsetHeight - window.innerHeight;
+        const scrollPercent = (scrollTop / docHeight) * 100;
+        
+        if (progressBar) {
+          progressBar.style.width = scrollPercent + '%';
+        }
+      }
+      
+      window.addEventListener('scroll', updateProgressBar);
+      window.addEventListener('resize', updateProgressBar);
+
+      // AJAX Search Suggestions with enhanced UX
       $(document).ready(function() {
+        let searchTimeout;
+        
         $("#phrase_francaise").on("input", function() {
           var phrase = $(this).val();
-
+          
+          // Clear previous timeout
+          clearTimeout(searchTimeout);
+          
+          // Add loading state
+          const suggestionsSelect = $("#suggestions_francais");
+          
           if (phrase.length >= 2) {
-            $.ajax({
-              url: '{% url "suggestions" %}',
-              data: { phrase: phrase },
-              success: function(data) {
-                var options = '<option value="">Suggestions disponibles</option>';
-                $.each(data, function(index, value) {
-                  options += '<option value="' + value + '">' + value + '</option>';
-                });
-                $("#suggestions_francais").html(options);
-              },
-              error: function(xhr, status, error) {
-                console.error("Erreur AJAX:", error);
-              }
-            });
+            suggestionsSelect.html('<option value="">🔍 Recherche en cours...</option>');
+            
+            // Debounce the search
+            searchTimeout = setTimeout(() => {
+              $.ajax({
+                url: '{% url "suggestions" %}',
+                data: { phrase: phrase },
+                beforeSend: function() {
+                  suggestionsSelect.html('<option value="">⏳ Chargement...</option>');
+                },
+                success: function(data) {
+                  var options = '<option value="">💡 ' + data.length + ' suggestion(s) trouvée(s)</option>';
+                  $.each(data, function(index, value) {
+                    options += '<option value="' + value + '">📝 ' + value + '</option>';
+                  });
+                  suggestionsSelect.html(options);
+                  
+                  // Add subtle animation
+                  suggestionsSelect.addClass('animate-fade-in-up');
+                },
+                error: function(xhr, status, error) {
+                  console.error("Erreur AJAX:", error);
+                  suggestionsSelect.html('<option value="">❌ Erreur de chargement</option>');
+                }
+              });
+            }, 300); // 300ms debounce
           } else {
-            $("#suggestions_francais").html('<option value="">Commencez à taper pour voir les suggestions</option>');
+            suggestionsSelect.html('<option value="">✏️ Tapez au moins 2 caractères...</option>');
           }
         });
 
         $("#suggestions_francais").on("change", function() {
           var selectedValue = $(this).val();
-          if (selectedValue) {
-             $("#phrase_francaise").val(selectedValue);
+          if (selectedValue && !selectedValue.includes('suggestion') && !selectedValue.includes('Tapez')) {
+             $("#phrase_francaise").val(selectedValue).focus();
+             
+             // Add visual feedback
+             $(this).addClass('bg-green-50 dark:bg-green-900/20');
+             setTimeout(() => {
+               $(this).removeClass('bg-green-50 dark:bg-green-900/20');
+             }, 1000);
           }
         });
       });
