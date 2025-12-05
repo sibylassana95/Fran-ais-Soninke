@@ -7,8 +7,10 @@ Le but de ce projet est de fournir un traducteur français-soninke pour aider le
 ## Fonctionnalités
 
 - Traduction de phrases françaises en soninke
-- Interface utilisateur simple et intuitive
+- Interface utilisateur moderne, professionnelle et responsive (PWA)
+- Mode sombre
 - Accès à une base de données de mots et expressions pour enrichir le vocabulaire
+- Suggestions automatiques lors de la saisie
 
 ## Installation
 
@@ -23,6 +25,7 @@ Le but de ce projet est de fournir un traducteur français-soninke pour aider le
 - Python
 - Django
 - Tailwind CSS
+- PWA (Progressive Web App)
 
 ## Nombre de Mots traduits
 ```bash
@@ -56,4 +59,3 @@ Les contributions sont les bienvenues! Si vous souhaitez contribuer, veuillez ou
 [![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
