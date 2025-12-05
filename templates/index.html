@@ -22,15 +22,16 @@
     </div>
 
     <!-- Translator Card -->
-    <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden transition-all duration-200 hover:shadow-2xl">
+    <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-[1.01] backdrop-blur-sm">
       <div class="p-8 md:p-10">
         <form method="post" class="space-y-8">
           {% csrf_token %}
           
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <!-- French Input -->
             <div class="space-y-4">
-              <label for="phrase_francaise" class="block text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
+              <label for="phrase_francaise" class="flex items-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
+                <i class="fas fa-flag mr-2 text-blue-600"></i>
                 Français
               </label>
               <div class="relative group">
@@ -38,12 +39,15 @@
                   name="phrase_francaise"
                   id="phrase_francaise"
                   rows="4"
-                  class="block w-full rounded-2xl border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 text-gray-900 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-all duration-200 text-lg p-4"
-                  placeholder="Entrez un mot ou une phrase..."
+                  class="block w-full rounded-2xl border-2 border-gray-200 dark:border-gray-600 bg-gray-50/50 dark:bg-gray-700/30 text-gray-900 dark:text-white placeholder-gray-400 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 resize-none transition-all duration-300 text-lg p-4 backdrop-blur-sm hover:bg-white dark:hover:bg-gray-700/50"
+                  placeholder="Tapez votre texte ici... 🇫🇷"
                   autocomplete="off"
                 >{{ phrase_francaise|default:'' }}</textarea>
-                <div class="absolute bottom-4 right-4 text-gray-400 pointer-events-none group-focus-within:text-blue-500 transition-colors">
-                  <i class="fas fa-pen"></i>
+                <div class="absolute bottom-4 right-4 text-gray-400 pointer-events-none group-focus-within:text-blue-500 transition-all duration-300 group-focus-within:scale-110">
+                  <i class="fas fa-edit"></i>
+                </div>
+                <div class="absolute top-2 right-2 opacity-0 group-focus-within:opacity-100 transition-opacity duration-300">
+                  <span class="text-xs text-blue-500 font-medium bg-blue-50 dark:bg-blue-900/30 px-2 py-1 rounded-full">En cours...</span>
                 </div>
               </div>
 
@@ -65,22 +69,35 @@
 
             <!-- Translation Output -->
             <div class="space-y-4">
-               <label class="block text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
+               <label class="flex items-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
+                <i class="fas fa-language mr-2 text-green-600"></i>
                 Soninké
               </label>
               <div class="relative h-full min-h-[160px]">
-                <div class="h-full w-full rounded-2xl bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-6 flex flex-col justify-center items-center text-center transition-colors duration-200">
+                <div class="h-full w-full rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border-2 border-blue-100 dark:border-blue-800/30 p-6 flex flex-col justify-center items-center text-center transition-all duration-300 hover:shadow-inner">
                   {% if traduction_soninke %}
-                    <p class="text-3xl font-bold text-gray-900 dark:text-white animate-fade-in-up">
-                      {{ traduction_soninke }}
-                    </p>
-                    <button type="button" class="mt-4 p-2 rounded-full hover:bg-blue-100 dark:hover:bg-blue-800 transition-colors text-blue-600 dark:text-blue-400" onclick="navigator.clipboard.writeText('{{ traduction_soninke }}'); swal('Copié !', 'Traduction copiée dans le presse-papier', 'success');" title="Copier">
-                       <i class="far fa-copy"></i>
-                    </button>
+                    <div class="space-y-4 animate-fade-in-up">
+                      <p class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white leading-relaxed">
+                        {{ traduction_soninke }}
+                      </p>
+                      <div class="flex space-x-3">
+                        <button type="button" class="flex items-center space-x-2 px-4 py-2 rounded-xl bg-blue-100 hover:bg-blue-200 dark:bg-blue-800 dark:hover:bg-blue-700 transition-all duration-200 text-blue-700 dark:text-blue-300 hover:scale-105" onclick="navigator.clipboard.writeText('{{ traduction_soninke }}'); swal('✅ Copié !', 'Traduction copiée dans le presse-papier', 'success');" title="Copier">
+                          <i class="far fa-copy"></i>
+                          <span class="text-sm font-medium">Copier</span>
+                        </button>
+                        <button type="button" class="flex items-center space-x-2 px-4 py-2 rounded-xl bg-green-100 hover:bg-green-200 dark:bg-green-800 dark:hover:bg-green-700 transition-all duration-200 text-green-700 dark:text-green-300 hover:scale-105" onclick="speakText('{{ traduction_soninke }}')" title="Écouter">
+                          <i class="fas fa-volume-up"></i>
+                          <span class="text-sm font-medium">Écouter</span>
+                        </button>
+                      </div>
+                    </div>
                   {% else %}
-                    <p class="text-gray-400 dark:text-gray-500 italic">
-                      La traduction s'affichera ici...
-                    </p>
+                    <div class="space-y-3 animate-pulse">
+                      <i class="fas fa-language text-4xl text-gray-300 dark:text-gray-600"></i>
+                      <p class="text-gray-400 dark:text-gray-500 italic">
+                        La traduction apparaîtra ici... ✨
+                      </p>
+                    </div>
                   {% endif %}
                 </div>
               </div>
@@ -90,39 +107,40 @@
           <!-- Submit Button -->
           <button
             type="submit"
-            class="w-full flex justify-center items-center py-4 px-6 rounded-xl text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-500 font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500/50"
+            class="group w-full flex justify-center items-center py-4 px-6 rounded-xl text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 dark:from-blue-600 dark:to-indigo-600 dark:hover:from-blue-500 dark:hover:to-indigo-500 font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500/50 relative overflow-hidden"
           >
-            <span class="mr-2">Traduire maintenant</span>
-            <i class="fas fa-arrow-right"></i>
+            <div class="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+            <span class="mr-3 relative z-10">✨ Traduire maintenant</span>
+            <i class="fas fa-arrow-right relative z-10 group-hover:translate-x-1 transition-transform duration-300"></i>
           </button>
         </form>
       </div>
     </div>
 
     <!-- Features Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
-      <div class="flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition-shadow duration-200">
-        <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
+      <div class="group flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-600">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900/50 dark:to-blue-800/50 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4 group-hover:scale-110 transition-transform duration-300">
            <i class="fas fa-database fa-lg"></i>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Base Riche</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-sm">Plus de 5000 mots et expressions soigneusement vérifiés.</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">📚 Base Riche</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Plus de <span class="font-semibold text-blue-600">5000 mots</span> et expressions soigneusement vérifiés.</p>
       </div>
 
-      <div class="flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition-shadow duration-200">
-        <div class="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+      <div class="group flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-purple-200 dark:hover:border-purple-600">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/50 dark:to-purple-800/50 flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300">
            <i class="fas fa-mobile-alt fa-lg"></i>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">100% Mobile</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-sm">Une application rapide et fluide sur tous vos appareils.</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">📱 100% Mobile</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Une application <span class="font-semibold text-purple-600">PWA</span> rapide et fluide sur tous vos appareils.</p>
       </div>
 
-      <div class="flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition-shadow duration-200">
-        <div class="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/50 flex items-center justify-center text-green-600 dark:text-green-400 mb-4">
+      <div class="group flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-green-200 dark:hover:border-green-600">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-100 to-green-200 dark:from-green-900/50 dark:to-green-800/50 flex items-center justify-center text-green-600 dark:text-green-400 mb-4 group-hover:scale-110 transition-transform duration-300">
            <i class="fas fa-users fa-lg"></i>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Communauté</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-sm">Contribuez et aidez-nous à préserver la langue soninké.</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">🤝 Communauté</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Contribuez et aidez-nous à <span class="font-semibold text-green-600">préserver</span> la langue soninké.</p>
       </div>
     </div>
 
@@ -135,13 +153,13 @@
   }
 
   .animate-fade-in-up {
-    animation: fadeInUp 0.5s ease-out;
+    animation: fadeInUp 0.6s ease-out;
   }
 
   @keyframes fadeInDown {
     from {
       opacity: 0;
-      transform: translateY(-20px);
+      transform: translateY(-30px);
     }
     to {
       opacity: 1;
@@ -152,12 +170,70 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(10px);
+      transform: translateY(20px) scale(0.95);
     }
     to {
       opacity: 1;
-      transform: translateY(0);
+      transform: translateY(0) scale(1);
     }
   }
+
+  /* Effet de typing pour le placeholder */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* Amélioration du focus */
+  textarea:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  }
+
+  /* Animation de chargement */
+  .loading-dots::after {
+    content: '';
+    animation: dots 1.5s infinite;
+  }
+
+  @keyframes dots {
+    0%, 20% { content: ''; }
+    40% { content: '.'; }
+    60% { content: '..'; }
+    80%, 100% { content: '...'; }
+  }
 </style>
+
+<script>
+  // Fonction pour la synthèse vocale
+  function speakText(text) {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'fr-FR';
+      utterance.rate = 0.8;
+      speechSynthesis.speak(utterance);
+    } else {
+      swal('Désolé', 'La synthèse vocale n\'est pas supportée sur votre navigateur', 'info');
+    }
+  }
+
+  // Animation au scroll
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fade-in-up');
+      }
+    });
+  }, observerOptions);
+
+  // Observer les éléments au chargement
+  document.addEventListener('DOMContentLoaded', () => {
+    const elementsToAnimate = document.querySelectorAll('.group');
+    elementsToAnimate.forEach(el => observer.observe(el));
+  });
+</script>
 {% endblock %}
