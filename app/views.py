@@ -60,13 +60,20 @@ def traductionauto(request):
     response = requests.get(url)
     data = json.loads(response.text)
     for traduction in data:
-        francais = list(traduction.keys())[0]
+        francais = list(traduction.keys())[0].capitalize()
         soninke = list(traduction.values())[0]
-        francais = francais.capitalize()
         if not Traduction.objects.filter(francais=francais).exists():
             Traduction.objects.create(francais=francais, soninke=soninke)
-
-    return render(request, 'index.html')
+    
+    contributions = Contribution.objects.all()
+    for contrib in contributions:
+        francais = contrib.francais.strip().capitalize()
+        soninke = contrib.soninke.strip()
+        if not Traduction.objects.filter(francais=francais).exists():
+            Traduction.objects.create(francais=francais, soninke=soninke)
+    
+    messages.success(request, 'Traductions ajoutées avec succès.')
+    return redirect('traduction')
 
 
 
