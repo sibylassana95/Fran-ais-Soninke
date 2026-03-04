@@ -14981,7 +14981,6 @@
   {
     "oiseau": "yelinŋe"
   },
-  
   {
     "seulement": "yelleeni"
   },
@@ -17938,12 +17937,600 @@
     "visage": "yeeso, giya"
   },
   {
-    "Ramadan":"Sunxasso"
+    "Ramadan": "Sunxasso"
   },
   {
-    "Chaîne":"Surumée"
+    "Chaîne": "Surumée"
   },
   {
-    "Œuf":"Selihabané"
+    "Œuf": "Selihabané"
+  },
+  {
+    "peut être\"": "a me wa a di"
+  },
+  {
+    "Deux": "Fillo/hillo"
+  },
+  {
+    "Un": "Baane"
+  },
+  {
+    "Trois": "Sikko"
+  },
+  {
+    "Quatre": "Naxato"
+  },
+  {
+    "Cinq": "Karago"
+  },
+  {
+    "Six": "Tunmu"
+  },
+  {
+    "Sept": "Ñeeru"
+  },
+  {
+    "Huit": "Seegu/segu"
+  },
+  {
+    "Neuf": "Kabu"
+  },
+  {
+    "Dix": "Tanmu"
+  },
+  {
+    "Onze": "Tanmu do baane"
+  },
+  {
+    "Douze": "Tanmu do fillo"
+  },
+  {
+    "Treize": "Tanmu do sikko"
+  },
+  {
+    "Quatorze": "Tanmu do naxato"
+  },
+  {
+    "Quinze": "Tanmu do karago"
+  },
+  {
+    "Seize": "Tanmu do tunmu"
+  },
+  {
+    "Dix-sept": "Tanmu do ñeeru"
+  },
+  {
+    "Dix-huit": "Tanmu do seegu"
+  },
+  {
+    "Dix-neuf": "Tanmu do kabu"
+  },
+  {
+    "Vent": "Tanpille/tanfille"
+  },
+  {
+    "Vingt": "Tanpille/tanfille"
+  },
+  {
+    "Vingt-neuf": "Tanpille do kabu"
+  },
+  {
+    "Vingt-sept": "Tanpille do ñeeru"
+  },
+  {
+    "Vingt-huit": "Tanpille do seegu"
+  },
+  {
+    "Vingt-cinq": "Tanpille do karago"
+  },
+  {
+    "Vingt-quatre": "Tanpille do naxato"
+  },
+  {
+    "Vingt-trois": "Tanpille do sikko"
+  },
+  {
+    "Vingt-deux": "Tanpiye do fillo"
+  },
+  {
+    "Vingt-un": "Tanpille do baane"
+  },
+  {
+    "Zéro": "Xafu/fu"
+  },
+  {
+    "Trente": "Tanjikke"
+  },
+  {
+    "Trente-deux": "Tanjikke do fillo"
+  },
+  {
+    "Trente-un": "Tanjikke do baane"
+  },
+  {
+    "Trente-trois": "Tanjikke do sikko"
+  },
+  {
+    "Trente-quatre": "Tanjikke do naxato"
+  },
+  {
+    "Trente-cinq": "Tanjikke do karago"
+  },
+  {
+    "Trente-six": "Tanjikke do tunmu"
+  },
+  {
+    "Trente-sept": "Tanjikke do ñeeru"
+  },
+  {
+    "Trente-huit": "Tanjikke do seegu"
+  },
+  {
+    "Trente-neuf": "Tanjikke do kabu"
+  },
+  {
+    "Quarante": "Tannaxate"
+  },
+  {
+    "Quarante-un": "Tannaxate do baane"
+  },
+  {
+    "Quarante-deux": "Tannaxate do fillo"
+  },
+  {
+    "Quarante-trois": "Tannaxate do sikko"
+  },
+  {
+    "Quarante-quatre": "Tannaxate do naxato"
+  },
+  {
+    "Quarante cinq": "Tannaxate do karago"
+  },
+  {
+    "Quarante-six": "Tannaxate do tunmu"
+  },
+  {
+    "Quarante-sept": "Tannaxate ñeeru"
+  },
+  {
+    "Quarante-huit": "Tannaxate do seegu"
+  },
+  {
+    "Quarante-neuf": "Tannaxate do kabu"
+  },
+  {
+    "Cinquante": "Tankarage"
+  },
+  {
+    "Soixante": "Tandume/tantunme"
+  },
+  {
+    "Soixante-un": "Tandume do baane"
+  },
+  {
+    "Soixante-dix": "Tanñere"
+  },
+  {
+    "Quatre-vingt": "Tancege"
+  },
+  {
+    "Quatre- vingt-dix": "Tankabe/tankebe"
+  },
+  {
+    "Cent": "Kamel/keme"
+  },
+  {
+    "Viens ici": "Li yere"
+  },
+  {
+    "Viens": "Li"
+  },
+  {
+    "Tout de suite": "Saasa/ waca"
+  },
+  {
+    "Je": "N"
+  },
+  {
+    "Tu": "An"
+  },
+  {
+    "Moi": "Nke"
+  },
+  {
+    "Toi": "Anke"
+  },
+  {
+    "Il/elle": "Ake"
+  },
+  {
+    "Nous": "Oku"
+  },
+  {
+    "Vous": "Axaku/xaku"
+  },
+  {
+    "Ils/elles": "Iku"
+  },
+  {
+    "Toi viens ici": "Anke li yere"
+  },
+  {
+    "Ici": "Yere"
+  },
+  {
+    "Faim": "Dulle"
+  },
+  {
+    "J'ai faim": "Dullen wi ŋa"
+  },
+  {
+    "Kiide Sakho": "Le rouge"
+  },
+  {
+    "Le rouge": "Fo-dunbe"
+  },
+  {
+    "C'est rouge": "A dunbe"
+  },
+  {
+    "Recherche": "Muurunde"
+  },
+  {
+    "Je suis fatigué": "N Tanpi"
+  },
+  {
+    "Tête": "Yinkolla"
+  },
+  {
+    "Sacko/sakho": "Saaxo"
+  },
+  {
+    "Menteur": "Gaarante"
+  },
+  {
+    "Diawara": "Jawara"
+  },
+  {
+    "L'eau": "Ji"
+  },
+  {
+    "Nourriture": "Yigande"
+  },
+  {
+    "Le doigt": "Dorome"
+  },
+  {
+    "Les doigts": "Doromu"
+  },
+  {
+    "Maladie": "Watte"
+  },
+  {
+    "exagérer, dépasser la limite": "Yaada"
+  },
+  {
+    "orgueilleux, fier, gâté": "Yaadante"
+  },
+  {
+    "C'est un enfant gâté.": "Leminan yaadanten ya ni."
+  },
+  {
+    "Orgueil": "yaade"
+  },
+  {
+    "variété d'arbre": "Yaaf/yaahe"
+  },
+  {
+    "éventer": "Yaafi/yaahi"
+  },
+  {
+    "Miel": "Yaage"
+  },
+  {
+    "avoir honte, de la pudeur": "Yaagu"
+  },
+  {
+    "flâner, se promener": "Yaala/yaara"
+  },
+  {
+    "Baobab": "Kiide"
+  },
+  {
+    "mot d'interrogation \"oui/non": "Yaala"
+  },
+  {
+    "Glaner": "Yaara"
+  },
+  {
+    "Merci": "Nawari/nuwari"
+  },
+  {
+    "Réponse": "Ñiminde"
+  },
+  {
+    "Répondre": "Ñimindi"
+  },
+  {
+    "Répond": "Ñimi"
+  },
+  {
+    "Répond moi": "N ñimi"
+  },
+  {
+    "Répond moi": "N jaabi"
+  },
+  {
+    "Le yeux": "Yaaxe"
+  },
+  {
+    "Les yeux": "Yaaxo/ yaaxu"
+  },
+  {
+    "Réfléchis": "Sinme"
+  },
+  {
+    "Les yeux": "Yaaxo/ yaaxu"
+  },
+  {
+    "Où": "Mina"
+  },
+  {
+    "maladie des yeux": "Yaaxunu"
+  },
+  {
+    "disparaître": "yaaxaransanku"
+  },
+  {
+    "fête": "yaaxaraxuraye"
+  },
+  {
+    "fêter": "yaaxaraxure"
+  },
+  {
+    "Oeil": "yaaxe"
+  },
+  {
+    "articulation": "xottinyaaxe"
+  },
+  {
+    "Borgne": "yaaxabaane"
+  },
+  {
+    "• mauvais oeil, porte malheur": "yaaxabure"
+  },
+  {
+    "déjeuner (le matin)": "Hacite"
+  },
+  {
+    "tiens": "Haŋu"
+  },
+  {
+    "emphatique: il, elle": "Ike"
+  },
+  {
+    "affirmation": "Iyo"
+  },
+  {
+    "léopard, panthère": "Jaabage/jaagabe"
+  },
+  {
+    "Le nom de Yacouba est Diagana": "Yakuba janmun ni Jaagana"
+  },
+  {
+    "vendre, commercer": "Jaagu"
+  },
+  {
+    "arc-en-ciel": "jaagubundanŋe/jaarubundanŋe"
+  },
+  {
+    "Vendeur": "jaagundaana"
+  },
+  {
+    "Vente": "jaagunde"
+  },
+  {
+    "faire le commerce": "jaagundi"
+  },
+  {
+    "Le nom de Takko est Diagouraga": "Takko janmun ni Jaaguraga"
+  },
+  {
+    "variété de graminée sauvage": "Jaaje"
+  },
+  {
+    "taquiner, flirter": "Jaale"
+  },
+  {
+    "guêpe, frelon": "Jaame"
+  },
+  {
+    "cravache, fouet": "Jaane"
+  },
+  {
+    "Cette femme m'a attiré": "Ke yaxaren da in jaarabi"
+  },
+  {
+    "Cette femme m'a attiré": "N jaarabi do ke yaxare yi"
+  },
+  {
+    "tenter, juger": "Jaarabi"
+  },
+  {
+    "tentation": "Jaarabiye"
+  },
+  {
+    "désir excessif": "Jaarabu"
+  },
+  {
+    "médecin, docteur, guérisseur": "Jaarandaana"
+  },
+  {
+    "traitement, soin, guérison": "Jaarande"
+  },
+  {
+    "soigner, traiter, guérir": "Jaarandi"
+  },
+  {
+    "Mon père soignait": "N faaba ɲi jaarandini"
+  },
+  {
+    "dispensaire": "Jaarandira"
+  },
+  {
+    "traitement, soin": "Jaaraye"
+  },
+  {
+    "être guéri, être traité": "Jaare"
+  },
+  {
+    "dispensaire": "Jaareka"
+  },
+  {
+    "Griot": "jaare"
+  },
+  {
+    "pastèque d'âne": "jaarindondonŋaane"
+  },
+  {
+    "griffer": "Jaarunba"
+  },
+  {
+    "Lion": "jarinte"
+  },
+  {
+    "La hyène a griffé le mouton": "Turunŋen da jaxen jaarunba"
+  },
+  {
+    "bon à rien": "Jaasante"
+  },
+  {
+    "Cet homme est un bon à rien": "Ke yugo ni jaasanten ya yi"
+  },
+  {
+    "être bon à rien": "Jaase"
+  },
+  {
+    "coupe-coupe, machette": "Jaasi"
+  },
+  {
+    "prendre rapidement": "Jasu,jaasu"
+  },
+  {
+    "compter, calculer": "Jaate"
+  },
+  {
+    "Rendez-vous": "Meeñiye"
+  },
+  {
+    "Les rencontres": "Meewariyu,meewallu"
+  },
+  {
+    "Le rencontre": "Meewalle"
+  },
+  {
+    "Piment": "Foronto"
+  },
+  {
+    "Le Haricots": "Mollo"
+  },
+  {
+    "Le Riz": "Maaro"
+  },
+  {
+    "Le mil": "Yille"
+  },
+  {
+    "Couverture": "Xufa,xuha"
+  },
+  {
+    "J'ai caché": "N d'a muxundi"
+  },
+  {
+    "caché": "Muxunde"
+  },
+  {
+    "Fais le cacher, cacher le": "A muxundi"
+  },
+  {
+    "Et les": "A do"
+  },
+  {
+    "Ça": "Ke"
+  },
+  {
+    "Ça là ?": "Ke ba?"
+  },
+  {
+    "Et ça?": "Ke xa?"
+  },
+  {
+    "Ça là aussi": "Ke xa, ke yimme,"
+  },
+  {
+    "Même ça aussi?": "Hari keexa?"
+  },
+  {
+    "L'âge": "Wuyu"
+  },
+  {
+    "Le chien": "Wulle"
+  },
+  {
+    "Le mouton": "Jaxe"
+  },
+  {
+    "Le Lion": "Jarinte"
+  },
+  {
+    "Les lion": "Jarintu"
+  },
+  {
+    "Les moutons": "Jaxu"
+  },
+  {
+    "Les chiens": "Wullu"
+  },
+  {
+    "Le Hippopotame": "Wungame"
+  },
+  {
+    "Les Hippopotame": "Wungamu"
+  },
+  {
+    "Les chèvres": "Sugu"
+  },
+  {
+    "Kiide Sakho": "Le chèvre"
+  },
+  {
+    "Le chèvre": "Sugo"
+  },
+  {
+    "Le cheval": "Si"
+  },
+  {
+    "Les cheveux": "Siinu"
+  },
+  {
+    "Les vaches": "Naanu"
+  },
+  {
+    "Le Vache": "Na"
+  },
+  {
+    "Les veaux": "Gunbu"
+  },
+  {
+    "Le bœuf": "Gunbo"
+  },
+  {
+    "Le Coq": "Ganma"
+  },
+  {
+    "Les poules": "Seliŋu"
+  },
+  {
+    "je vais sortir": "n wa bakka"
   }
 ]
