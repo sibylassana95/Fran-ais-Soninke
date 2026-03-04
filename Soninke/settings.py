@@ -1,15 +1,16 @@
 import os
 from pathlib import Path
-from urllib.parse import urlparse
 from dotenv import find_dotenv, load_dotenv
+load_dotenv(find_dotenv())
+import pymysql
+pymysql.install_as_MySQLdb()
+
+ENVIRONMENT = os.getenv('DJANGO_ENV') 
+print(ENVIRONMENT)
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-ENVIRONMENT = os.getenv('DJANGO_ENV', 'production')  
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 
 
 load_dotenv(find_dotenv())
@@ -17,9 +18,12 @@ load_dotenv(find_dotenv())
 #SECRET_KEY = os.environ.get("SECRET_KEY")
 SECRET_KEY = 'e&74bd(3t$n)5c)a5_176j$#j$+5feq0%5_pvex@14yztz559t'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['*']
+if ENVIRONMENT == 'local':
+    DEBUG = True
+    ALLOWED_HOSTS = ['*']
+else:
+    DEBUG = False 
+    ALLOWED_HOSTS = ['*']   
 
 # Application definition
 
@@ -35,7 +39,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -73,20 +76,18 @@ if ENVIRONMENT == 'local':
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
-    } 
-
+    }
 else:
-    tmpPostgres = urlparse(os.getenv("DATABASE_URL"))
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': tmpPostgres.path.replace('/', ''),
-            'USER': tmpPostgres.username,
-            'PASSWORD': tmpPostgres.password,
-            'HOST': tmpPostgres.hostname,
-            'PORT': 5432,
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': os.getenv('DB_PROD_NAME'),
+            'USER': os.getenv('DB_PROD_USER'),
+            'PASSWORD': os.getenv('DB_PROD_PASSWORD'),
+            'HOST': os.getenv('DB_PROD_HOST'),
+            'PORT': os.getenv('DB_PROD_PORT'),
         }
-    }
+        }
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -119,14 +120,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+if ENVIRONMENT == 'local':
+    STATIC_URL = '/static/'
 
-MEDIA_URL = '/images/'
+    STATICFILES_DIRS = [
+        os.path.join(BASE_DIR, 'static')
+    ]
 
-STATIC_URL = 'static/'
-STATIC_ROOT = (BASE_DIR/"static/")
-    
-MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+else:
+    STATIC_URL = 'static/'
+    STATIC_ROOT = '/home/mivo8940/sonitrad.lassanasiby.com/static'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
