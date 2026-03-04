@@ -1,146 +1,174 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 transition-colors duration-200">
+<div class="min-h-[calc(100vh-4rem)] bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+  
+  <!-- Mobile App Header -->
+  <div class="bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-700 dark:to-indigo-700 px-4 py-6 shadow-lg">
+    <div class="max-w-2xl mx-auto">
+      <div class="flex items-center justify-between mb-4">
+        <h1 class="text-white text-xl font-bold flex items-center gap-2">
+          <i class="fas fa-language"></i>
+          Traducteur
+        </h1>
+        <div class="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+          <span class="text-white text-sm font-medium">{{ word_count|default:"5091" }} mots</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <div class="w-full max-w-4xl space-y-12">
-
-    <!-- Hero Section -->
-    <div class="text-center space-y-6 animate-fade-in-down">
-      <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-900/30 border border-blue-100 dark:border-blue-800 transition-colors">
-        <span class="w-2 h-2 rounded-full bg-blue-500 mr-2 animate-pulse"></span>
-        <span class="text-sm font-medium text-blue-700 dark:text-blue-300">5091 mots disponibles</span>
+  <!-- Translation Container -->
+  <div class="max-w-2xl mx-auto -mt-4 px-4 pb-6">
+    
+    <!-- Language Selector Card -->
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden mb-4">
+      
+      <!-- Language Bar -->
+      <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100 dark:border-gray-700">
+        <div id="lang1" class="flex items-center gap-2 font-semibold transition-colors" data-lang="fr">
+          <span class="text-2xl">🇫🇷</span>
+          <span class="lang-name">Français</span>
+        </div>
+        
+        <button type="button" id="swapLanguages" class="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full transition-all duration-300">
+          <i class="fas fa-exchange-alt text-gray-600 dark:text-gray-400"></i>
+        </button>
+        
+        <div id="lang2" class="flex items-center gap-2 font-semibold transition-colors" data-lang="sn">
+          <span class="lang-name">Soninké</span>
+          <span class="text-2xl">🌍</span>
+        </div>
       </div>
 
-      <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-        Traducteur <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">Français-Soninké</span>
-      </h1>
-
-      <p class="max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400">
-        L'outil de référence pour apprendre et traduire le Soninké. Simple, rapide et précis.
-      </p>
-    </div>
-
-    <!-- Translator Card -->
-    <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-[1.01] backdrop-blur-sm">
-      <div class="p-8 md:p-10">
-        <form method="post" class="space-y-8">
-          {% csrf_token %}
+      <form method="post" id="translationForm">
+        {% csrf_token %}
+        <input type="hidden" name="direction" id="direction" value="{{ direction|default:'fr-sn' }}">
+        
+        <!-- Input Section -->
+        <div class="relative border-b border-gray-100 dark:border-gray-700">
+          <textarea
+            name="phrase_francaise"
+            id="inputText"
+            rows="4"
+            maxlength="500"
+            class="w-full px-4 py-4 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none resize-none text-lg"
+            placeholder="Entrez votre texte..."
+            autocomplete="off"
+          >{% if direction == 'sn-fr' %}{{ phrase_soninke|default:'' }}{% else %}{{ phrase_francaise|default:'' }}{% endif %}</textarea>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <!-- French Input -->
-            <div class="space-y-4">
-              <label for="phrase_francaise" class="flex items-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
-                <i class="fas fa-flag mr-2 text-blue-600"></i>
-                Français
-              </label>
-              <div class="relative group">
-                <textarea
-                  name="phrase_francaise"
-                  id="phrase_francaise"
-                  rows="4"
-                  class="block w-full rounded-2xl border-2 border-gray-200 dark:border-gray-600 bg-gray-50/50 dark:bg-gray-700/30 text-gray-900 dark:text-white placeholder-gray-400 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 resize-none transition-all duration-300 text-lg p-4 backdrop-blur-sm hover:bg-white dark:hover:bg-gray-700/50"
-                  placeholder="Tapez votre texte ici... 🇫🇷"
-                  autocomplete="off"
-                >{{ phrase_francaise|default:'' }}</textarea>
-                <div class="absolute bottom-4 right-4 text-gray-400 pointer-events-none group-focus-within:text-blue-500 transition-all duration-300 group-focus-within:scale-110">
-                  <i class="fas fa-edit"></i>
-                </div>
-                <div class="absolute top-2 right-2 opacity-0 group-focus-within:opacity-100 transition-opacity duration-300">
-                  <span class="text-xs text-blue-500 font-medium bg-blue-50 dark:bg-blue-900/30 px-2 py-1 rounded-full">En cours...</span>
-                </div>
-              </div>
-
-              <!-- Suggestions Dropdown -->
-              <div class="relative">
-                 <select
-                  id="suggestions_francais"
-                  class="block w-full pl-4 pr-10 py-3 rounded-xl border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-sm text-gray-600 dark:text-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 appearance-none cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-600"
-                >
-                  <option value="">Suggestions automatiques...</option>
-                </select>
-                <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-gray-400">
-                  <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                  </svg>
-                </div>
-              </div>
+          <!-- Input Actions -->
+          <div class="flex items-center justify-between px-4 pb-3">
+            <div class="flex items-center gap-2">
+              <button type="button" id="clearInput" class="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors" title="Effacer">
+                <i class="fas fa-times"></i>
+              </button>
+              <button type="button" id="voiceInput" class="p-2 text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" title="Saisie vocale">
+                <i class="fas fa-microphone"></i>
+              </button>
             </div>
-
-            <!-- Translation Output -->
-            <div class="space-y-4">
-               <label class="flex items-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
-                <i class="fas fa-language mr-2 text-green-600"></i>
-                Soninké
-              </label>
-              <div class="relative h-full min-h-[160px]">
-                <div class="h-full w-full rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border-2 border-blue-100 dark:border-blue-800/30 p-6 flex flex-col justify-center items-center text-center transition-all duration-300 hover:shadow-inner">
-                  {% if traduction_soninke %}
-                    <div class="space-y-4 animate-fade-in-up">
-                      <p class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white leading-relaxed">
-                        {{ traduction_soninke }}
-                      </p>
-                      <div class="flex space-x-3">
-                        <button type="button" class="flex items-center space-x-2 px-4 py-2 rounded-xl bg-blue-100 hover:bg-blue-200 dark:bg-blue-800 dark:hover:bg-blue-700 transition-all duration-200 text-blue-700 dark:text-blue-300 hover:scale-105" onclick="navigator.clipboard.writeText('{{ traduction_soninke }}'); swal('✅ Copié !', 'Traduction copiée dans le presse-papier', 'success');" title="Copier">
-                          <i class="far fa-copy"></i>
-                          <span class="text-sm font-medium">Copier</span>
-                        </button>
-                        <button type="button" class="flex items-center space-x-2 px-4 py-2 rounded-xl bg-green-100 hover:bg-green-200 dark:bg-green-800 dark:hover:bg-green-700 transition-all duration-200 text-green-700 dark:text-green-300 hover:scale-105" onclick="speakText('{{ traduction_soninke }}')" title="Écouter">
-                          <i class="fas fa-volume-up"></i>
-                          <span class="text-sm font-medium">Écouter</span>
-                        </button>
-                      </div>
-                    </div>
-                  {% else %}
-                    <div class="space-y-3 animate-pulse">
-                      <i class="fas fa-language text-4xl text-gray-300 dark:text-gray-600"></i>
-                      <p class="text-gray-400 dark:text-gray-500 italic">
-                        La traduction apparaîtra ici... ✨
-                      </p>
-                    </div>
-                  {% endif %}
-                </div>
-              </div>
-            </div>
+            <span id="charCount" class="text-xs text-gray-400">0/500</span>
           </div>
 
-          <!-- Submit Button -->
+          <!-- Suggestions Dropdown -->
+          <div id="suggestionsContainer" class="hidden px-4 pb-3">
+            <select
+              id="suggestions"
+              class="w-full px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-sm text-gray-600 dark:text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            >
+              <option value="">💡 Suggestions...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Output Section -->
+        <div class="relative min-h-[160px] bg-gray-50 dark:bg-gray-900/50">
+          <div id="translationOutput" class="px-4 py-4">
+            {% if traduction_soninke or traduction_francaise %}
+              <div class="space-y-4 animate-fade-in">
+                <p class="text-2xl font-semibold text-gray-900 dark:text-white leading-relaxed">
+                  {% if direction == 'sn-fr' %}{{ traduction_francaise }}{% else %}{{ traduction_soninke }}{% endif %}
+                </p>
+                <div class="flex items-center gap-2">
+                  <button type="button" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-100 hover:bg-blue-200 dark:bg-blue-900/50 dark:hover:bg-blue-900 text-blue-700 dark:text-blue-300 transition-all" onclick="copyTranslation('{% if direction == 'sn-fr' %}{{ traduction_francaise }}{% else %}{{ traduction_soninke }}{% endif %}')">
+                    <i class="far fa-copy"></i>
+                    <span class="text-sm font-medium">Copier</span>
+                  </button>
+                  <button type="button" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-green-100 hover:bg-green-200 dark:bg-green-900/50 dark:hover:bg-green-900 text-green-700 dark:text-green-300 transition-all" onclick="speakText('{% if direction == 'sn-fr' %}{{ traduction_francaise }}{% else %}{{ traduction_soninke }}{% endif %}')">
+                    <i class="fas fa-volume-up"></i>
+                    <span class="text-sm font-medium">Écouter</span>
+                  </button>
+                </div>
+              </div>
+            {% else %}
+              <div class="flex flex-col items-center justify-center h-40 text-gray-400 dark:text-gray-500">
+                <i class="fas fa-language text-4xl mb-3 opacity-50"></i>
+                <p class="text-sm">La traduction apparaîtra ici</p>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+        <!-- Translate Button -->
+        <div class="p-4">
           <button
             type="submit"
-            class="group w-full flex justify-center items-center py-4 px-6 rounded-xl text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 dark:from-blue-600 dark:to-indigo-600 dark:hover:from-blue-500 dark:hover:to-indigo-500 font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500/50 relative overflow-hidden"
+            id="translateBtn"
+            class="w-full flex items-center justify-center gap-3 py-4 px-6 rounded-xl text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
           >
-            <div class="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-            <span class="mr-3 relative z-10">✨ Traduire maintenant</span>
-            <i class="fas fa-arrow-right relative z-10 group-hover:translate-x-1 transition-transform duration-300"></i>
+            <span>Traduire</span>
+            <i class="fas fa-arrow-right"></i>
           </button>
-        </form>
+        </div>
+      </form>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="grid grid-cols-3 gap-3 mb-6">
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 text-center shadow-sm">
+        <div class="text-2xl font-bold text-blue-600 dark:text-blue-400">{{ word_count|default:"5091" }}</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">Mots</div>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 text-center shadow-sm">
+        <div class="text-2xl font-bold text-green-600 dark:text-green-400">100%</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">Gratuit</div>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 text-center shadow-sm">
+        <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">PWA</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">Mobile</div>
       </div>
     </div>
 
-    <!-- Features Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
-      <div class="group flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-600">
-        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900/50 dark:to-blue-800/50 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4 group-hover:scale-110 transition-transform duration-300">
-           <i class="fas fa-database fa-lg"></i>
+    <!-- Features -->
+    <div class="space-y-3">
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600 dark:text-blue-400">
+          <i class="fas fa-bolt"></i>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">📚 Base Riche</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Plus de <span class="font-semibold text-blue-600">{{ word_count|default:"5000" }} mots</span> et expressions soigneusement vérifiés.</p>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Traduction instantanée</h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Résultats en temps réel</p>
+        </div>
       </div>
 
-      <div class="group flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-purple-200 dark:hover:border-purple-600">
-        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/50 dark:to-purple-800/50 flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4 group-hover:scale-110 transition-transform duration-300">
-           <i class="fas fa-mobile-alt fa-lg"></i>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400">
+          <i class="fas fa-wifi-slash"></i>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">📱 100% Mobile</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Une application <span class="font-semibold text-purple-600">PWA</span> rapide et fluide sur tous vos appareils.</p>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Mode hors ligne</h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Fonctionne sans connexion</p>
+        </div>
       </div>
 
-      <div class="group flex flex-col items-center text-center p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-green-200 dark:hover:border-green-600">
-        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-100 to-green-200 dark:from-green-900/50 dark:to-green-800/50 flex items-center justify-center text-green-600 dark:text-green-400 mb-4 group-hover:scale-110 transition-transform duration-300">
-           <i class="fas fa-users fa-lg"></i>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400">
+          <i class="fas fa-users"></i>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">🤝 Communauté</h3>
-        <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Contribuez et aidez-nous à <span class="font-semibold text-green-600">préserver</span> la langue soninké.</p>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Communauté active</h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Contribuez à enrichir la base</p>
+        </div>
       </div>
     </div>
 
@@ -148,18 +176,10 @@
 </div>
 
 <style>
-  .animate-fade-in-down {
-    animation: fadeInDown 0.8s ease-out;
-  }
-
-  .animate-fade-in-up {
-    animation: fadeInUp 0.6s ease-out;
-  }
-
-  @keyframes fadeInDown {
+  @keyframes fade-in {
     from {
       opacity: 0;
-      transform: translateY(-30px);
+      transform: translateY(10px);
     }
     to {
       opacity: 1;
@@ -167,44 +187,179 @@
     }
   }
 
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px) scale(0.95);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-    }
+  .animate-fade-in {
+    animation: fade-in 0.4s ease-out;
   }
 
-  /* Effet de typing pour le placeholder */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  /* Smooth textarea resize */
+  textarea {
+    transition: height 0.2s ease;
   }
 
-  /* Amélioration du focus */
-  textarea:focus {
-    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
-  }
-
-  /* Animation de chargement */
-  .loading-dots::after {
-    content: '';
-    animation: dots 1.5s infinite;
-  }
-
-  @keyframes dots {
-    0%, 20% { content: ''; }
-    40% { content: '.'; }
-    60% { content: '..'; }
-    80%, 100% { content: '...'; }
+  /* Loading state */
+  .loading {
+    pointer-events: none;
+    opacity: 0.6;
   }
 </style>
 
 <script>
-  // Fonction pour la synthèse vocale
+  const textarea = document.getElementById('inputText');
+  const charCount = document.getElementById('charCount');
+  const directionInput = document.getElementById('direction');
+  const lang1 = document.getElementById('lang1');
+  const lang2 = document.getElementById('lang2');
+  
+  // Initialize colors based on direction
+  function updateLangColors() {
+    const direction = directionInput.value;
+    if (direction === 'fr-sn') {
+      lang1.className = 'flex items-center gap-2 font-semibold text-blue-600 dark:text-blue-400 transition-colors';
+      lang2.className = 'flex items-center gap-2 font-semibold text-green-600 dark:text-green-400 transition-colors';
+      textarea.placeholder = 'Entrez votre texte en français...';
+      textarea.name = 'phrase_francaise';
+    } else {
+      lang1.className = 'flex items-center gap-2 font-semibold text-green-600 dark:text-green-400 transition-colors';
+      lang2.className = 'flex items-center gap-2 font-semibold text-blue-600 dark:text-blue-400 transition-colors';
+      textarea.placeholder = 'Entrez votre texte en soninké...';
+      textarea.name = 'phrase_soninke';
+    }
+  }
+  
+  updateLangColors();
+  
+  // Swap languages
+  document.getElementById('swapLanguages').addEventListener('click', function() {
+    const btn = this;
+    btn.style.transform = 'rotate(180deg)';
+    setTimeout(() => btn.style.transform = '', 300);
+    
+    // Swap direction
+    directionInput.value = directionInput.value === 'fr-sn' ? 'sn-fr' : 'fr-sn';
+    
+    // Swap language labels
+    const lang1HTML = lang1.innerHTML;
+    lang1.innerHTML = lang2.innerHTML;
+    lang2.innerHTML = lang1HTML;
+    
+    // Update colors and placeholder
+    updateLangColors();
+    
+    // Clear text
+    textarea.value = '';
+    charCount.textContent = '0/500';
+    document.getElementById('suggestionsContainer').classList.add('hidden');
+  });
+  
+  // Character counter
+  textarea.addEventListener('input', function() {
+    const length = this.value.length;
+    charCount.textContent = `${length}/500`;
+    charCount.classList.toggle('text-orange-500', length > 450);
+    
+    const suggestionsContainer = document.getElementById('suggestionsContainer');
+    suggestionsContainer.classList.toggle('hidden', length < 2);
+  });
+  
+  // Clear input
+  document.getElementById('clearInput').addEventListener('click', function() {
+    textarea.value = '';
+    textarea.focus();
+    charCount.textContent = '0/500';
+    document.getElementById('suggestionsContainer').classList.add('hidden');
+  });
+  
+  // Voice input
+  document.getElementById('voiceInput').addEventListener('click', function() {
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      recognition.lang = directionInput.value === 'fr-sn' ? 'fr-FR' : 'fr-FR';
+      recognition.continuous = false;
+      
+      this.innerHTML = '<i class="fas fa-microphone-slash text-red-500"></i>';
+      
+      recognition.onresult = (event) => {
+        textarea.value = event.results[0][0].transcript;
+        textarea.dispatchEvent(new Event('input'));
+      };
+      
+      recognition.onend = () => {
+        document.getElementById('voiceInput').innerHTML = '<i class="fas fa-microphone"></i>';
+      };
+      
+      recognition.start();
+    } else {
+      swal('Désolé', 'La reconnaissance vocale n\'est pas supportée', 'info');
+    }
+  });
+  
+  // Copy translation
+  function copyTranslation(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      swal('✅ Copié !', 'Traduction copiée dans le presse-papier', 'success');
+    }).catch(() => {
+      swal('Erreur', 'Impossible de copier le texte', 'error');
+    });
+  }
+  
+  // Form loading state
+  const form = document.getElementById('translationForm');
+  const translateBtn = document.getElementById('translateBtn');
+  
+  form.addEventListener('submit', function() {
+    translateBtn.innerHTML = `
+      <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+      <span>Traduction...</span>
+    `;
+    translateBtn.disabled = true;
+  });
+  
+  // AJAX Suggestions
+  let searchTimeout;
+  textarea.addEventListener('input', function() {
+    const phrase = this.value;
+    clearTimeout(searchTimeout);
+    
+    const suggestionsSelect = document.getElementById('suggestions');
+    
+    if (phrase.length >= 2) {
+      suggestionsSelect.innerHTML = '<option value="">🔍 Recherche...</option>';
+      
+      searchTimeout = setTimeout(() => {
+        fetch('{% url "suggestions" %}?phrase=' + encodeURIComponent(phrase) + '&direction=' + directionInput.value)
+          .then(response => response.json())
+          .then(data => {
+            let options = '<option value="">💡 ' + data.length + ' suggestion(s)</option>';
+            data.forEach(value => {
+              options += '<option value="' + value + '">📝 ' + value + '</option>';
+            });
+            suggestionsSelect.innerHTML = options;
+          })
+          .catch(error => {
+            console.error('Erreur:', error);
+            suggestionsSelect.innerHTML = '<option value="">❌ Erreur</option>';
+          });
+      }, 300);
+    } else {
+      suggestionsSelect.innerHTML = '<option value="">💡 Suggestions...</option>';
+    }
+  });
+  
+  // Select suggestion
+  document.getElementById('suggestions').addEventListener('change', function() {
+    const selectedValue = this.value;
+    if (selectedValue && !selectedValue.includes('suggestion')) {
+      textarea.value = selectedValue;
+      textarea.focus();
+      textarea.dispatchEvent(new Event('input'));
+    }
+  });
+  
+  // Speech synthesis
   function speakText(text) {
     if ('speechSynthesis' in window) {
       const utterance = new SpeechSynthesisUtterance(text);
@@ -212,28 +367,11 @@
       utterance.rate = 0.8;
       speechSynthesis.speak(utterance);
     } else {
-      swal('Désolé', 'La synthèse vocale n\'est pas supportée sur votre navigateur', 'info');
+      swal('Désolé', 'La synthèse vocale n\'est pas supportée', 'info');
     }
   }
-
-  // Animation au scroll
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  };
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fade-in-up');
-      }
-    });
-  }, observerOptions);
-
-  // Observer les éléments au chargement
-  document.addEventListener('DOMContentLoaded', () => {
-    const elementsToAnimate = document.querySelectorAll('.group');
-    elementsToAnimate.forEach(el => observer.observe(el));
-  });
+  
+  // Auto-focus
+  window.addEventListener('load', () => textarea.focus());
 </script>
 {% endblock %}

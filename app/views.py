@@ -18,18 +18,21 @@ for traduction in data:
     traductions[francais] = soninke
 
 def suggestions(request):
-    phrase_francaise = request.GET.get('phrase', '')
+    phrase = request.GET.get('phrase', '')
+    direction = request.GET.get('direction', 'fr-sn')
     suggestions = []
-    print(f"Recherche de suggestions pour: {phrase_francaise}")  # Log serveur
     
-    if phrase_francaise:
-        # Utiliser la méthode "values" pour ne récupérer que la colonne "francais"
-        suggestions_qs = Traduction.objects.filter(
-            Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)
-        ).values('francais')[:10]
-        
-        suggestions = [s['francais'] for s in suggestions_qs]
-        print(f"Suggestions trouvées: {suggestions}")  # Log serveur
+    if phrase:
+        if direction == 'fr-sn':
+            suggestions_qs = Traduction.objects.filter(
+                Q(francais__icontains=phrase) | Q(francais__istartswith=phrase)
+            ).values('francais')[:10]
+            suggestions = [s['francais'] for s in suggestions_qs]
+        else:  # sn-fr
+            suggestions_qs = Traduction.objects.filter(
+                Q(soninke__icontains=phrase) | Q(soninke__istartswith=phrase)
+            ).values('soninke')[:10]
+            suggestions = [s['soninke'] for s in suggestions_qs]
     
     return JsonResponse(suggestions, safe=False)
 
@@ -37,23 +40,41 @@ def suggestions(request):
 
 
 def traduction(request):
-    phrase_francaise = request.POST.get('phrase_francaise', '').strip().capitalize()
-    suggestions = []
-    word_count = Traduction.objects.count()  # Compte le nombre total de mots
-    if phrase_francaise:
-        # Utiliser la méthode "values" pour ne récupérer que la colonne "francais"
-        suggestions_qs = Traduction.objects.filter(
-            Q(francais__icontains=phrase_francaise) | Q(francais__istartswith=phrase_francaise)
-        ).values('francais')[:10]
-        suggestions = [s['francais'] for s in suggestions_qs]
-
-    traduction_soninke = ''
-    if phrase_francaise:
-        if phrase_francaise in traductions:
-            traduction_soninke = traductions[phrase_francaise]
-        else:
-            traduction_soninke = "Traduction indisponible pour l'instant"
-    return render(request, 'index.html', {'traduction_soninke': traduction_soninke, 'suggestions': suggestions, 'phrase_francaise': phrase_francaise,'word_count': word_count})
+    word_count = Traduction.objects.count()
+    direction = request.POST.get('direction', 'fr-sn')  # fr-sn ou sn-fr
+    
+    if direction == 'fr-sn':
+        phrase_input = request.POST.get('phrase_francaise', '').strip()
+        phrase_clean = ' '.join(phrase_input.split()).capitalize()
+        traduction_output = ''
+        if phrase_clean:
+            if phrase_clean in traductions:
+                traduction_output = traductions[phrase_clean]
+            else:
+                traduction_output = "Traduction indisponible pour l'instant"
+        return render(request, 'index.html', {
+            'traduction_soninke': traduction_output,
+            'phrase_francaise': phrase_input,
+            'word_count': word_count,
+            'direction': direction
+        })
+    else:  # sn-fr
+        phrase_soninke = request.POST.get('phrase_soninke', '').strip()
+        phrase_clean = ' '.join(phrase_soninke.split())
+        traduction_francaise = ''
+        if phrase_clean:
+            for fr, sn in traductions.items():
+                if sn.lower() == phrase_clean.lower():
+                    traduction_francaise = fr
+                    break
+            if not traduction_francaise:
+                traduction_francaise = "Traduction indisponible pour l'instant"
+        return render(request, 'index.html', {
+            'traduction_francaise': traduction_francaise,
+            'phrase_soninke': phrase_soninke,
+            'word_count': word_count,
+            'direction': direction
+        })
 
 def traductionauto(request):
     url = "https://raw.githubusercontent.com/sibylassana95/Fran-ais-Soninke/main/data/langue.json"

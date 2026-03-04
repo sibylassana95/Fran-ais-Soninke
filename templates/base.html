@@ -11,7 +11,8 @@
     <meta name="theme-color" content="#2563eb">
     <link rel="manifest" href="{% static 'manifest.json' %}">
     <link rel="apple-touch-icon" href="{% static 'icons/icon-192x192.png' %}">
-
+   <!-- Favicon -->
+    <link rel="icon" href="{% static 'icons/icon-192x192.png' %}" type="image/png">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,33 +75,21 @@
       }
     </style>
   </head>
-  <body class="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-900 dark:to-blue-900/10 flex flex-col font-sans transition-all duration-300">
+  <body class="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col font-sans transition-all duration-300">
     
-    <!-- Progress Bar -->
-    <div id="progress-bar" class="fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 z-50 transition-all duration-300" style="width: 0%"></div>
-
     <!-- Navigation -->
-    <nav class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-xl border-b border-gray-100 dark:border-gray-700 fixed w-full z-50 transition-all duration-300 shadow-sm">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
-          <div class="flex items-center">
-            <a href="/" class="flex items-center space-x-3 group">
-              <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-xl group-hover:scale-110 transition-all duration-300 shadow-lg">
-                <i class="fas fa-language"></i>
-              </div>
-              <span class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">SoniTrad</span>
-            </a>
-          </div>
+    <nav class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 fixed w-full z-50 transition-all duration-300 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center h-14">
+          <a href="/" class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center text-white">
+              <i class="fas fa-language text-sm"></i>
+            </div>
+            <span class="text-lg font-bold text-gray-900 dark:text-white">SoniTrad</span>
+          </a>
           
-          <!-- Desktop Menu -->
-          <div class="hidden md:flex items-center space-x-1">
-            <a href="/" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700 px-4 py-2 rounded-lg text-sm font-medium transition-all">Accueil</a>
-            <a href="{% url 'about' %}" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700 px-4 py-2 rounded-lg text-sm font-medium transition-all">À propos</a>
-            <a href="{% url 'contribution' %}" class="text-gray-600 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700 px-4 py-2 rounded-lg text-sm font-medium transition-all">Contribuer</a>
-
-            <div class="border-l border-gray-200 dark:border-gray-600 h-6 mx-4"></div>
-
-            <button id="theme-toggle" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg p-2 transition-colors">
+          <div class="flex items-center gap-2">
+            <button id="theme-toggle" class="p-2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors">
               <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
               </svg>
@@ -108,15 +97,8 @@
                 <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path>
               </svg>
             </button>
-          </div>
-
-          <!-- Mobile menu button -->
-          <div class="md:hidden flex items-center space-x-4">
-             <button id="theme-toggle-mobile" class="text-gray-500 dark:text-gray-400 focus:outline-none rounded-lg text-sm p-2.5">
-               <!-- Icons are handled by JS -->
-            </button>
-            <button class="mobile-menu-button p-2 rounded-lg text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 transition-colors">
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <button class="mobile-menu-button p-2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
@@ -125,49 +107,48 @@
       </div>
 
       <!-- Mobile menu -->
-      <div class="mobile-menu hidden md:hidden bg-white dark:bg-gray-800 border-t border-gray-100 dark:border-gray-700">
-        <div class="px-2 pt-2 pb-3 space-y-1">
-          <a href="/" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700">Accueil</a>
-          <a href="{% url 'about' %}" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700">À propos</a>
-          <a href="{% url 'contribution' %}" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700">Contribuer</a>
+      <div class="mobile-menu hidden bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+        <div class="px-4 py-3 space-y-1">
+          <a href="/" class="flex items-center gap-3 px-3 py-3 rounded-lg text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700 transition-colors">
+            <i class="fas fa-home w-5"></i>
+            <span class="font-medium">Accueil</span>
+          </a>
+          <a href="{% url 'about' %}" class="flex items-center gap-3 px-3 py-3 rounded-lg text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700 transition-colors">
+            <i class="fas fa-info-circle w-5"></i>
+            <span class="font-medium">À propos</span>
+          </a>
+          <a href="{% url 'contribution' %}" class="flex items-center gap-3 px-3 py-3 rounded-lg text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700 transition-colors">
+            <i class="fas fa-plus-circle w-5"></i>
+            <span class="font-medium">Contribuer</span>
+          </a>
         </div>
       </div>
     </nav>
 
     <!-- Main content -->
-    <main class="flex-grow pt-16">
+    <main class="flex-grow pt-14">
       {% block content %}{% endblock %}
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white dark:bg-gray-800 border-t border-gray-100 dark:border-gray-700 mt-auto transition-colors duration-200">
-      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div class="flex flex-col items-center md:items-start space-y-2">
-            <div class="flex items-center space-x-2">
-               <div class="w-6 h-6 bg-blue-600 rounded flex items-center justify-center text-white font-bold text-sm">S</div>
-               <span class="text-lg font-bold text-gray-900 dark:text-white">SoniTrad</span>
-            </div>
-            <span id="currentYear" class="text-sm text-gray-500 dark:text-gray-400"></span>
-          </div>
-
-          <div class="flex space-x-6">
-            <a href="https://paypal.me/sibylassana" target="_blank" class="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" aria-label="PayPal">
-              <i class="fab fa-paypal fa-lg"></i>
+    <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-auto">
+      <div class="max-w-7xl mx-auto py-6 px-4">
+        <div class="flex flex-col items-center gap-4">
+          <div class="flex gap-4">
+            <a href="https://paypal.me/sibylassana" target="_blank" class="text-gray-400 hover:text-blue-600 transition-colors" aria-label="PayPal">
+              <i class="fab fa-paypal text-xl"></i>
             </a>
-            <a href="https://www.buymeacoffee.com/sibyamara9M" target="_blank" class="text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors" aria-label="Buy Me a Coffee">
-              <i class="fas fa-coffee fa-lg"></i>
+            <a href="https://www.buymeacoffee.com/sibyamara9M" target="_blank" class="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Buy Me a Coffee">
+              <i class="fas fa-coffee text-xl"></i>
             </a>
-            <a href="https://www.linkedin.com/in/sibylassana" target="_blank" class="text-gray-400 hover:text-blue-700 dark:hover:text-blue-500 transition-colors" aria-label="LinkedIn">
-              <i class="fab fa-linkedin fa-lg"></i>
+            <a href="https://www.linkedin.com/in/sibylassana" target="_blank" class="text-gray-400 hover:text-blue-700 transition-colors" aria-label="LinkedIn">
+              <i class="fab fa-linkedin text-xl"></i>
             </a>
             <a href="https://github.com/sibylassana95" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors" aria-label="GitHub">
-              <i class="fab fa-github fa-lg"></i>
-            </a>
-            <a href="https://twitter.com/sibyog13" target="_blank" class="text-gray-400 hover:text-blue-400 dark:hover:text-blue-300 transition-colors" aria-label="Twitter">
-              <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-github text-xl"></i>
             </a>
           </div>
+          <p id="currentYear" class="text-sm text-gray-500 dark:text-gray-400"></p>
         </div>
       </div>
     </footer>
@@ -213,21 +194,6 @@
           button: "OK",
         });
       {% endfor %}
-
-      // Progress Bar Animation
-      function updateProgressBar() {
-        const progressBar = document.getElementById('progress-bar');
-        const scrollTop = window.pageYOffset;
-        const docHeight = document.body.offsetHeight - window.innerHeight;
-        const scrollPercent = (scrollTop / docHeight) * 100;
-        
-        if (progressBar) {
-          progressBar.style.width = scrollPercent + '%';
-        }
-      }
-      
-      window.addEventListener('scroll', updateProgressBar);
-      window.addEventListener('resize', updateProgressBar);
 
       // AJAX Search Suggestions with enhanced UX
       $(document).ready(function() {
@@ -329,16 +295,7 @@
           }
       });
 
-      // Duplicate logic for mobile theme toggle if needed, or unify.
-      // For now, I'll clone the button content to the mobile button
-      var themeToggleBtnMobile = document.getElementById('theme-toggle-mobile');
-      if(themeToggleBtnMobile){
-         themeToggleBtnMobile.innerHTML = themeToggleBtn.innerHTML;
-         themeToggleBtnMobile.addEventListener('click', function(){
-            themeToggleBtn.click();
-            themeToggleBtnMobile.innerHTML = themeToggleBtn.innerHTML;
-         });
-      }
+
 
     </script>
   </body>

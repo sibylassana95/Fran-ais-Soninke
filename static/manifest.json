@@ -1,11 +1,16 @@
 {
   "name": "SoniTrad - Traducteur Français-Soninké",
   "short_name": "SoniTrad",
+  "description": "Application de traduction Français-Soninké avec plus de 5000 mots",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "orientation": "portrait-primary",
+  "categories": ["education", "utilities"],
+  "lang": "fr",
+  "dir": "ltr",
   "icons": [
     {
       "src": "static/icons/icon-72x72.png",
